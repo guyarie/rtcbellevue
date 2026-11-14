@@ -1,14 +1,27 @@
 ---
+/**
+ * Contact form. Submissions are emailed to `form_email` (site/contact.md) by
+ * FormSubmit (formsubmit.co) — no account or backend. With JS the form posts
+ * to FormSubmit's AJAX endpoint and shows the result inline; without JS it
+ * falls back to a normal POST and FormSubmit's own thank-you page.
+ */
 import { getFormSettings, getLabels } from '../lib/site';
 const f = await getFormSettings();
 const t = await getLabels();
 const fields = f.form_fields ?? [];
-if (!f.form_action) console.warn('[contact form] form_action is empty in src/content/site/contact.md — the form cannot submit.');
-// Pair up short fields (first/last name) on one row; textareas get their own.
+if (!f.form_email) throw new Error('form_email is missing in src/content/site/contact.md');
+const action = `https://formsubmit.co/${f.form_email}`;
+const ajax = `https://formsubmit.co/ajax/${f.form_email}`;
+// Short fields (first/last name, email) share rows; textareas get their own.
 ---
 
-<form class="form" action={f.form_action || undefined} method="POST" data-contact-form
+<form class="form" action={action} method="POST" data-contact-form data-ajax={ajax}
   data-sending={t('form_sending')} data-error={t('form_error')} data-success={f.form_success}>
+  {/* FormSubmit settings: email subject, table layout, no captcha page, honeypot for bots */}
+  {f.form_subject && <input type="hidden" name="_subject" value={f.form_subject} />}
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="form__honey" />
   <div class="form__row">
     {fields.filter((x) => x.type !== 'textarea').map((x) => (
       <div>
@@ -38,15 +51,16 @@ if (!f.form_action) console.warn('[contact form] form_action is empty in src/con
 <script>
   document.querySelectorAll<HTMLFormElement>('[data-contact-form]').forEach((form) => {
     form.addEventListener('submit', async (e) => {
-      if (!form.action) return;
       e.preventDefault();
       const status = form.querySelector('.form__status')!;
       const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
       status.textContent = form.dataset.sending ?? '';
       btn.disabled = true;
       try {
-        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
-        if (!res.ok) throw new Error(String(res.status));
+        const res = await fetch(form.dataset.ajax!, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const data = await res.json().catch(() => ({}));
+        // FormSubmit answers {"success": "true"|"false", "message": …}
+        if (!res.ok || String(data.success) !== 'true') throw new Error(data.message ?? String(res.status));
         form.reset();
         status.textContent = form.dataset.success ?? '';
       } catch {

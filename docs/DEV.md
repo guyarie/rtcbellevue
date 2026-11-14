@@ -13,7 +13,7 @@ npm run preview
 - `src/pages/[clinician].astro` — clinician profiles at `/<slug>` (old Squarespace URLs kept).
 - `src/pages/blog/` — blog list + posts.
 - `src/components/Section.astro` — renders one page section; `ProviderCard.astro` — clinician card;
-  `Carousel.astro` — scroll-snap slider; `ContactForm.astro` — Formspree form.
+  `Carousel.astro` — scroll-snap slider; `ContactForm.astro` — contact form, emailed via FormSubmit (formsubmit.co) to `form_email` in `site/contact.md`.
 - `src/lib/site.ts` — content helpers (`getClinicians(filter)`, `getLabels()`, `md()`).
 - Images live in `src/assets/images/` and go through `astro:assets` (resized/WebP at build).
 - `astro.config.mjs`: `build.format: 'file'` + `trailingSlash: 'never'` so `/claire` is `claire.html`,

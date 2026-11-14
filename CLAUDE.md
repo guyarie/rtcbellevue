@@ -10,7 +10,8 @@ Goal #1 is to **get off Squarespace** with a faithful rebuild. A redesign comes 
 ## Progress (2026-11-14)
 - Phase 0 (scaffold) + Phase 1 (scrape) done; Phase 2 (content model) and Phase 3 (pages) built — see `docs/DEV.md`.
 - Repo: `guyarie/rtcbellevue` (private — self-hosted runner). Plausible: `data-domain="rtcbellevue.com"` on analytics.16jets.com.
-- Not done yet: Formspree endpoint (`site/contact.md`, waiting on owners), eli setup (nginx, runner, new cloudflared tunnel), owner review of `scrape/notes/`, DNS.
+- Contact form emails therapy@ via FormSubmit — needs the one-time activation click in that inbox after the first live submission.
+- Not done yet: eli setup (nginx, runner, new cloudflared tunnel), owner review of `scrape/notes/`, DNS.
 
 ## Where things are
 - Content: `src/content/` — `clinicians/` (one file per person, single source of truth), `pages/` (generic section-based pages, filename = old URL slug), `posts/`, `insurers/`, `site/` (settings, contact form, UI labels). Schemas + allowed tags: `src/content.config.ts`.
@@ -26,7 +27,7 @@ The sibling project **Connected PNW** (`/home/guyarie/cnctpnw/site`, repo `guyar
 - **Styling**: Tailwind + CSS variables in `src/styles/global.css` (light/dark tokens, no hardcoded colors in `.astro`)
 - **Content**: Astro Content Collections; all user-facing copy in Markdown/data files, **zero hardcoded text in `.astro` files**
 - **Clinicians**: one content-collection entry per clinician (single source of truth) — every team grid and "providers for X" page is generated from it
-- **Forms**: Formspree
+- **Forms**: FormSubmit (formsubmit.co) — form posts straight to therapy@rtcbellevue.com, no account/backend (`src/content/site/contact.md`)
 - **Hosting**: **eli** (home server), Nginx serves `dist/` on localhost; public traffic arrives via a **Cloudflare Tunnel (`cloudflared`) into eli** — no open ports, no origin TLS certs needed
 - **Deploy**: GitHub Actions **self-hosted runner on eli**; on push to `main` it builds and `rsync -a --delete`s to the local web root
 - **Repo**: new GitHub repo under `guyarie` (e.g. `guyarie/rtcbellevue`)

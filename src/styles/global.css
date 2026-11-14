@@ -253,6 +253,7 @@ img { max-width: 100%; height: auto; }
   width: 100%; padding: .7rem .8rem; border: 1px solid var(--color-border); background: var(--color-bg); color: var(--color-text); font: inherit;
 }
 .form textarea { min-height: 140px; }
+.form__honey { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .form__note { font-size: .85rem; color: var(--color-text-muted); }
 .form__status { font-weight: 700; }
 

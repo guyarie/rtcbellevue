@@ -3,7 +3,7 @@
 Generic process for moving a Squarespace site to our standard stack. First run: rtcbellevue.com (see `MIGRATION_PLAN.md`). **Update this file with lessons from each migration** — once it's stable, extract it (and the scrape script) into a shared template repo.
 
 ## Standard target stack
-Astro 5 static + Tailwind + Content Collections (no copy in `.astro`), Formspree for forms, hosted on **eli**: Nginx on localhost, **cloudflared tunnel** for public traffic, GitHub Actions **self-hosted runner on eli** builds and `rsync --delete`s on push to `main`. Owners edit via their coding agent → PR. Reference implementation: Connected PNW (`/home/guyarie/cnctpnw/site`).
+Astro 5 static + Tailwind + Content Collections (no copy in `.astro`), FormSubmit (formsubmit.co, no account — posts straight to an email address) for simple contact forms, hosted on **eli**: Nginx on localhost, **cloudflared tunnel** for public traffic, GitHub Actions **self-hosted runner on eli** builds and `rsync --delete`s on push to `main`. Owners edit via their coding agent → PR. Reference implementation: Connected PNW (`/home/guyarie/cnctpnw/site`).
 
 ## Steps
 1. **Survey**: sitemap.xml, nav, every page; list forms, commerce, blogs, events, embeds, scripts; raw `<head>` for titles/meta/analytics; `dig` NS/MX/A/CNAME. Flag Squarespace template leftovers (demo images from other site IDs on `images.squarespace-cdn.com`, fake retreats/products, `/cart`).

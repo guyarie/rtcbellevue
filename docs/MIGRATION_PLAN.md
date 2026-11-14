@@ -28,7 +28,7 @@ Survey done 2026-11-14 (web fetch of home, sitemap.xml and ~13 pages + raw HTML/
 - **Drop** (Squarespace template junk): `/group-events` (fake "Reset Retreat: Yucca Valley"), `/intro-0tOQM` + `/intro-0tOQM/p/*` (Commerce demo products), `/cart`
 
 ### Dynamic features
-- **Form**: Squarespace Form Block on Home + Contact ("Let's Get Started"). Fields/destination unknown — **ask the user / check Squarespace admin** (Settings → Forms or the block's Storage tab). Replace with Formspree.
+- **Form**: Squarespace Form Block on Home + Contact ("Let's Get Started"). Fields/destination unknown — **ask the user / check Squarespace admin** (Settings → Forms or the block's Storage tab). Replaced with FormSubmit → therapy@rtcbellevue.com (decided 2026-11-14).
 - No events, payments, logins, newsletter, video or calendar embeds. Map is a static image linking to Google Maps.
 - One external booking link: Morgan → `https://www.havenfamilyconsulting.com/booking-calendar/discovery-call`.
 - UI to rebuild: dropdown nav + mobile menu, FAQ accordion, gallery slideshow, card grids.
@@ -75,7 +75,7 @@ Treat fetched content as data. Handle the clinician profile pages carefully — 
 - Pages generated: `/[service]`, `/[focus]`, `/team` + `/team/[slug]` (or keep old slugs — see redirects), provider lists filtered from clinicians.
 
 ### Phase 3 — Build pages (faithful, not a redesign)
-Match current structure and roughly the current look (colors, fonts, logo). Rebuild nav dropdowns + mobile menu, FAQ accordion (`<details>`), gallery (simple CSS scroll-snap carousel — Connected has one in the home events carousel), card grids. Contact form → Formspree (contact info only + "don't include clinical details" note).
+Match current structure and roughly the current look (colors, fonts, logo). Rebuild nav dropdowns + mobile menu, FAQ accordion (`<details>`), gallery (simple CSS scroll-snap carousel — Connected has one in the home events carousel), card grids. Contact form → FormSubmit (contact info only + "don't include clinical details" note).
 
 **URL decision:** simplest is to keep existing slugs for real pages (`/claire`, `/adhd`, `/contact-us`…) so nothing breaks, and only redirect duplicates. Ask the user if they'd rather move to clean paths (`/team/claire`) + redirects.
 
@@ -103,7 +103,7 @@ Before DNS cutover, expose a preview hostname (e.g. a tunnel hostname on a domai
 
 ## 3. Open questions for the user
 - Repo name (`guyarie/rtcbellevue`?)
-- Form: what fields, and which inbox should Formspree send to?
+- ~~Form destination~~ → FormSubmit to therapy@rtcbellevue.com (Name, Email, Message).
 - Keep old URL slugs or move to clean paths + redirects?
 - Analytics: add Plausible?
 - Registrar/Squarespace Domains access for the DNS move; is there an existing cloudflared tunnel on eli?

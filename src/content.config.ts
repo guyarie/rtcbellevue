@@ -188,8 +188,9 @@ const site = defineCollection({
         .optional(),
       cta: button.optional(), // header button
       footer_note: z.string().optional(),
-      // contact.md (form)
-      form_action: z.string().optional(),
+      // contact.md (form) — submissions are emailed to form_email via FormSubmit
+      form_email: z.string().email().optional(),
+      form_subject: z.string().optional(),
       form_fields: z
         .array(
           z.object({
