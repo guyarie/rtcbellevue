@@ -9,7 +9,8 @@ Goal #1 is to **get off Squarespace** with a faithful rebuild. A redesign comes 
 
 ## Progress (2026-11-14)
 - Phase 0 (scaffold) + Phase 1 (scrape) done; Phase 2 (content model) and Phase 3 (pages) built — see `docs/DEV.md`.
-- Not done yet: GitHub repo, Formspree endpoint (`site/contact.md`), eli/nginx/runner/tunnel setup, owner review of `scrape/notes/`, DNS.
+- Repo: `guyarie/rtcbellevue` (private — self-hosted runner). Plausible: `data-domain="rtcbellevue.com"` on analytics.16jets.com.
+- Not done yet: Formspree endpoint (`site/contact.md`, waiting on owners), eli setup (nginx, runner, new cloudflared tunnel), owner review of `scrape/notes/`, DNS.
 
 ## Where things are
 - Content: `src/content/` — `clinicians/` (one file per person, single source of truth), `pages/` (generic section-based pages, filename = old URL slug), `posts/`, `insurers/`, `site/` (settings, contact form, UI labels). Schemas + allowed tags: `src/content.config.ts`.
