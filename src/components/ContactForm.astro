@@ -63,7 +63,8 @@ const ajax = `https://formsubmit.co/ajax/${f.form_email}`;
         if (!res.ok || String(data.success) !== 'true') throw new Error(data.message ?? String(res.status));
         form.reset();
         status.textContent = form.dataset.success ?? '';
-      } catch {
+      } catch (err) {
+        console.warn('[contact form]', err); // e.g. FormSubmit's "This form needs Activation"
         status.textContent = form.dataset.error ?? '';
       } finally {
         btn.disabled = false;
