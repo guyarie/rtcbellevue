@@ -58,6 +58,9 @@ buttons:
   - label: To Schedule
     url: https://www.counselingmind.co/
     style: primary
+  - label: Learn more about payment options
+    url: /payment-options-explained
+    style: secondary
 hours: |
   Schedule Hours both In-person & Telehealth only: Mondays & Wednesdays:: 9:00 AM - 7:00 PM
 

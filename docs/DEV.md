@@ -22,6 +22,7 @@ npm run preview
 ## Migration scripts (not part of the build)
 - `npm run scrape` — re-scrapes the old Squarespace site into `scrape/` (`scrape/pages/*.md` is committed as reference; raw HTML and image originals are gitignored).
 - `node scripts/import-images.mjs` — copies scraped images into `src/assets/images/`.
+- `node scripts/compare-content.mjs` (after a build) — lists sentences from the old pages that are missing on the new ones → `scrape/compare.json`.
 - `scrape/notes/` — conflicts found between pages during migration (owner questions).
 
 ## Conventions

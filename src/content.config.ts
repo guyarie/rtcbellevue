@@ -47,7 +47,8 @@ const section = (image: any) =>
   z.object({
     id: z.string().optional(), // anchor (#id)
     theme,
-    layout: z.enum(['stack', 'image-left', 'image-right']).default('stack'),
+    // `background` = the image fills the section behind the text (light text on a dark tint).
+    layout: z.enum(['stack', 'image-left', 'image-right', 'background']).default('stack'),
     heading: z.string().optional(),
     image: image.optional(),
     image_alt: z.string().optional(),

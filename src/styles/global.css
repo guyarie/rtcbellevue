@@ -162,6 +162,11 @@ img { max-width: 100%; height: auto; }
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V22C240 2 480 0 720 14s480 26 720 4v22z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
           mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V22C240 2 480 0 720 14s480 26 720 4v22z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
 }
+.section--photo { overflow: hidden; color: var(--color-button-text); min-height: 420px; display: flex; align-items: center; }
+.section--photo > .container-x { position: relative; z-index: 1; width: 100%; }
+.section--photo h1, .section--photo h2 { color: var(--color-button-text); }
+.section__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.section--photo::after { content: ''; position: absolute; inset: 0; background: hsl(29 48% 12% / 0.45); }
 .section__heading { text-align: center; margin-bottom: 2rem; font-style: italic; }
 .section__image { @apply mx-auto mb-8; max-width: 560px; }
 .section__image img { width: 100%; }
@@ -274,3 +279,6 @@ img { max-width: 100%; height: auto; }
 .post-list { @apply grid gap-10 md:grid-cols-2; }
 .post-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin-bottom: 1rem; }
 .post-meta { font-size: .85rem; color: var(--color-text-muted); }
+
+/* Page intros (first section, stacked) are centred, as on the old site. */
+.section--intro > .container-x > .prose-rtc > p { text-align: center; }

@@ -15,22 +15,26 @@ import { getClinicians } from '../lib/site';
 export interface Props { section: any; first?: boolean; prevTheme?: string }
 const { section: s, first = false, prevTheme } = Astro.props;
 const providers = s.providers ? await getClinicians(s.providers) : [];
-const split = s.image && s.layout !== 'stack';
+const background = s.image && s.layout === 'background';
+const split = s.image && (s.layout === 'image-left' || s.layout === 'image-right');
 const HeadingTag = first ? 'h1' : 'h2';
+// The first section's image is above the fold: load it right away.
+const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {};
 ---
 
-<section id={s.id} class:list={['section', `section--${s.theme}`, prevTheme && prevTheme !== s.theme && s.theme !== 'white' && 'section--wave']}>
+<section id={s.id} class:list={['section', `section--${s.theme}`, first && 'section--intro', background && 'section--photo', prevTheme && prevTheme !== s.theme && s.theme !== 'white' && 'section--wave']}>
+  {background && <Image class="section__bg" src={s.image} alt={s.image_alt ?? ''} width={1920} {...eager} />}
   <div class="container-x">
     {s.heading && <HeadingTag class="section__heading">{s.heading}</HeadingTag>}
 
     {split ? (
       <div class:list={['section__split', `section__split--${s.layout}`]}>
-        <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={800} /></div>
+        <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={800} {...eager} /></div>
         <div><Markdown text={s.body} /></div>
       </div>
     ) : (
       <>
-        {s.image && <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={1000} /></div>}
+        {s.image && !background && <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={1000} {...eager} /></div>}
         <Markdown text={s.body} />
       </>
     )}
