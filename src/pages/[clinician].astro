@@ -1,0 +1,71 @@
+---
+// Clinician profile: src/content/clinicians/<slug>.md -> /<slug>
+import { getCollection, getEntries, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Markdown from '../components/Markdown.astro';
+import Buttons from '../components/Buttons.astro';
+import { getLabels, displayName, formatPhone } from '../lib/site';
+
+export async function getStaticPaths() {
+  const clinicians = await getCollection('clinicians', (c) => !c.data.hidden);
+  return clinicians.map((clinician) => ({ params: { clinician: clinician.id }, props: { clinician } }));
+}
+
+const { clinician: c } = Astro.props;
+const d = c.data;
+const t = await getLabels();
+const insurers = await getEntries(d.insurance);
+const { Content } = await render(c);
+const description = d.summary ?? d.intro.replace(/[*_#\[\]()]/g, '').slice(0, 155);
+---
+
+<Base title={displayName(c)} description={description} ogImage={d.profile_photo ?? d.photo} ogType="profile">
+  <section class="section section--bright">
+    <div class="container-x profile-head">
+      <div>
+        <h1>{displayName(c)}</h1>
+        <Markdown text={d.intro} class="prose-rtc mt-4 !mx-0" />
+
+        <h2 class="mt-8 !text-lg !font-body font-bold uppercase">{t('profile_areas_heading')}</h2>
+        <ul class="profile-areas mt-2">{d.areas.map((a) => <li set:html={a} />)}</ul>
+
+        <h2 class="mt-8 !text-lg !font-body font-bold uppercase">{t('contact_heading')}</h2>
+        {d.email && <p><strong>{t('email')}</strong> <a href={`mailto:${d.email}`}>{d.email}</a></p>}
+        {d.phone && <p><strong>{t('phone')}</strong> <a href={`tel:${d.phone}`}>{formatPhone(d.phone)}</a></p>}
+        <div class="[&_.btn-row]:justify-start"><Buttons buttons={d.buttons} /></div>
+        {d.new_clients && <Markdown text={d.new_clients} class="prose-rtc mt-6 !mx-0" />}
+      </div>
+      <div class="text-center">
+        <div class="profile-photo">
+          <Image src={d.profile_photo ?? d.photo} alt={(d.profile_photo ? d.profile_photo_alt : d.photo_alt) ?? ''} width={640} loading="eager" />
+        </div>
+        <p class="mt-6 font-bold">{d.accepting_text}</p>
+        {d.hours && <Markdown text={d.hours} class="prose-rtc mt-4" />}
+      </div>
+    </div>
+  </section>
+
+  {(d.fees || insurers.length > 0) && (
+    <section class="section section--light section--wave">
+      <div class="container-x">
+        <h2 class="section__heading">{t('fees_heading')}</h2>
+        <Markdown text={d.fees} />
+        {insurers.length > 0 && (
+          <div class="insurance-logos">
+            {insurers.map((i) => <Image src={i.data.logo} alt={i.data.name} height={128} />)}
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <section class="section section--bright section--wave">
+    <div class="container-x">
+      {d.room_photo && (
+        <div class="section__image"><Image src={d.room_photo} alt={d.room_photo_alt ?? ''} width={1000} /></div>
+      )}
+      <div class="prose-rtc"><Content /></div>
+    </div>
+  </section>
+</Base>

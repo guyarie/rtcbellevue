@@ -1,0 +1,262 @@
+{
+ "Claire de Leon": {
+  "order": 1,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "group-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "parenting",
+   "relational",
+   "selective-mutism",
+   "trauma"
+  ]
+ },
+ "Elina Kogan": {
+  "order": 2,
+  "services": [
+   "individual-therapy",
+   "couples-therapy",
+   "family-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Galit Arad-Trutner": {
+  "order": 3,
+  "services": [
+   "individual-therapy",
+   "couples-therapy",
+   "family-therapy",
+   "parent-coaching",
+   "group-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Jeffrey Gillman": {
+  "order": 4,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Jessica Lazaro": {
+  "order": 5,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Lilach Geppert-Shapira": {
+  "order": 6,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "group-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "neurodivergent",
+   "parenting",
+   "relational"
+  ]
+ },
+ "Limor Raviv": {
+  "order": 7,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "group-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "neurodivergent",
+   "parenting",
+   "relational"
+  ]
+ },
+ "Maki Park": {
+  "order": 8,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Melanie Liperi": {
+  "order": 9,
+  "services": [
+   "individual-therapy",
+   "couples-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Michal (Michelle) Alpert": {
+  "order": 10,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Michal Goldring Keidar": {
+  "order": 11,
+  "services": [
+   "individual-therapy",
+   "couples-therapy",
+   "family-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Miri Arie": {
+  "order": 12,
+  "services": [
+   "individual-therapy",
+   "family-therapy",
+   "parent-coaching",
+   "group-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "parenting",
+   "relational",
+   "selective-mutism",
+   "trauma"
+  ]
+ },
+ "Morgan Coburn": {
+  "order": 13,
+  "services": [
+   "individual-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "neurodivergent",
+   "parenting",
+   "relational"
+  ]
+ },
+ "Nina Helms": {
+  "order": 14,
+  "services": [
+   "individual-therapy",
+   "family-therapy",
+   "parent-coaching",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "neurodivergent",
+   "parenting",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Rebeca Marin Cordero": {
+  "order": 15,
+  "services": [
+   "individual-therapy",
+   "couples-therapy",
+   "collaborative-care"
+  ],
+  "focus": [
+   "anxiety",
+   "depression",
+   "relational",
+   "trauma"
+  ]
+ },
+ "Yogi Patel": {
+  "order": 16,
+  "services": [
+   "individual-therapy",
+   "med-management",
+   "collaborative-care"
+  ],
+  "focus": [
+   "adhd",
+   "anxiety",
+   "depression",
+   "relational",
+   "trauma"
+  ]
+ }
+}

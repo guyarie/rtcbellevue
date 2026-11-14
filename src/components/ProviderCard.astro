@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets';
+import Markdown from './Markdown.astro';
+import { getLabels, displayName, formatPhone, type Clinician } from '../lib/site';
+
+export interface Props { clinician: Clinician; variant?: 'full' | 'summary' }
+const { clinician: c, variant = 'full' } = Astro.props;
+const d = c.data;
+const t = await getLabels();
+const areas = d.card_areas ?? d.areas;
+const languages =
+  d.languages_text ?? (d.languages.length ? t('languages', { name: d.name.split(' ')[0], languages: d.languages.join(', ') }) : '');
+---
+
+<article class="provider-card">
+  <a class="provider-card__photo" href={`/${c.id}`} tabindex="-1" aria-hidden="true">
+    <Image src={d.photo} alt="" width={400} />
+  </a>
+  <h3><a href={`/${c.id}`}>{displayName(c)}</a></h3>
+  {variant === 'summary' && d.role && <p class="provider-card__role">{d.role}</p>}
+  <p class="provider-card__status">{d.accepting_text}</p>
+  <p>{d.clients}</p>
+  {variant === 'summary' && d.summary ? (
+    <Markdown text={d.summary} class="" />
+  ) : (
+    <>
+      <p class="provider-card__status">{t('areas_heading')}</p>
+      <ul>{areas.map((a) => <li set:html={a} />)}</ul>
+    </>
+  )}
+  {languages && <p>{languages}</p>}
+  {d.email && <p><strong>{t('email')}</strong> <a href={`mailto:${d.email}`}>{d.email}</a></p>}
+  {d.phone && <p><strong>{t('phone')}</strong> <a href={`tel:${d.phone}`}>{formatPhone(d.phone)}</a></p>}
+  <a class="btn btn--small btn--secondary" href={`/${c.id}`}>{t('about_me')}</a>
+</article>

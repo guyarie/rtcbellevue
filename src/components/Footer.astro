@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import { getSettings, getLabels, formatPhone } from '../lib/site';
+
+const s = await getSettings();
+const t = await getLabels();
+---
+
+<footer class="site-footer">
+  <div class="container-x site-footer__grid">
+    {s.map_image && (
+      <a class="site-footer__map" href={s.map_url} target="_blank" rel="noopener">
+        <Image src={s.map_image} alt={t('map_caption')} width={900} />
+      </a>
+    )}
+    <div>
+      <h4>{t('map_caption')}</h4>
+      <h4 class="mt-6">{t('address_heading')}</h4>
+      <address class="not-italic">{s.address?.map((line) => <div>{line}</div>)}</address>
+      {s.email && <p class="mt-4">{t('email_us')} <a href={`mailto:${s.email}`}>{s.email}</a></p>}
+      {s.phone && <p>{t('call_us')} <a href={`tel:${s.phone}`}>{formatPhone(s.phone)}</a></p>}
+    </div>
+  </div>
+  <p class="site-footer__legal">{t('copyright', { year: new Date().getFullYear() })}</p>
+</footer>

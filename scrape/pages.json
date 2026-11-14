@@ -1,0 +1,2658 @@
+{
+  "index": {
+    "url": "https://www.rtcbellevue.com/",
+    "title": "Relational Therapy Collective | Therapists in Bellevue, WA",
+    "description": "Relational Therapy Collective is a diverse group of licensed therapists in Bellevue, WA offering individual therapy, couples counseling, family therapy, EMDR, group therapy, and psychiatric medication management. Serving the Eastside including Redmond, Kirkland, Sammamish, and Mercer Island. Multilingual services available in English, Hebrew, Tagalog, Spanish, and more.",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "button",
+      "list-section",
+      "accordion",
+      "form"
+    ],
+    "links": [
+      "/services",
+      "/collaborative-care",
+      "/individual-therapy",
+      "/couples-therapy",
+      "/family-therapy",
+      "/parent-coaching-consultation",
+      "",
+      "/group-therapy",
+      "/med-management",
+      "/contact-us",
+      "/adhd",
+      "/anxiety-stress",
+      "/depression",
+      "/neurodivergent",
+      "/parenting",
+      "/relational-struggle",
+      "/trauma",
+      "/selective-mutism-1",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "sms:4252025393",
+      "/lina",
+      "mailto:Galit@compassionateways.com?",
+      "sms:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "mailto:therapy@rtcbellevue.com"
+    ]
+  },
+  "blog": {
+    "url": "https://www.rtcbellevue.com/blog",
+    "title": "Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "Expert parenting advice and child therapy insights from Bellevue therapists. Learn about child behavior, emotional regulation, and therapy tips at Relational Therapy Collective.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/feeling-stuck-maybe-nothing-is-wrong-with-you",
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__feeling-stuck-maybe-nothing-is-wrong-with-you": {
+    "url": "https://www.rtcbellevue.com/blog/feeling-stuck-maybe-nothing-is-wrong-with-you",
+    "title": "If you feel stuck and keep asking yourself, “What is wrong with me?”, this article explores how the pressure to “have it all” shapes everyday decisions—and what changes when you focus on what truly matters to you. — Relational Therapy Collective",
+    "description": "Do you feel stuck and wonder what’s wrong with you? Learn why trying to “have it all” can leave you feeling overwhelmed or empty, and how clarifying what truly matters can help guide your choices.",
+    "ogImage": null,
+    "blockTypes": [
+      "html"
+    ],
+    "links": [
+      "/blog?author=6a2114af5642d629e866936d",
+      "https://www.rtcbellevue.com/miri",
+      "/blog/what-your-childs-behavior-is-telling-you"
+    ]
+  },
+  "blog__what-your-childs-behavior-is-telling-you": {
+    "url": "https://www.rtcbellevue.com/blog/what-your-childs-behavior-is-telling-you",
+    "title": "What Your Child’s Behavior Is Telling You? — Relational Therapy Collective",
+    "description": "Is your child’s behavior confusing or overwhelming? Learn how tantrums, meltdowns, and shutdowns are a form of communication—and what you can do to support your child and yourself.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/blog?author=6a210e8bbd00e10e0f8a5694",
+      "/morgan",
+      "/blog/tag/Child%20behavior",
+      "/blog/tag/Tantrums",
+      "/blog/tag/meltdowns",
+      "/blog/tag/emotional%20regulation",
+      "/blog/tag/parenting%20support",
+      "/blog/tag/child%20%26%20Teen%20Therapy",
+      "/blog/tag/Bellevue%20WA",
+      "https://www.rtcbellevue.com/morgan",
+      "/blog/feeling-stuck-maybe-nothing-is-wrong-with-you"
+    ]
+  },
+  "blog__category__trauma": {
+    "url": "https://www.rtcbellevue.com/blog/category/trauma",
+    "title": "trauma — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__category__anxiety": {
+    "url": "https://www.rtcbellevue.com/blog/category/anxiety",
+    "title": "anxiety — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__category__child+behavior": {
+    "url": "https://www.rtcbellevue.com/blog/category/child+behavior",
+    "title": "child behavior — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__category__Therapy+Approaches": {
+    "url": "https://www.rtcbellevue.com/blog/category/Therapy+Approaches",
+    "title": "Therapy Approaches — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__category__parenting+tips": {
+    "url": "https://www.rtcbellevue.com/blog/category/parenting+tips",
+    "title": "parenting tips — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__Tantrums": {
+    "url": "https://www.rtcbellevue.com/blog/tag/Tantrums",
+    "title": "Tantrums — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__meltdowns": {
+    "url": "https://www.rtcbellevue.com/blog/tag/meltdowns",
+    "title": "meltdowns — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__parenting+support": {
+    "url": "https://www.rtcbellevue.com/blog/tag/parenting+support",
+    "title": "parenting support — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__child+%26+Teen+Therapy": {
+    "url": "https://www.rtcbellevue.com/blog/tag/child+%26+Teen+Therapy",
+    "title": "child & Teen Therapy — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__emotional+regulation": {
+    "url": "https://www.rtcbellevue.com/blog/tag/emotional+regulation",
+    "title": "emotional regulation — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__Bellevue+WA": {
+    "url": "https://www.rtcbellevue.com/blog/tag/Bellevue+WA",
+    "title": "Bellevue WA — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "blog__tag__Child+behavior": {
+    "url": "https://www.rtcbellevue.com/blog/tag/Child+behavior",
+    "title": "Child behavior — Bellevue Child Therapy Blog | Parenting Tips & Child Behavior | RTC — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button"
+    ],
+    "links": [
+      "/blog/what-your-childs-behavior-is-telling-you",
+      "/blog/category/child%20behavior",
+      "/blog/category/parenting%20tips",
+      "/blog/category/trauma",
+      "/blog/category/anxiety",
+      "/blog/category/Therapy%20Approaches",
+      "/morgan"
+    ]
+  },
+  "home": {
+    "url": "https://www.rtcbellevue.com/home",
+    "title": "Relational Therapy Collective | Therapists in Bellevue, WA",
+    "description": "Relational Therapy Collective is a diverse group of licensed therapists in Bellevue, WA offering individual therapy, couples counseling, family therapy, EMDR, group therapy, and psychiatric medication management. Serving the Eastside including Redmond, Kirkland, Sammamish, and Mercer Island. Multilingual services available in English, Hebrew, Tagalog, Spanish, and more.",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "button",
+      "list-section",
+      "accordion",
+      "form"
+    ],
+    "links": [
+      "/services",
+      "/collaborative-care",
+      "/individual-therapy",
+      "/couples-therapy",
+      "/family-therapy",
+      "/parent-coaching-consultation",
+      "",
+      "/group-therapy",
+      "/med-management",
+      "/contact-us",
+      "/adhd",
+      "/anxiety-stress",
+      "/depression",
+      "/neurodivergent",
+      "/parenting",
+      "/relational-struggle",
+      "/trauma",
+      "/selective-mutism-1",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "sms:4252025393",
+      "/lina",
+      "mailto:Galit@compassionateways.com?",
+      "sms:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "mailto:therapy@rtcbellevue.com"
+    ]
+  },
+  "services": {
+    "url": "https://www.rtcbellevue.com/services",
+    "title": "Services | Discover Support Options Today — Relational Therapy Collective",
+    "description": "Explore specialized mental health services including individual, couples, family therapy, and more at Relational Therapy Collective. Enhance your well-being today.",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "/collaborative-care",
+      "/individual-therapy",
+      "/couples-therapy",
+      "/family-therapy",
+      "/parent-coaching-consultation",
+      "",
+      "/group-therapy",
+      "/med-management",
+      "/contact-us"
+    ]
+  },
+  "contact-us": {
+    "url": "https://www.rtcbellevue.com/contact-us",
+    "title": "Contact Us | Connect Today - Schedule Your Session — Relational Therapy Collective",
+    "description": "Contact Relational Therapy Collective for professional therapy services including individual, couples, family, and group therapy in Bellevue, WA. Fast email responses and expert support.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "form",
+      "embed",
+      "image"
+    ],
+    "links": []
+  },
+  "about-rtc-1": {
+    "url": "https://www.rtcbellevue.com/about-rtc-1",
+    "title": "About RTC | Enhance Connections Today — Relational Therapy Collective",
+    "description": "Discover compassionate relational therapy services at RTC. Enhance relationships, manage trauma, and improve emotional wellbeing in a collaborative environment.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image"
+    ],
+    "links": []
+  },
+  "claire": {
+    "url": "https://www.rtcbellevue.com/claire",
+    "title": "Claire | Enhance Wellbeing - Book Now — Relational Therapy Collective",
+    "description": "Explore personalized therapy services by Claire, specializing in trauma, selective mutism, social anxiety, and cultural issues. Book your session today for mental wellness support.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "/selective-mutism",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "https://www.counselingmind.co/",
+      ""
+    ]
+  },
+  "miri": {
+    "url": "https://www.rtcbellevue.com/miri",
+    "title": "Miri | Enhance Well-Being Today — Relational Therapy Collective",
+    "description": "Discover expert relational therapy and mental health services by Dr. Miri Arie in Bellevue, WA. Tailored therapy for anxiety, relationships, and family dynamics.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:Miri@SocialEndeavors.net",
+      "tel:5858579394",
+      "/relational-group-therapy-miri",
+      "https://socialendeavors.sessionshealth.com/",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "michalg": {
+    "url": "https://www.rtcbellevue.com/michalg",
+    "title": "Michal G | Enhance Your Relationships – Get Started Now — Relational Therapy Collective",
+    "description": "Explore relational therapy with Michal G, offering individual, couples, and family counseling to foster healthy relationships and personal growth. Contact us today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "mailto:Michalgkeidar@gmail.com?subject=RTC%20Inquiry",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "david": {
+    "url": "https://www.rtcbellevue.com/david",
+    "title": "David | Discover Support Today — Schedule Your Therapy — Relational Therapy Collective",
+    "description": "Explore comprehensive psychotherapy services, including individual, couples, family therapy, and assessments, with Dr. Neal in Seattle and nationwide via telehealth. Book now.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:nealpsych@gmail.com",
+      "tel:4132982441",
+      "mailto:nealpsych@gmail.com?",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "nina": {
+    "url": "https://www.rtcbellevue.com/nina",
+    "title": "Nina | Start Healing Today - Book Your Session — Relational Therapy Collective",
+    "description": "Explore comprehensive mental health services at Nina's Relational Therapy Collective, including individual, couples, family therapy, and trauma-focused care—book your session today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:nina@sisucg.org?subject=RTC%20Inquiry",
+      "tel:5094432281"
+    ]
+  },
+  "yogi": {
+    "url": "https://www.rtcbellevue.com/yogi",
+    "title": "Yogi | Enhance Your Wellbeing — Book Now — Relational Therapy Collective",
+    "description": "Yogi offers comprehensive mental health services, including medication management and therapy for ages 13-55. Schedule a consultation today for personalized care.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "mailto:seattlepsychiatricclinic@gmail.com?",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "maki": {
+    "url": "https://www.rtcbellevue.com/maki",
+    "title": "Maki | Enhance Well-Being Now – Schedule Today — Relational Therapy Collective",
+    "description": "Discover compassionate therapy and support services at Maki—specializing in identity, life transitions, and relational challenges for teens and adults. Book a session today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:Maki@makipark.com",
+      "sms:9145008158",
+      "https://www.makipark.com/contact",
+      "mailto:linak@mindfulcarewa.com",
+      "http://www.makipark.com/"
+    ]
+  },
+  "limor": {
+    "url": "https://www.rtcbellevue.com/limor",
+    "title": "Limor | Enhance Wellbeing Today - Get Support Now — Relational Therapy Collective",
+    "description": "Explore personalized mental health services at Limor, specializing in anxiety, ADHD, and emotional regulation for children, teens, and parents. Schedule a consultation today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:limor2002@gmail.com",
+      "sms:4254480880",
+      "mailto:limor2002@gmail.com?subject=RTC%20inquiry",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "michal-a": {
+    "url": "https://www.rtcbellevue.com/michal-a",
+    "title": "Michal A | Transform Your Well-Being Today — Relational Therapy Collective",
+    "description": "Explore compassionate therapy services with Michal A, LICSW, offering in-person and telehealth support for mental health, trauma, and life transitions in Bellevue, WA.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:michal@michellealpertcounseling.com",
+      "sms:4252246320",
+      "mailto:michal@michellealpertcounseling.com?",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "jessica-l": {
+    "url": "https://www.rtcbellevue.com/jessica-l",
+    "title": "Jessica L | Enhance Wellbeing Today – Book Your Session — Relational Therapy Collective",
+    "description": "Jessica L offers therapy services including individual, couples, family therapy, and more in Bellevue, WA. Specializing in trauma, anxiety, depression, and life transitions.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "mailto:jessicalazarotherapy@gmail.com?subject=RTC%20Inquiry&body=%0A",
+      "sms:4252005602",
+      "mailto:linak@mindfulcarewa.com",
+      "mailto:jessicalazarotherapy@gmail.com?subject=RTC%20Inquiry"
+    ]
+  },
+  "lilach": {
+    "url": "https://www.rtcbellevue.com/lilach",
+    "title": "Lilach | Enhance Connections Today - Book Your Session — Relational Therapy Collective",
+    "description": "Explore comprehensive relational therapy services including individual, couples, family therapy, and parent coaching. Improve mental health and relationships with expert guidance.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image",
+      "accordion"
+    ],
+    "links": [
+      "mailto:Lilach.geppert@gmail.com?",
+      "sms:4259227647",
+      "mailto:Lilach.geppert@gmail.com?subject=RTC%20Inquiry",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "rebeca": {
+    "url": "https://www.rtcbellevue.com/rebeca",
+    "title": "Rebeca | Empower Your Wellbeing Now — Relational Therapy Collective",
+    "description": "Discover compassionate mental health services from Rebeca Marín Cordero, PhD. Offering therapy for individuals, couples, and families via telehealth. Book your session today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:borikenmhservices@gmail.com?subject=RTC%20inquiry",
+      "tel:4259543093",
+      "mailto:borikenmhservices@gmail.com?subject=RTC%20Inquiry",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "lina": {
+    "url": "https://www.rtcbellevue.com/lina",
+    "title": "Lina | Enhance Well-Being - Book Today — Relational Therapy Collective",
+    "description": "Lina offers relational therapy, EMDR, psychodynamic, and family counseling services. Explore our expert team for individual, couples, and group therapy to support mental well-being.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "mailto:linak@mindfulcarewa.com?subject=RTC%20Inquiry",
+      "sms:4252025393",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "morgan": {
+    "url": "https://www.rtcbellevue.com/morgan",
+    "title": "Morgan | Support Your Family Today – Get Started — Relational Therapy Collective",
+    "description": "Morgan offers compassionate, evidence-based family and child support services, focusing on strengthening relationships and managing emotional and behavioral challenges.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:info@havenfamilyconsulting.com",
+      "sms:4256108257",
+      "https://www.havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/book-online",
+      "mailto:linak@mindfulcarewa.com",
+      "https://www.havenfamilyconsulting.com/pricing"
+    ]
+  },
+  "individual-therapy": {
+    "url": "https://www.rtcbellevue.com/individual-therapy",
+    "title": "Individual Therapy in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Licensed therapists in Bellevue, WA offering one-on-one individual therapy for adults, teens, and children. Specializing in anxiety, trauma, depression, and life transitions. Serving Redmond, Kirkland, and the greater Eastside. Telehealth and in-person sessions available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "accordion",
+      "list-section"
+    ],
+    "links": [
+      "/therapists-by-age-group",
+      "/contact-us",
+      "/services",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "family-therapy": {
+    "url": "https://www.rtcbellevue.com/family-therapy",
+    "title": "Family Therapy in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Relational family therapy in Bellevue, WA for families navigating conflict, transitions, and multi-generational challenges. Trauma-informed, culturally sensitive care for diverse families across the Eastside. In-person and telehealth sessions.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/family-therapists",
+      "/services",
+      "/contact-us",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina"
+    ]
+  },
+  "couples-therapy": {
+    "url": "https://www.rtcbellevue.com/couples-therapy",
+    "title": "Couples Therapy in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Evidence-based couples counseling in Bellevue, WA. Our licensed therapists help partners improve communication, rebuild trust, and strengthen connection. Serving Redmond, Kirkland, Sammamish, and the Eastside. In-person and telehealth available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/couples-therapists",
+      "/services",
+      "/contact-us",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca"
+    ]
+  },
+  "parent-coaching-consultation": {
+    "url": "https://www.rtcbellevue.com/parent-coaching-consultation",
+    "title": "Parent Coaching & Consultation in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Parent coaching and family consultation in Bellevue, WA. Support for parents of children with anxiety, selective mutism, behavioral challenges, and school difficulties. Serving the Eastside. Telehealth and in-person available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/family-consultant-and-parent-support/coaches",
+      "/services",
+      "/contact-us",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina"
+    ]
+  },
+  "collaborative-care": {
+    "url": "https://www.rtcbellevue.com/collaborative-care",
+    "title": "Collaborative Care for Families in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Collaborative care for complex families in Bellevue, WA. Our team of therapists, coaches, and a psychiatric NP work together to support children, teens, and families with multi-layered needs. Serving the Eastside including Redmond and Kirkland.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/services",
+      "/contact-us",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "group-therapy": {
+    "url": "https://www.rtcbellevue.com/group-therapy",
+    "title": "Group Therapy | Join a Supportive Group Today — Relational Therapy Collective",
+    "description": "Explore group therapy services at Relational Therapy Collective, including skills groups, relational groups for therapists, and support for adults and children seeking personal growth.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/group-providers",
+      "/new-page",
+      "/services",
+      "/relational-group-for-adults",
+      "/groups-for-kids",
+      "/tpg-general",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "/contact-us"
+    ]
+  },
+  "med-management": {
+    "url": "https://www.rtcbellevue.com/med-management",
+    "title": "Psychiatric Medication Management in Bellevue, WA | RTC — Relational Therapy Collective",
+    "description": "Psychiatric medication management by a licensed Nurse Practitioner in Bellevue, WA. Coordinated care alongside therapy for adults managing anxiety, depression, ADHD, and mood disorders. Serving the Eastside. Telehealth available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "accordion",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "https://pacificmindhealth.com/what-is-medication-management/",
+      "https://my.clevelandclinic.org/health/articles/medication-management",
+      "/services",
+      "https://www.seattlepsychiatricclinic.com/contact",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "selective-mutism": {
+    "url": "https://www.rtcbellevue.com/selective-mutism",
+    "title": "Selective Mutism | Learn, Support, Overcome Now — Relational Therapy Collective",
+    "description": "Explore specialized therapy options for selective mutism, including behavioral strategies and medication. Effective management and support for children and families.",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "button"
+    ],
+    "links": [
+      "https://selectivemutismcenter.org/what-is-selective-mutism/",
+      "https://www.selectivemutism.org/",
+      "https://childmind.org/guide/parents-guide-how-to-help-a-child-with-selective-mutism/",
+      "https://www.asha.org/public/speech/disorders/selective-mutism/",
+      "https://www.youtube.com/watch?v=tAkIXpykB5U",
+      "https://www.craftpnw.com/miri-arie-phd",
+      "mailto:Miri@socialendeavors.net",
+      "sms:5858579394",
+      "https://www.socialendeavors.net/",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "https://www.counselingmind.co/"
+    ]
+  },
+  "emdr": {
+    "url": "https://www.rtcbellevue.com/emdr",
+    "title": "EMDR | Discover Healing Today — Book an EMDR Session — Relational Therapy Collective",
+    "description": "Explore EMDR therapy at Relational Therapy Collective, a structured approach with rapid results for trauma and emotional healing. Contact us for professional support.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "https://www.emdr.com/what-is-emdr/",
+      "mailto:nina@sisucg.org?subject=RTC%20Inquiry",
+      "tel:5094432281",
+      "/nina"
+    ]
+  },
+  "psychodynamic-therapy": {
+    "url": "https://www.rtcbellevue.com/psychodynamic-therapy",
+    "title": "Psychodynamic Therapy | Enhance Self-Awareness Today — Relational Therapy Collective",
+    "description": "Explore expert psychodynamic therapy at Relational Therapy Collective. Gain insights into unconscious influences, childhood impacts, and relationship patterns for lasting mental health improvements.",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "https://www.google.com/search?q=psychodynamic+therapy&sa=X&sca_esv=a8f3f333d99b26eb&rlz=1C1VDKB_enUS1004US1022&aep=1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclSJUz4FcZOM5Pq33gz9PnkyoDbNxwPAI30sUsI7Rk4Caq072zSPD2EXv4Eyv0_ppNBUnohY9nvk6N9u_rZqIEpr1u71Owk92XbM4mbmq3_bXt8pVDMuc7lojrOgNO8r9siEWZFuphdXhNpUHWpxuJv9JZ25uQ&ved=2ahUKEwjJzsb33oiSAxXUFzQIHcQRDPMQs6gLegQIBRAM&biw=1536&bih=778&dpr=1.25&aic=0#fpstate=ive&vld=cid:d79b9c5b,vid:_4_hdctx3-Q,st:0",
+      "mailto:nealpsych@gmail.com",
+      "tel:4132982441",
+      "/david",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "/"
+    ]
+  },
+  "social-circle": {
+    "url": "https://www.rtcbellevue.com/social-circle",
+    "title": "Social Circle | Enhance Social Skills Today – Join Us — Relational Therapy Collective",
+    "description": "Discover relational therapy and social skills groups for children and teens at Social Circle. Focused on emotional regulation, communication, and neurodivergent affirming practices.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "accordion"
+    ],
+    "links": [
+      "",
+      "https://forms.gle/UMrPydHoemsrbn1G6"
+    ]
+  },
+  "adhd-social-skills-emotional-regulation-group": {
+    "url": "https://www.rtcbellevue.com/adhd-social-skills-emotional-regulation-group",
+    "title": "ADHD Social Skills & Emotional Regulation Group | Enhance Skills, Empower Youth — Join Now — Relational Therapy Collective",
+    "description": "Join our ADHD Social Skills & Emotional Regulation Group to build emotional control, social skills, and confidence. Support for children and teens with ADHD. Contact us today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "https://docs.google.com/forms/d/e/1FAIpQLScYCq40kmNjYK61V9Q3nJgfzEg8TQmuPhIEW0NH5zR5q0RivQ/viewform",
+      "/services"
+    ]
+  },
+  "autism-spectrum-asd-social-communication-group": {
+    "url": "https://www.rtcbellevue.com/autism-spectrum-asd-social-communication-group",
+    "title": "Autism Spectrum (ASD) Social Communication Group | Enhance Social Skills Today — Join Now — Relational Therapy Collective",
+    "description": "Explore our ASD social communication group designed to support autistic children and teens with social skills, emotional understanding, and peer relationships in a respectful environment.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "https://docs.google.com/forms/d/e/1FAIpQLScYCq40kmNjYK61V9Q3nJgfzEg8TQmuPhIEW0NH5zR5q0RivQ/viewform",
+      "/services"
+    ]
+  },
+  "anxiety-emotional-regulation-groupup": {
+    "url": "https://www.rtcbellevue.com/anxiety-emotional-regulation-groupup",
+    "title": "Anxiety & Emotional Regulation Groupup | Enhance Emotional Resilience – Join Today — Relational Therapy Collective",
+    "description": "Join our Anxiety & Emotional Regulation Group to build resilience, improve emotional skills, and foster confidence in a supportive environment. Suitable for children and teens.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "https://docs.google.com/forms/d/e/1FAIpQLScYCq40kmNjYK61V9Q3nJgfzEg8TQmuPhIEW0NH5zR5q0RivQ/viewform",
+      "/services"
+    ]
+  },
+  "jeff": {
+    "url": "https://www.rtcbellevue.com/jeff",
+    "title": "Jeff | Transform Lives Today — Book a Session — Relational Therapy Collective",
+    "description": "Experienced psychologist Dr. Jeffrey Gillman offers therapy for teens, adults, and families, focusing on health issues, trauma, anxiety, and life transitions. Telehealth and in-person sessions available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:drffej45@msn.com?subject=RTC%20Inquiry",
+      "tel:4255918889",
+      "sms:4255918889",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "groups-for-kids": {
+    "url": "https://www.rtcbellevue.com/groups-for-kids",
+    "title": "Groups for Kids | Empower Kids Now – Join Social Skills Groups — Relational Therapy Collective",
+    "description": "Explore social skills and emotional regulation groups for kids at Relational Therapy Collective in Bellevue, WA. Support children and teens in developing communication and self-awareness.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "list-section"
+    ],
+    "links": [
+      "/adhd-social-skills-emotional-regulation-group",
+      "/autism-spectrum-asd-social-communication-group",
+      "/anxiety-emotional-regulation-groupup",
+      "/brave-voice-group"
+    ]
+  },
+  "brave-voice-group": {
+    "url": "https://www.rtcbellevue.com/brave-voice-group",
+    "title": "Brave Voice Group | Enhance Communication Skills — Get Support Today — Relational Therapy Collective",
+    "description": "Explore relational therapy services at Brave Voice Group, including individual, couples, family therapy, and group sessions in Bellevue to foster emotional and social connection.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "https://www.counselingmind.co/",
+      "/services",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire"
+    ]
+  },
+  "relational-group-therapy-miri": {
+    "url": "https://www.rtcbellevue.com/relational-group-therapy-miri",
+    "title": "Relational Group Therapy Miri | Join Today — Improve Relationships Now — Relational Therapy Collective",
+    "description": "Explore relational group therapy services in Miri, focusing on interpersonal growth, emotional intelligence, and conflict resolution with experienced therapists.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "list-section",
+      "video",
+      "button"
+    ],
+    "links": [
+      "/relational-group-for-adults",
+      "/relational-therapy-group-for-therapists",
+      "https://socialendeavors.sessionshealth.com/",
+      "/services",
+      "https://www.craftpnw.com/miri-arie-phd",
+      "mailto:Miri@socialendeavors.net"
+    ]
+  },
+  "relational-therapy-group-for-therapists": {
+    "url": "https://www.rtcbellevue.com/relational-therapy-group-for-therapists",
+    "title": "Relational Therapy Group for Therapists | Enhance Therapist Skills Today — Join Us — Relational Therapy Collective",
+    "description": "Join our therapist process group to enhance relational skills, gain feedback, and deepen client connections through a supportive, relational community. Limited spots available.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "/services",
+      "https://socialendeavors.sessionshealth.com/",
+      "sms:5858579394",
+      "https://dafnachen.com/",
+      "https://pivotalcenter.com/",
+      "https://www.craftpnw.com/miri-arie-phd",
+      "mailto:Miri@socialendeavors.net"
+    ]
+  },
+  "relational-group-for-adults": {
+    "url": "https://www.rtcbellevue.com/relational-group-for-adults",
+    "title": "Relational Group for Adults | Enhance Connections Today — Join Now — Relational Therapy Collective",
+    "description": "Join group therapy sessions at Relational Group for Adults in Bellevue, WA, to improve relationships, communication, and emotional understanding. Confidential support for authentic connections.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "https://socialendeavors.sessionshealth.com/",
+      "/services",
+      "sms:5858579394"
+    ]
+  },
+  "intro": {
+    "url": "https://www.rtcbellevue.com/intro",
+    "title": "Intro | Enhance Wellbeing Today — Get Support Now — Relational Therapy Collective",
+    "description": "Explore comprehensive mental health services, including therapy, EMDR, parent coaching, and more, tailored to individual needs. Contact us today for support.",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "list-section"
+    ],
+    "links": [
+      "/trauma",
+      "/intro-0tOQM/p/intermediate-service-xzlzz",
+      "/selective-mutism-1",
+      "/services"
+    ]
+  },
+  "emdr-1": {
+    "url": "https://www.rtcbellevue.com/emdr-1",
+    "title": "EMDR Therapy in Bellevue, WA | Trauma Treatment | RTC — Relational Therapy Collective",
+    "description": "EMDR (Eye Movement Desensitization and Reprocessing) therapy in Bellevue, WA. Evidence-based trauma treatment offered by certified EMDR specialists at Relational Therapy Collective. Serving Redmond, Kirkland, and the Eastside. In-person and telehealth.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/contact-us",
+      "https://www.emdr.com/what-is-emdr/",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "/melanie"
+    ]
+  },
+  "selective-mutism-1": {
+    "url": "https://www.rtcbellevue.com/selective-mutism-1",
+    "title": "Selective Mutism Therapy in Bellevue, WA | Child Anxiety | RTC — Relational Therapy Collective",
+    "description": "Specialized selective mutism therapy for children and teens in Bellevue, WA. Expert treatment for childhood anxiety and communication challenges. Claire de Leon, LMHC offers services in English and Tagalog. Serving Bellevue, Redmond, and the Eastside.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/sm-providers",
+      "/contact-us",
+      "https://www.youtube.com/watch?v=tAkIXpykB5U",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri"
+    ]
+  },
+  "women-in-midlife-process-group": {
+    "url": "https://www.rtcbellevue.com/women-in-midlife-process-group",
+    "title": "Women in Midlife Process Group | Empower Your Midlife Journey – Join Now — Relational Therapy Collective",
+    "description": "Join our women in midlife process groups for supportive, growth-oriented spaces focused on relationship transitions and authentic engagement. Led by Dafna, accessible online nationwide.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "/services",
+      "https://pcnp.mytheranest.com/appointments/new"
+    ]
+  },
+  "intro-1": {
+    "url": "https://www.rtcbellevue.com/intro-1",
+    "title": "Therapy in Bellevue, WA | Relational Therapy Collective — Relational Therapy Collective",
+    "description": "Relational Therapy Collective offers individual therapy, couples counseling, family therapy, EMDR, and medication management in Bellevue, WA. Serving the Eastside including Redmond, Kirkland, Sammamish, and Mercer Island.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "sms:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "sms:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "tpg-general": {
+    "url": "https://www.rtcbellevue.com/tpg-general",
+    "title": "Group for Therapists  | Enhance Your Therapy Skills – Join Us Now — Relational Therapy Collective",
+    "description": "Join the Relational Therapy Collective to enhance your therapeutic skills, explore relationships, and grow professionally with experienced therapists. Contact us today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button"
+    ],
+    "links": [
+      "/services",
+      "https://socialendeavors.sessionshealth.com/",
+      "https://dafnachen.com/",
+      "https://pivotalcenter.com/",
+      "https://www.craftpnw.com/miri-arie-phd",
+      "mailto:Miri@socialendeavors.net"
+    ]
+  },
+  "galit": {
+    "url": "https://www.rtcbellevue.com/galit",
+    "title": "Galit Trutner | Individual Therapist Bellevue, WA | Anxiety & Relationships — Relational Therapy Collective",
+    "description": "Galit Trutner is a Licensed Independent Clinical Social Worker providing individual therapy for adults in Bellevue, WA. Specializing in anxiety, depression, trauma, life transitions, and relationship challenges. Book a free consultation today.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:Galit@compassionateways.com?subject=RTC%20Inquiry",
+      "sms:5094432281",
+      "https://compassionateways.com/",
+      "mailto:linak@mindfulcarewa.com",
+      "https://compassionateways.com/contact-us/"
+    ]
+  },
+  "melanie": {
+    "url": "https://www.rtcbellevue.com/melanie",
+    "title": "Melanie | Enhance Your Well-being - Book Today — Relational Therapy Collective",
+    "description": "Discover compassionate therapy services with Melanie Liperi, LMFT, including individual, couples, and trauma counseling. Schedule your session today to foster emotional well-being.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "image"
+    ],
+    "links": [
+      "mailto:melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "sms:4254439097",
+      "https://www.melanielipericounseling.com/",
+      "mailto:linak@mindfulcarewa.com"
+    ]
+  },
+  "anxiety-stress-management": {
+    "url": "https://www.rtcbellevue.com/anxiety-stress-management",
+    "title": "Anxiety & Stress Management — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/anxiety-specialists",
+      "/contact-us",
+      "/services",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "trauma": {
+    "url": "https://www.rtcbellevue.com/trauma",
+    "title": "EMDR Therapy in Bellevue, WA | Trauma Treatment | RTC — Relational Therapy Collective",
+    "description": "EMDR (Eye Movement Desensitization and Reprocessing) therapy in Bellevue, WA. Evidence-based trauma treatment offered by certified EMDR specialists at Relational Therapy Collective. Serving Redmond, Kirkland, and the Eastside. In-person and telehealth.",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/trauma-specialists",
+      "/services",
+      "/contact-us",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "group-events": {
+    "url": "https://www.rtcbellevue.com/group-events",
+    "title": "Group Events — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "button",
+      "video",
+      "image",
+      "horizontalrule",
+      "list-section",
+      "accordion"
+    ],
+    "links": [
+      ""
+    ]
+  },
+  "payment-options-explained": {
+    "url": "https://www.rtcbellevue.com/payment-options-explained",
+    "title": "Payment Options Explained — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "list-section"
+    ],
+    "links": []
+  },
+  "family-therapists": {
+    "url": "https://www.rtcbellevue.com/family-therapists",
+    "title": "Family Therapists — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "https://www.socialendeavors.net/",
+      "mailto:Miri@SocialEndeavors.net",
+      "tel:5858579394",
+      "/miri",
+      "mailto:nealpsych@gmail.com",
+      "tel:4132982441",
+      "/david",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor"
+    ]
+  },
+  "therapists-by-age-group": {
+    "url": "https://www.rtcbellevue.com/therapists-by-age-group",
+    "title": "Therapists by Age Group — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "accordion"
+    ],
+    "links": [
+      "https://www.counselingmind.co/",
+      "/claire",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "https://www.socialendeavors.net/",
+      "mailto:Miri@SocialEndeavors.net",
+      "tel:5858579394",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "https://www.rtcbellevue.com/nina",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com?subject=RTC%20Inquiry",
+      "tel:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:linak@mindfulcarewa.com?",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "https://porpoise-falcon-5sy8.squarespace.com/michalg",
+      "mailto:nealpsych@gmail.com",
+      "tel:4132982441",
+      "/david",
+      "mailto:nina@sisucg.org?subject=RTC%20Inquiry",
+      "/nina",
+      "/miri",
+      "/michalg"
+    ]
+  },
+  "couples-therapists": {
+    "url": "https://www.rtcbellevue.com/couples-therapists",
+    "title": "Couples Therapists — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "/contact-us"
+    ]
+  },
+  "intro-2": {
+    "url": "https://www.rtcbellevue.com/intro-2",
+    "title": "Intro — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "list-section"
+    ],
+    "links": [
+      "/adhd",
+      "/anxiety-stress",
+      "/depression",
+      "/neurodivergent",
+      "/parenting",
+      "/relational-struggle",
+      "/trauma",
+      "/selective-mutism-1",
+      "/contact-us"
+    ]
+  },
+  "parenting": {
+    "url": "https://www.rtcbellevue.com/parenting",
+    "title": "Parenting — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/parent-coaching-consultation",
+      "/family-consultant-parent-supportcoaches",
+      "/contact-us",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina"
+    ]
+  },
+  "adhd": {
+    "url": "https://www.rtcbellevue.com/adhd",
+    "title": "ADHD — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/adhd-specialists",
+      "/adhd-social-skills-emotional-regulation-group",
+      "/contact-us",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "trauma-specialists": {
+    "url": "https://www.rtcbellevue.com/trauma-specialists",
+    "title": "Trauma Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "anxiety-specialists": {
+    "url": "https://www.rtcbellevue.com/anxiety-specialists",
+    "title": "Anxiety Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "family-consultant-parent-supportcoaches": {
+    "url": "https://www.rtcbellevue.com/family-consultant-parent-supportcoaches",
+    "title": "Family Consultant & Parent Support/Coaches — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "/contact-us"
+    ]
+  },
+  "adhd-specialists": {
+    "url": "https://www.rtcbellevue.com/adhd-specialists",
+    "title": "ADHD Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "neurodivergent": {
+    "url": "https://www.rtcbellevue.com/neurodivergent",
+    "title": "Neurodivergence — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/neurodivergent-providers",
+      "/services",
+      "/contact-us",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina"
+    ]
+  },
+  "depression": {
+    "url": "https://www.rtcbellevue.com/depression",
+    "title": "Depression — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/depression-providers-1",
+      "/services",
+      "/contact-us",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "relational-struggle": {
+    "url": "https://www.rtcbellevue.com/relational-struggle",
+    "title": "Relationship & Communication — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/meet-the-team",
+      "/services",
+      "/contact-us",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "neurodivergent-providers": {
+    "url": "https://www.rtcbellevue.com/neurodivergent-providers",
+    "title": "Neurodivergent Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "/contact-us"
+    ]
+  },
+  "depression-providers": {
+    "url": "https://www.rtcbellevue.com/depression-providers",
+    "title": "Depression Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:nealpsych@gmail.com",
+      "tel:4132982441",
+      "/david",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "meet-the-team": {
+    "url": "https://www.rtcbellevue.com/meet-the-team",
+    "title": "Meet the Team — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "sms:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "sms:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "sms:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "sm-providers": {
+    "url": "https://www.rtcbellevue.com/sm-providers",
+    "title": "SM Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "/contact-us"
+    ]
+  },
+  "depression-providers-1": {
+    "url": "https://www.rtcbellevue.com/depression-providers-1",
+    "title": "Depression Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "group-providers": {
+    "url": "https://www.rtcbellevue.com/group-providers",
+    "title": "Group Providers — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "/contact-us"
+    ]
+  },
+  "new-page": {
+    "url": "https://www.rtcbellevue.com/new-page",
+    "title": "Groups Offered — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "/relational-group-for-adults",
+      "/groups-for-kids",
+      "/tpg-general"
+    ]
+  },
+  "ares-of-focus": {
+    "url": "https://www.rtcbellevue.com/ares-of-focus",
+    "title": "Ares of Focus — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "/adhd",
+      "/anxiety-stress",
+      "/depression",
+      "/neurodivergent",
+      "/parenting",
+      "/relational-struggle",
+      "/trauma",
+      "/selective-mutism-1",
+      "/contact-us"
+    ]
+  },
+  "our-services": {
+    "url": "https://www.rtcbellevue.com/our-services",
+    "title": "Our Services — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "/collaborative-care",
+      "/individual-therapy",
+      "/couples-therapy",
+      "/family-therapy",
+      "/parent-coaching-consultation",
+      "",
+      "/group-therapy",
+      "/med-management",
+      "/contact-us"
+    ]
+  },
+  "anxiety-stress": {
+    "url": "https://www.rtcbellevue.com/anxiety-stress",
+    "title": "Anxiety & Stress — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "html",
+      "image",
+      "button",
+      "list-section"
+    ],
+    "links": [
+      "/anxiety-specialists",
+      "/contact-us",
+      "/services",
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi"
+    ]
+  },
+  "meet-the-team-2": {
+    "url": "https://www.rtcbellevue.com/meet-the-team-2",
+    "title": "Meet the Team 2 — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "list-section"
+    ],
+    "links": [
+      "mailto:malaya@counselingmind.co?subject=RTC%20Inquiry",
+      "sms:4252025485",
+      "/claire",
+      "mailto:linak@mindfulcarewa.com",
+      "tel:4252025393",
+      "/lina",
+      "mailto:Galit@compassionatewways.com?subject=RTC%20Inquiry",
+      "tel:4254425727",
+      "/galit",
+      "mailto:drffej45@msn.com",
+      "tel:4255918889",
+      "/jeff",
+      "mailto:jessicalazarotherapy@gmail.com",
+      "sms:4252005602",
+      "/jessica-l",
+      "mailto:Lilach.geppert@gmail.com",
+      "tel:4259227647",
+      "/lilach",
+      "mailto:limor2002@gmail.com",
+      "tel:4254480880",
+      "/limor",
+      "mailto:Maki@makipark.com",
+      "tel:9145008158",
+      "/maki",
+      "mailto:Melanie@melanielipericounseling.com?subject=RTC%20Inquiry",
+      "tel:4254439097",
+      "/melanie",
+      "mailto:michal@michellealpertcounseling.com",
+      "tel:4252246329",
+      "/michal-a",
+      "mailto:Michalgkeidar@gmail.com",
+      "tel:2064864131",
+      "/michalg",
+      "mailto:Miri@SocialEndeavors.net?subject=RTC%20Inquiry",
+      "tel:5858579394",
+      "/miri",
+      "mailto:morgan@havenfamilyconsulting.com",
+      "https://www.havenfamilyconsulting.com/booking-calendar/discovery-call",
+      "/morgan",
+      "mailto:sisucounseling@icloud.com",
+      "tel:5094432281",
+      "/nina",
+      "mailto:borikenmhservices@gmail.com",
+      "tel:4259543093",
+      "/rebeca",
+      "mailto:seattlepsychiatricclinic@gmail.com",
+      "tel:3602092069",
+      "/yogi",
+      "/contact-us"
+    ]
+  },
+  "intro-0tOQM": {
+    "url": "https://www.rtcbellevue.com/intro-0tOQM",
+    "title": "Store 2 — Relational Therapy Collective",
+    "description": "",
+    "ogImage": null,
+    "blockTypes": [
+      "image",
+      "html",
+      "list-section"
+    ],
+    "links": [
+      "/trauma",
+      "/intro/p/intermediate-service-xzlzz",
+      "/selective-mutism-1",
+      "",
+      "/services",
+      "/intro-0tOQM/p/basic-service-mrgfw",
+      "/intro-0tOQM/p/intermediate-service-xzlzz",
+      "/intro-0tOQM/p/advanced-service-erpet"
+    ]
+  },
+  "intro-0tOQM__p__advanced-service-erpet": {
+    "url": "https://www.rtcbellevue.com/intro-0tOQM/p/advanced-service-erpet",
+    "title": "Selective Mutism — Relational Therapy Collective",
+    "description": "  Flexible, expert advice when you need it. Book hourly support across a range of topics—from planning to problem-solving. This focused consultation will help clarify your goals, map out next steps, and identify opportunities for growth.  ",
+    "ogImage": null,
+    "blockTypes": [],
+    "links": [
+      "/intro-0tOQM",
+      "/intro-0tOQM/p/advanced-service-erpet"
+    ]
+  },
+  "intro-0tOQM__p__intermediate-service-xzlzz": {
+    "url": "https://www.rtcbellevue.com/intro-0tOQM/p/intermediate-service-xzlzz",
+    "title": "Anxiety and Stress — Relational Therapy Collective",
+    "description": "  Flexible, expert advice when you need it. Book hourly support across a range of topics—from planning to problem-solving. This focused consultation will help clarify your goals, map out next steps, and identify opportunities for growth.  ",
+    "ogImage": null,
+    "blockTypes": [],
+    "links": [
+      "/intro-0tOQM",
+      "/intro-0tOQM/p/intermediate-service-xzlzz"
+    ]
+  },
+  "intro-0tOQM__p__basic-service-mrgfw": {
+    "url": "https://www.rtcbellevue.com/intro-0tOQM/p/basic-service-mrgfw",
+    "title": "Trauma — Relational Therapy Collective",
+    "description": "  Flexible, expert advice when you need it. Book hourly support across a range of topics—from planning to problem-solving. This focused consultation will help clarify your goals, map out next steps, and identify opportunities for growth.  ",
+    "ogImage": null,
+    "blockTypes": [],
+    "links": [
+      "/intro-0tOQM",
+      "/intro-0tOQM/p/basic-service-mrgfw"
+    ]
+  }
+}

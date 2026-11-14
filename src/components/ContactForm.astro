@@ -1,0 +1,59 @@
+---
+import { getFormSettings, getLabels } from '../lib/site';
+const f = await getFormSettings();
+const t = await getLabels();
+const fields = f.form_fields ?? [];
+if (!f.form_action) console.warn('[contact form] form_action is empty in src/content/site/contact.md — the form cannot submit.');
+// Pair up short fields (first/last name) on one row; textareas get their own.
+---
+
+<form class="form" action={f.form_action || undefined} method="POST" data-contact-form
+  data-sending={t('form_sending')} data-error={t('form_error')} data-success={f.form_success}>
+  <div class="form__row">
+    {fields.filter((x) => x.type !== 'textarea').map((x) => (
+      <div>
+        <label for={`f-${x.name}`}>{x.label}{x.required && ' *'}</label>
+        {x.type === 'select' ? (
+          <select id={`f-${x.name}`} name={x.name} required={x.required}>
+            {x.options?.map((o) => <option>{o}</option>)}
+          </select>
+        ) : (
+          <input id={`f-${x.name}`} name={x.name} type={x.type} required={x.required}
+            autocomplete={x.type === 'email' ? 'email' : x.name === 'first_name' ? 'given-name' : x.name === 'last_name' ? 'family-name' : undefined} />
+        )}
+      </div>
+    ))}
+  </div>
+  {fields.filter((x) => x.type === 'textarea').map((x) => (
+    <div>
+      <label for={`f-${x.name}`}>{x.label}{x.required && ' *'}</label>
+      <textarea id={`f-${x.name}`} name={x.name} required={x.required}></textarea>
+    </div>
+  ))}
+  {f.form_note && <p class="form__note">{f.form_note}</p>}
+  <div><button class="btn" type="submit">{f.form_submit}</button></div>
+  <p class="form__status" role="status" aria-live="polite"></p>
+</form>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-contact-form]').forEach((form) => {
+    form.addEventListener('submit', async (e) => {
+      if (!form.action) return;
+      e.preventDefault();
+      const status = form.querySelector('.form__status')!;
+      const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      status.textContent = form.dataset.sending ?? '';
+      btn.disabled = true;
+      try {
+        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        if (!res.ok) throw new Error(String(res.status));
+        form.reset();
+        status.textContent = form.dataset.success ?? '';
+      } catch {
+        status.textContent = form.dataset.error ?? '';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  });
+</script>

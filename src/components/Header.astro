@@ -1,0 +1,91 @@
+---
+import { Image } from 'astro:assets';
+import { getSettings, getLabels, getClinicians, displayName } from '../lib/site';
+
+const settings = await getSettings();
+const t = await getLabels();
+const clinicians = await getClinicians();
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+const nav = (settings.nav ?? []).map((item) => ({
+  ...item,
+  children: [
+    ...(item.children ?? []),
+    ...(item.children_from === 'clinicians'
+      ? clinicians.map((c) => ({ label: displayName(c), url: `/${c.id}` }))
+      : []),
+  ],
+}));
+const isCurrent = (url: string) => url === path;
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-header__logo">
+      {settings.logo ? <Image src={settings.logo} alt={settings.logo_alt ?? ''} width={184} loading="eager" /> : settings.name}
+    </a>
+
+    <nav class="site-nav" aria-label="Main">
+      {nav.map((item) =>
+        item.children.length ? (
+          <div class="nav-folder">
+            <button type="button" aria-expanded="false" data-folder-toggle>{item.label}</button>
+            <div class="nav-folder__menu">
+              {item.children.map((c) => (
+                <a href={c.url} aria-current={isCurrent(c.url) ? 'page' : undefined}>{c.label}</a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a href={item.url} aria-current={isCurrent(item.url) ? 'page' : undefined}>{item.label}</a>
+        ),
+      )}
+    </nav>
+
+    {settings.cta && <a class="btn site-header__cta" href={settings.cta.url}>{settings.cta.label}</a>}
+
+    <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false"
+      data-label-open={t('menu_open')} data-label-close={t('menu_close')} aria-label={t('menu_open')}>
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+    {nav.map((item) =>
+      item.children.length ? (
+        <details>
+          <summary>{item.label}</summary>
+          {item.children.map((c) => <a href={c.url}>{c.label}</a>)}
+        </details>
+      ) : (
+        <a href={item.url}>{item.label}</a>
+      ),
+    )}
+    {settings.cta && <a href={settings.cta.url}>{settings.cta.label}</a>}
+  </nav>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const mobile = document.getElementById('mobile-nav');
+  toggle?.addEventListener('click', () => {
+    const open = !mobile?.hasAttribute('data-open');
+    mobile?.toggleAttribute('data-open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', (open ? toggle.dataset.labelClose : toggle.dataset.labelOpen) ?? '');
+  });
+  // Dropdowns open on hover/focus via CSS; this makes click/tap work too.
+  document.querySelectorAll<HTMLButtonElement>('[data-folder-toggle]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const folder = btn.parentElement!;
+      const open = !folder.hasAttribute('data-open');
+      document.querySelectorAll('.nav-folder[data-open]').forEach((f) => f.removeAttribute('data-open'));
+      folder.toggleAttribute('data-open', open);
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
+  document.addEventListener('click', (e) => {
+    if (!(e.target as Element).closest('.nav-folder'))
+      document.querySelectorAll('.nav-folder[data-open]').forEach((f) => f.removeAttribute('data-open'));
+  });
+</script>

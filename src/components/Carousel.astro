@@ -1,0 +1,26 @@
+---
+// Horizontal scroll-snap carousel with prev/next buttons (like the old site's card sliders).
+import { getLabels } from '../lib/site';
+export interface Props { class?: string; label?: string }
+const { class: cls = '', label } = Astro.props;
+const t = await getLabels();
+---
+<div class:list={['carousel', cls]} data-carousel role="region" aria-label={label}>
+  <div class="carousel__track" tabindex="0"><slot /></div>
+  <div class="carousel__nav">
+    <button type="button" data-dir="-1" aria-label={t('carousel_prev')}>←</button>
+    <button type="button" data-dir="1" aria-label={t('carousel_next')}>→</button>
+  </div>
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-carousel]').forEach((c) => {
+    const track = c.querySelector<HTMLElement>('.carousel__track')!;
+    c.querySelectorAll<HTMLButtonElement>('[data-dir]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const item = track.firstElementChild as HTMLElement | null;
+        const step = item ? item.getBoundingClientRect().width + 24 : track.clientWidth;
+        track.scrollBy({ left: Number(b.dataset.dir) * step, behavior: 'smooth' });
+      }),
+    );
+  });
+</script>

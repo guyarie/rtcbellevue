@@ -1,0 +1,82 @@
+---
+/**
+ * Renders one `sections[]` entry of a page (see src/content.config.ts).
+ * Order: heading, image (+ body side-by-side if layout says so), body,
+ * accordion, cards, providers, buttons, gallery, video, embed, form.
+ */
+import { Image } from 'astro:assets';
+import Markdown from './Markdown.astro';
+import Buttons from './Buttons.astro';
+import Carousel from './Carousel.astro';
+import ProviderCard from './ProviderCard.astro';
+import ContactForm from './ContactForm.astro';
+import { getClinicians } from '../lib/site';
+
+export interface Props { section: any; first?: boolean; prevTheme?: string }
+const { section: s, first = false, prevTheme } = Astro.props;
+const providers = s.providers ? await getClinicians(s.providers) : [];
+const split = s.image && s.layout !== 'stack';
+const HeadingTag = first ? 'h1' : 'h2';
+---
+
+<section id={s.id} class:list={['section', `section--${s.theme}`, prevTheme && prevTheme !== s.theme && s.theme !== 'white' && 'section--wave']}>
+  <div class="container-x">
+    {s.heading && <HeadingTag class="section__heading">{s.heading}</HeadingTag>}
+
+    {split ? (
+      <div class:list={['section__split', `section__split--${s.layout}`]}>
+        <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={800} /></div>
+        <div><Markdown text={s.body} /></div>
+      </div>
+    ) : (
+      <>
+        {s.image && <div class="section__image"><Image src={s.image} alt={s.image_alt ?? ''} width={1000} /></div>}
+        <Markdown text={s.body} />
+      </>
+    )}
+
+    {s.accordion && (
+      <div class="accordion">
+        {s.accordion.map((item: any) => (
+          <details>
+            <summary>{item.title}</summary>
+            <div class="accordion__body"><Markdown text={item.body} /></div>
+          </details>
+        ))}
+      </div>
+    )}
+
+    {s.cards && (
+      <Carousel label={s.heading}>
+        {s.cards.map((c: any) => (
+          <div class="card">
+            {c.image && <div class="card__image"><Image src={c.image} alt={c.image_alt ?? ''} width={440} /></div>}
+            <h3>{c.title}</h3>
+            {c.body && <Markdown text={c.body} class="card__body" />}
+            {c.button && <a class="btn btn--small" href={c.button.url}>{c.button.label}</a>}
+          </div>
+        ))}
+      </Carousel>
+    )}
+
+    {providers.length > 0 && (
+      <div class="grid-cards mt-8">
+        {providers.map((c) => <ProviderCard clinician={c} variant={s.providers.card} />)}
+      </div>
+    )}
+
+    <Buttons buttons={s.buttons} />
+
+    {s.gallery && (
+      <Carousel class="gallery mt-8" label={s.heading}>
+        {s.gallery.map((g: any) => (
+          <figure><Image src={g.image} alt={g.alt} width={1200} /></figure>
+        ))}
+      </Carousel>
+    )}
+
+    {s.video && <div class="video"><iframe src={s.video} title={s.heading ?? 'Video'} loading="lazy" allowfullscreen></iframe></div>}
+    {s.embed && <div class="embed mt-8"><iframe src={s.embed} title={s.heading ?? 'Embedded content'} loading="lazy"></iframe></div>}
+    {s.form && <div class="mt-8"><ContactForm /></div>}
+  </div>
+</section>

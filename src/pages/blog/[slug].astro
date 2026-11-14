@@ -1,0 +1,44 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import { getLabels, displayName } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', (p) => !p.data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const t = await getLabels();
+const author = await getEntry(post.data.author);
+const { Content } = await render(post);
+const date = post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+
+<Base title={post.data.title} description={post.data.description} ogImage={post.data.image} ogType="article">
+  <article class="section">
+    <div class="container-x">
+      <p class="text-center"><a href="/blog">{t('blog_back')}</a></p>
+      <h1 class="section__heading mt-6">{post.data.title}</h1>
+      <p class="post-meta text-center">{date}{author && <> · {t('blog_by', { author: displayName(author) })}</>}</p>
+      {post.data.image && <div class="section__image mt-8"><Image src={post.data.image} alt={post.data.image_alt ?? ''} width={1000} /></div>}
+      <div class="prose-rtc mt-8"><Content /></div>
+      {(post.data.categories.length > 0 || post.data.tags.length > 0) && (
+        <div class="prose-rtc mt-8 post-meta">
+          {post.data.categories.length > 0 && <p>{t('blog_categories')} {post.data.categories.join(', ')}</p>}
+          {post.data.tags.length > 0 && <p>{t('blog_tags')} {post.data.tags.join(', ')}</p>}
+        </div>
+      )}
+      {author && !author.data.hidden && (
+        <aside class="prose-rtc mt-12 pt-8 border-t border-[color:var(--color-border)] flex gap-6 items-start">
+          <a href={`/${author.id}`} class="shrink-0"><Image src={author.data.photo} alt="" width={120} class="rounded-full w-24 h-24 object-cover" /></a>
+          <div>
+            <p class="font-bold">{t('blog_about_author')}: <a href={`/${author.id}`}>{displayName(author)}</a></p>
+            {author.data.summary && <p class="mt-2">{author.data.summary}</p>}
+          </div>
+        </aside>
+      )}
+    </div>
+  </article>
+</Base>

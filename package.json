@@ -1,0 +1,23 @@
+{
+  "name": "rtcbellevue",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "scrape": "node scripts/scrape.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.5",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.18.2",
+    "marked": "^18.2.0",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.5"
+  }
+}

@@ -1,0 +1,13 @@
+---
+export interface Props { buttons?: { label: string; url: string; style?: 'primary' | 'secondary' }[] }
+const { buttons = [] } = Astro.props;
+const external = (u: string) => /^https?:\/\//.test(u);
+---
+{buttons.length > 0 && (
+  <div class="btn-row">
+    {buttons.map((b) => (
+      <a class:list={['btn', b.style === 'secondary' && 'btn--secondary']} href={b.url}
+        {...(external(b.url) ? { target: '_blank', rel: 'noopener' } : {})}>{b.label}</a>
+    ))}
+  </div>
+)}

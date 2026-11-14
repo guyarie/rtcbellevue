@@ -1,0 +1,10 @@
+# Add these rules to the ingress list of eli's cloudflared config
+# (/etc/cloudflared/config.yml), above the final `- service: http_status:404`.
+# Then route DNS:  cloudflared tunnel route dns <tunnel> rtcbellevue.com
+#                  cloudflared tunnel route dns <tunnel> www.rtcbellevue.com
+# (only after the domain is on Cloudflare — see docs/MIGRATION_PLAN.md Phase 7)
+ingress:
+  - hostname: www.rtcbellevue.com
+    service: http://localhost:8081
+  - hostname: rtcbellevue.com
+    service: http://localhost:8081

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+# Raw scrape output (HTML + downloaded originals) — regenerate with `npm run scrape`
+scrape/raw/
+scrape/images/

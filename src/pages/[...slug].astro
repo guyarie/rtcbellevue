@@ -1,0 +1,21 @@
+---
+// Every generic page: src/content/pages/<slug>.md -> /<slug> (index.md -> /).
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Section from '../components/Section.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages', (p) => p.id !== 'blog'); // /blog has its own route
+  return pages.map((page) => ({
+    params: { slug: page.id === 'index' ? undefined : page.id },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { sections } = page.data;
+---
+
+<Base title={page.data.title} description={page.data.description}>
+  {sections.map((s, i) => <Section section={s} first={i === 0} prevTheme={sections[i - 1]?.theme} />)}
+</Base>

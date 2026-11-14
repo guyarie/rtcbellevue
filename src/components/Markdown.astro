@@ -1,0 +1,7 @@
+---
+// Renders a Markdown string from frontmatter.
+import { md, mdInline } from '../lib/site';
+export interface Props { text?: string; inline?: boolean; class?: string }
+const { text, inline = false, class: cls = 'prose-rtc' } = Astro.props;
+---
+{text && (inline ? <Fragment set:html={mdInline(text)} /> : <div class={cls} set:html={md(text)} />)}

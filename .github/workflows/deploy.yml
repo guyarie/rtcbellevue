@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    # Runs on the self-hosted runner on eli (home server). The build publishes
+    # straight to the local Nginx web root; public traffic reaches Nginx through
+    # a Cloudflare Tunnel — no SSH, no open ports, no deploy secrets.
+    runs-on: [self-hosted, eli]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Publish dist to Nginx web root
+        run: rsync -a --delete dist/ /var/www/rtcbellevue/dist/
