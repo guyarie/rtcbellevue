@@ -7,7 +7,7 @@ Astro 5 static + Tailwind + Content Collections (no copy in `.astro`), FormSubmi
 
 ## Steps
 1. **Survey**: sitemap.xml, nav, every page; list forms, commerce, blogs, events, embeds, scripts; raw `<head>` for titles/meta/analytics; `dig` NS/MX/A/CNAME. Flag Squarespace template leftovers (demo images from other site IDs on `images.squarespace-cdn.com`, fake retreats/products, `/cart`).
-2. **Scaffold** repo from the reference implementation; strip its content.
+2. **Scaffold** repo from the reference implementation; strip its content. Set up the repo for owner PRs — see *Repo access for owners* below.
 3. **Scrape** with a script: all sitemap URLs → title/meta/content Markdown; download all CDN images (originals), dedupe, URL→path map.
 4. **Model content**: find anything repeated by hand across pages (team cards, service cards) and make it one collection; generate the repeats.
 5. **Rebuild** faithfully (redesign later). Keep existing slugs where possible.
@@ -17,6 +17,19 @@ Astro 5 static + Tailwind + Content Collections (no copy in `.astro`), FormSubmi
 9. **DNS cutover**: export full zone first; move to Cloudflare; **verify email records (MX/SPF/DKIM/DMARC) exactly**; test email after.
 10. **Docs**: EDITING (for owners' agents), DEV, DEPLOY, CLAUDE.md.
 11. Keep Squarespace a couple of weeks, then cancel.
+
+## Repo access for owners
+Owners' agents push as their own GitHub user (for RTC and Connected: `ariemiri-pnw`) and every change goes through a PR that we approve.
+- **Repo must be public.** Branch protection on a private repo needs GitHub Pro, and personal-account repos can't give collaborators read-only access. Before flipping, scan the full git history for secrets (`git log --all -p | grep -iE 'token|secret|password|api.?key|PRIVATE KEY'`) and check notes/docs for anything the owners wouldn't want public. Keep credentials in an untracked file.
+- **Collaborator:** `gh api -X PUT repos/<owner>/<repo>/collaborators/<user> -f permission=push` (sends an invite they must accept).
+- **Protect `main`:** PR required, 1 approval, no force-push, no deletion, `enforce_admins: false` (so we can still push directly — GitHub prints "Bypassed rule violations"). No required status checks — we're the only approvers.
+  ```
+  gh api -X PUT repos/<owner>/<repo>/branches/main/protection --input - <<'EOF'
+  {"required_status_checks":null,"enforce_admins":false,"required_pull_request_reviews":{"required_approving_review_count":1},"restrictions":null,"allow_force_pushes":false,"allow_deletions":false}
+  EOF
+  ```
+- **Two workflows:** `deploy.yml` on the self-hosted eli runner, triggered **only** by `push` to `main`; `check.yml` runs `npm ci && npm run build` on `pull_request` on **`ubuntu-latest`** (GitHub-hosted, `permissions: contents: read`) so bad content shows a red ✗ before merge. Never give a `pull_request` trigger to the eli runner — on a public repo anyone can open a PR from a fork.
+- Known gap: a write collaborator could push a branch adding a workflow that targets the eli runner. Accepted, since the collaborator is the owners' own agent.
 
 ## Gotchas
 - Squarespace forms are JS-rendered — fields/destination aren't in the HTML markdown; check the admin.
