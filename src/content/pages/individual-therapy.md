@@ -4,8 +4,8 @@ description: "Licensed therapists in Bellevue, WA offering one-on-one individual
 sections:
   - theme: "light"
     heading: "Individual Therapy"
-    image: "../../assets/images/counselor-and-patient-sitting-on-couch.jpg"
-    image_alt: "Two women sitting on a beige couch, engaged in a conversation. One woman is taking notes, while the other is speaking and gesturing with her hand."
+    image: "../../assets/images/rtc-individual-therapy-440x229.png"
+    image_alt: "A therapist listens to a client during an individual session."
     body: |
       One-on-one therapy is a space to feel heard, understood, and supported. Whether you are dealing with anxiety, stress, relationship challenges, trauma, life transitions, or simply feeling stuck, our therapists tailor their approach to your needs.
 

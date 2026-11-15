@@ -4,8 +4,8 @@ description: "Psychiatric medication management by a licensed Nurse Practitioner
 sections:
   - theme: "light"
     heading: "Medication Management"
-    image: "../../assets/images/unsplash-image-fnspsqah1mq1.jpg"
-    image_alt: "A female doctor or dental professional showing a 3D model of teeth to an older woman, in a medical or dental office setting."
+    image: "../../assets/images/rtc-medication-review-440x229.png"
+    image_alt: "A client holds a prescription bottle while speaking with a psychiatric nurse practitioner."
     body: "_Research shows mental health conditions respond best to a combination of therapy and medication management. This evidence-based approach addresses both the biological and emotional aspects of mental health, helping individuals develop coping skills while ensuring medications are safe, effective, and aligned with their treatment goals. By integrating these services, we provide comprehensive care designed to support lasting improvement and overall well-being._"
     accordion:
       - title: "Key Aspects of Medication Management"
