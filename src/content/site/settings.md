@@ -26,7 +26,6 @@ nav:
       - { label: Family Therapy, url: /family-therapy }
       - { label: Parent Coaching/Consultation, url: /parent-coaching-consultation }
       - { label: Medication Management, url: /med-management }
-      - { label: Collaborative Care, url: /collaborative-care }
   - label: Areas of Focus
     url: /intro-2
     children:

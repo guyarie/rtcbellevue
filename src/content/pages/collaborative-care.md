@@ -11,15 +11,8 @@ sections:
 
       _All collaboration is guided by the client’s needs and explicit permission. We prioritize shared goals, open communication, and mutual respect — creating unified, effective care that supports lasting growth for clients and their families._
     buttons:
-      - label: "Back to Services"
-        url: "/services"
+      - label: "Back to Home Page"
+        url: "/"
       - label: "Contact Us"
         url: "/contact-us"
-  - theme: "light"
-    heading: "Meet the Team"
-    buttons:
-      - label: "Contact us"
-        url: "/contact-us"
-    providers:
-      service: "collaborative-care"
 ---

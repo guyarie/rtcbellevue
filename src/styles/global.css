@@ -376,8 +376,10 @@ img { max-width: 100%; height: auto; }
     transparent 80%);
 }
 .hero__inner { position: relative; z-index: 2; width: 100%; padding-block: 4rem; }
-.hero__content { max-width: 560px; animation: hero-in .9s ease-out both; }
-.hero__heading { font-size: clamp(2.2rem, 4.6vw, 3.4rem); line-height: 1.12; font-style: italic; margin-bottom: 1.4rem; }
+/* The heading spans the full width; everything under it keeps the narrow column. */
+.hero__content { animation: hero-in .9s ease-out both; }
+.hero__content > :not(.hero__heading) { max-width: 560px; }
+.hero__heading { font-size: clamp(2.2rem, 4.2vw, 3.2rem); line-height: 1.12; font-style: italic; margin-bottom: 1.4rem; }
 .hero__body > * + * { margin-top: .9em; }
 .hero__body p { color: var(--color-text-muted); }
 .hero__body p:first-child { font-size: 1.15rem; line-height: 1.55; color: var(--color-text); }
