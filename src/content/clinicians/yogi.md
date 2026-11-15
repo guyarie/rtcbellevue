@@ -26,7 +26,6 @@ focus:
   - adhd
   - anxiety
   - depression
-  - relational
   - trauma
 
 areas:
