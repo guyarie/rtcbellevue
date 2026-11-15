@@ -164,6 +164,19 @@ sections:
         body: "Email us at [therapy@rtcbellevue.com](mailto:therapy@rtcbellevue.com) with a brief description of what you are looking for. Our team will review and match you with the provider whose expertise, availability, and approach best fit your needs. You can also browse individual therapist profiles on our Team page."
       - title: "Where are you located, and do you serve my area?"
         body: "Our office is located at 14655 NE Bel-Red Road, Building F, Suite 203, Bellevue, WA 98007. We serve clients in-person from Bellevue, Redmond, Kirkland, Sammamish, Mercer Island, and surrounding areas. We also offer telehealth to clients anywhere in Washington State."
+  - theme: "light"
+    heading: "Let’s Get Started."
+    image: "../../assets/images/rtc-lets-get-started-desktop.jpg"
+    image_alt: "A woman uses a desktop keyboard while viewing the Relational Therapy Collective homepage."
+    body: |
+      Send us your contact email and a brief summary of what services you are seeking.
+
+      Preferred Contact: Email for fastest response - therapy@rtcbellevue.com or use the form below.
+
+      Phone: (425)675-0881 is for general inquiries or to request a callback. You cannot schedule appointments through this number. To schedule, please contact your chosen therapist directly from our Team page.
+
+      Note: Email is not confidential for clinical information.
+    form: true
   - theme: "bright"
     gallery:
       - { image: "../../assets/images/office-waiting-room.webp", alt: "Waiting room", caption: "Waiting room" }
@@ -175,17 +188,4 @@ sections:
       - { image: "../../assets/images/office-room-5.webp", alt: "Room 5", caption: "Room #5" }
       - { image: "../../assets/images/office-room-6.webp", alt: "Room 6", caption: "Room #6" }
       - { image: "../../assets/images/office-building-f.webp", alt: "Building F", caption: "Building and parking" }
-  - theme: "light"
-    heading: "Let’s Get Started."
-    image: "../../assets/images/rtc-lets-get-started-logo.jpg"
-    image_alt: "A woman views the Relational Therapy Collective homepage on a laptop at her kitchen table."
-    body: |
-      Send us your contact email and a brief summary of what services you are seeking.
-
-      Preferred Contact: Email for fastest response - therapy@rtcbellevue.com or use the form below.
-
-      Phone: (425)675-0881 is for general inquiries or to request a callback. You cannot schedule appointments through this number. To schedule, please contact your chosen therapist directly from our Team page.
-
-      Note: Email is not confidential for clinical information.
-    form: true
 ---

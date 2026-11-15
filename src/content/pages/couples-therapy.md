@@ -4,8 +4,8 @@ description: "Evidence-based couples counseling in Bellevue, WA. Our licensed th
 sections:
   - theme: "light"
     heading: "Couples Therapy"
-    image: "../../assets/images/unsplash-image-apa843frizi-2.jpg"
-    image_alt: "Two pairs of hands clasped together on a white table, one person is wearing a black ring and the other a silver ring."
+    image: "../../assets/images/rtc-couples-therapy-440x229.png"
+    image_alt: "One partner speaks while the other partner and their therapist listen."
     body: |
       Therapy helps many couples improve communication, resolve conflicts, enhance intimacy, rebuild or strengthen trust, and adjust to major life changes. Our couple therapists have extensive experience and specialized training in effective treatments for couples, such as Emotionally Focused Couples Therapy, Integrative Behavioral Couple Therapy, and Enhanced Cognitive-Behavioral Couple Therapy.
 

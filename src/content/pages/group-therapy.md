@@ -4,8 +4,8 @@ description: "Explore group therapy services at Relational Therapy Collective, i
 sections:
   - theme: "light"
     heading: "Group Therapy/Life Skills Training"
-    image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
-    image_alt: "Multiple hands of different people stacked together in a show of unity and support."
+    image: "../../assets/images/rtc-group-therapy-split.jpg"
+    image_alt: "Adults talk in a therapy group on the left while children use feelings cards with a facilitator on the right."
     body: |
       Group therapy sessions available for clients throughout the Bellevue area and greater Seattle region as well as online options.
 
@@ -27,8 +27,8 @@ sections:
     heading: "Groups Offered"
     cards:
       - title: "Confidence in Relationships Group"
-        image: "../../assets/images/group-therapy-2.jpg"
-        image_alt: "Group of six diverse people sitting in a circle during a support or therapy session in a bright room."
+        image: "../../assets/images/rtc-confidence-group.jpg"
+        image_alt: "Five adults sit in a circle and listen as one person speaks."
         button:
           label: "Learn More"
           url: "/relational-group-for-adults"
