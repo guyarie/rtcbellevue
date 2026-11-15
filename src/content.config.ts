@@ -67,6 +67,9 @@ const section = (image: any) =>
         }),
       )
       .optional(),
+    // Card image shape: `photo` = 4:3, cropped to fill; `wide` = about 2:1, shows
+    // wide pictures (440×229) whole. All cards in a section share the shape.
+    card_images: z.enum(['photo', 'wide']).default('photo'),
     buttons: z.array(button).optional(),
     // A grid of clinicians, chosen by tag (or everyone with `all: true`).
     providers: z

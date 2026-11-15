@@ -266,6 +266,7 @@ img { max-width: 100%; height: auto; }
 .card > :not(.card__image) { margin-inline: 1.5rem; }
 .card > :first-child:not(.card__image) { margin-top: 1.5rem; }
 .card__image { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; margin-bottom: .4rem; }
+.card__image--wide { aspect-ratio: 440 / 229; }
 .card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
 .card:hover .card__image img { transform: scale(1.04); }
 .card h3 { font-size: 1.3rem; }
@@ -358,8 +359,14 @@ img { max-width: 100%; height: auto; }
 .section--intro > .container-x > .prose-rtc > p { text-align: center; }
 
 /* ---------- Hero (layout: hero) ---------- */
-.hero { position: relative; overflow: hidden; display: flex; align-items: center; min-height: min(82vh, 720px); }
-.hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+/* The whole picture shows, never cropped: the box is at least the picture's own
+   shape (--hero-ratio, set from the image). If the text needs more height, the
+   picture stays full-width at the bottom and its top fades into the page colour. */
+.hero { position: relative; display: flex; align-items: center; aspect-ratio: var(--hero-ratio, 2 / 1); }
+.hero__bg {
+  position: absolute; left: 0; bottom: 0; width: 100%; height: auto;
+  mask-image: linear-gradient(to bottom, transparent, #000 22%);
+}
 .hero::before {
   content: ''; position: absolute; inset: 0; z-index: 1;
   background: linear-gradient(90deg,
@@ -379,9 +386,9 @@ img { max-width: 100%; height: auto; }
 @media (prefers-reduced-motion: reduce) { .hero__content { animation: none; } }
 /* Phones: photo on top, text below on the page colour. */
 @media (max-width: 767px) {
-  .hero { display: block; min-height: 0; }
-  .hero__bg { position: relative; height: 260px; }
-  .hero::before { inset: auto 0 0 0; top: 180px; height: 80px; background: linear-gradient(to bottom, transparent, var(--color-bg)); }
+  .hero { display: block; aspect-ratio: auto; }
+  .hero__bg { position: relative; mask-image: none; }
+  .hero::before { display: none; }
   .hero__inner { padding-block: 1rem 3.5rem; background: var(--color-bg); }
 }
 

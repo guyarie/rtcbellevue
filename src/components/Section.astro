@@ -24,7 +24,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
 ---
 
 {hero ? (
-<section id={s.id} class:list={['hero', `section--${s.theme}`]}>
+<section id={s.id} class:list={['hero', `section--${s.theme}`]} style={`--hero-ratio: ${s.image.width} / ${s.image.height}`}>
   <Image class="hero__bg" src={s.image} alt={s.image_alt ?? ''} widths={[640, 1024, 1600, 2000]} sizes="100vw" {...eager} />
   <div class="container-x hero__inner">
     <div class="hero__content">
@@ -70,7 +70,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
       <Carousel label={s.heading}>
         {s.cards.map((c: any) => (
           <div class="card">
-            {c.image && <div class="card__image"><Image src={c.image} alt={c.image_alt ?? ''} width={440} /></div>}
+            {c.image && <div class:list={['card__image', `card__image--${s.card_images}`]}><Image src={c.image} alt={c.image_alt ?? ''} width={440} /></div>}
             <h3>{c.title}</h3>
             {c.body && <Markdown text={c.body} class="card__body" />}
             {c.button && <a class="btn btn--small" href={c.button.url}>{c.button.label}</a>}

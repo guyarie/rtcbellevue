@@ -4,6 +4,7 @@ description: "Explore specialized mental health services including individual, c
 sections:
   - theme: "light"
     heading: "Our Services"
+    card_images: "wide"
     cards:
       - title: "Individual Therapy"
         image: "../../assets/images/rtc-individual-therapy-440x229.png"
