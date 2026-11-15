@@ -31,6 +31,14 @@
   --color-focus: hsl(56.79 28.57% 38.43%);
   --color-placeholder: hsl(33 10% 80%);
   --shadow-header: 0 2px 6px hsl(29 30% 20% / 0.15);
+  --shadow-card: 0 1px 2px hsl(29 30% 20% / 0.06), 0 8px 24px -8px hsl(29 30% 20% / 0.18);
+  --shadow-card-hover: 0 2px 4px hsl(29 30% 20% / 0.08), 0 18px 36px -12px hsl(29 30% 20% / 0.28);
+  --color-status-yes-bg: hsl(80 25% 82%);
+  --color-status-yes-text: hsl(80 35% 22%);
+  --color-status-no-bg: hsl(29 15% 80%);
+  --color-status-no-text: hsl(29 25% 30%);
+  --color-chip-bg: hsl(33 30% 96% / 0.75);
+  --radius: 14px;
 }
 
 /* Dark tokens exist for a future redesign; nothing switches to them yet. */
@@ -54,6 +62,14 @@
   --color-focus: hsl(57 30% 60%);
   --color-placeholder: hsl(29 10% 25%);
   --shadow-header: 0 2px 6px hsl(0 0% 0% / 0.4);
+  --shadow-card: 0 1px 2px hsl(0 0% 0% / 0.3), 0 8px 24px -8px hsl(0 0% 0% / 0.5);
+  --shadow-card-hover: 0 2px 4px hsl(0 0% 0% / 0.35), 0 18px 36px -12px hsl(0 0% 0% / 0.6);
+  --color-status-yes-bg: hsl(80 20% 25%);
+  --color-status-yes-text: hsl(80 35% 85%);
+  --color-status-no-bg: hsl(29 10% 25%);
+  --color-status-no-text: hsl(29 15% 80%);
+  --color-chip-bg: hsl(29 20% 16% / 0.75);
+  --radius: 14px;
 }
 
 html {
@@ -93,11 +109,12 @@ img { max-width: 100%; height: auto; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: var(--color-header-bg);
+  background: color-mix(in srgb, var(--color-header-bg) 90%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
   box-shadow: var(--shadow-header);
 }
 .site-header__inner { @apply mx-auto flex items-center gap-6 px-5 md:px-10 py-3; max-width: 1500px; }
-.site-header__logo img { width: 92px; height: 92px; object-fit: contain; }
+.site-header__logo img { width: 76px; height: 76px; object-fit: contain; }
 .site-nav { @apply hidden lg:flex flex-wrap items-center gap-x-8 gap-y-1 flex-1; font-size: .95rem; }
 .site-nav a { text-decoration: none; }
 .site-nav a:hover, .site-nav a[aria-current='page'] { text-decoration: underline; }
@@ -138,9 +155,10 @@ img { max-width: 100%; height: auto; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; text-align: center;
   padding: .8rem 1.9rem; border-radius: 999px; font-size: .95rem; line-height: 1.3; text-decoration: none;
-  background: var(--color-button); color: var(--color-button-text); transition: background .15s;
+  background: var(--color-button); color: var(--color-button-text);
+  transition: background .2s, transform .2s, box-shadow .2s;
 }
-.btn:hover { background: var(--color-button-hover); }
+.btn:hover { background: var(--color-button-hover); transform: translateY(-1px); box-shadow: var(--shadow-card); }
 .btn--secondary { background: var(--color-button-2); color: var(--color-button-2-text); }
 .btn--secondary:hover { filter: brightness(.95); background: var(--color-button-2); }
 .btn--small { padding: .5rem 1.2rem; font-size: .85rem; }
@@ -167,7 +185,13 @@ img { max-width: 100%; height: auto; }
 .section--photo h1, .section--photo h2 { color: var(--color-button-text); }
 .section__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .section--photo::after { content: ''; position: absolute; inset: 0; background: hsl(29 48% 12% / 0.45); }
-.section__heading { text-align: center; margin-bottom: 2rem; font-style: italic; }
+.section__heading { text-align: center; margin-bottom: 2.5rem; font-style: italic; }
+.section__heading::after {
+  content: ''; display: block; width: 3.5rem; height: 2px; margin: 1rem auto 0;
+  background: var(--color-olive); opacity: .55; border-radius: 2px;
+}
+.section--photo .section__heading::after, .section--dark .section__heading::after { background: currentColor; }
+.section__image img { border-radius: var(--radius); box-shadow: var(--shadow-card); }
 .section__image { @apply mx-auto mb-8; max-width: 560px; }
 .section__image img { width: 100%; }
 .section__split { @apply grid gap-10 items-center md:grid-cols-2; }
@@ -186,8 +210,9 @@ img { max-width: 100%; height: auto; }
 .prose-rtc blockquote { border-left: 3px solid var(--color-border); padding-left: 1em; font-style: italic; }
 
 /* ---------- Accordion (<details>) ---------- */
-.accordion { max-width: 860px; margin: 2rem auto 0; border-top: 1px solid currentColor; }
-.accordion details { border-bottom: 1px solid currentColor; }
+.accordion { max-width: 860px; margin: 2rem auto 0; border-top: 1px solid var(--color-border); }
+.accordion details { border-bottom: 1px solid var(--color-border); }
+.accordion summary:hover { color: var(--color-olive); }
 .accordion summary {
   list-style: none; cursor: pointer; padding: 1.1rem 2.5rem 1.1rem 0; position: relative;
   @apply font-display; font-size: 1.15rem;
@@ -200,7 +225,7 @@ img { max-width: 100%; height: auto; }
 /* ---------- Carousel (cards, providers, gallery) ---------- */
 .carousel__track {
   display: grid; grid-auto-flow: column; gap: 1.5rem; overflow-x: auto; scroll-snap-type: x mandatory;
-  padding: .25rem .25rem 1rem; scrollbar-width: none;
+  padding: .5rem .5rem 1.75rem; scrollbar-width: none;
   grid-auto-columns: minmax(260px, 1fr);
 }
 @media (min-width: 768px) { .carousel__track { grid-auto-columns: calc((100% - 3rem) / 3); } }
@@ -208,18 +233,24 @@ img { max-width: 100%; height: auto; }
 .carousel__track > * { scroll-snap-align: start; }
 .carousel__nav { @apply flex justify-center gap-4 mt-4; }
 .carousel__nav button {
-  width: 46px; height: 46px; border-radius: 999px; border: 0; cursor: pointer;
-  background: var(--color-button); color: var(--color-button-text); opacity: .75; font-size: 1.3rem;
+  width: 44px; height: 44px; border-radius: 999px; cursor: pointer; font-size: 1.15rem;
+  background: transparent; color: var(--color-button); border: 1.5px solid var(--color-button);
+  transition: background .2s, color .2s;
 }
-.carousel__nav button:hover { opacity: 1; }
+.carousel__nav button:hover { background: var(--color-button); color: var(--color-button-text); }
 .grid-cards { @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3; }
 
 .card {
-  background: var(--color-card-on-plain); padding: 1.5rem; display: flex; flex-direction: column; align-items: center;
-  text-align: center; gap: .8rem;
+  background: var(--color-card-on-plain); padding: 0 0 1.5rem; display: flex; flex-direction: column; align-items: center;
+  text-align: center; gap: .8rem; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-card);
+  transition: transform .25s, box-shadow .25s;
 }
-.card__image { width: 100%; max-width: 220px; aspect-ratio: 1; border-radius: 999px; overflow: hidden; }
-.card__image img { width: 100%; height: 100%; object-fit: cover; }
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
+.card > :not(.card__image) { margin-inline: 1.5rem; }
+.card > :first-child:not(.card__image) { margin-top: 1.5rem; }
+.card__image { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; margin-bottom: .4rem; }
+.card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.card:hover .card__image img { transform: scale(1.04); }
 .card h3 { font-size: 1.3rem; }
 .card__body { font-size: .95rem; text-align: left; }
 .card .btn { margin-top: auto; }
@@ -227,18 +258,44 @@ img { max-width: 100%; height: auto; }
 /* ---------- Clinician cards ---------- */
 .provider-card {
   background: var(--color-card-on-plain); padding: 1.5rem; display: flex; flex-direction: column; gap: .6rem; font-size: .92rem;
+  border-radius: var(--radius); box-shadow: var(--shadow-card);
 }
-.provider-card__photo { aspect-ratio: 2 / 3; overflow: hidden; margin-bottom: .5rem; width: 70%; align-self: center; }
+.provider-card__photo { aspect-ratio: 4 / 5; overflow: hidden; margin-bottom: .5rem; width: 100%; border-radius: calc(var(--radius) - 4px); }
 .provider-card__photo img { width: 100%; height: 100%; object-fit: cover; }
 .provider-card h3 { font-size: 1.25rem; }
 .provider-card__role { text-transform: uppercase; letter-spacing: .04em; font-size: .8rem; }
-.provider-card__status { font-weight: 700; }
+.provider-card__label { font-weight: 700; }
+.provider-card h3 a { text-decoration: none; }
+.provider-card h3 a:hover { text-decoration: underline; }
+
+/* Accepting-new-clients pill */
+.status {
+  display: inline-block; align-self: flex-start; padding: .25rem .75rem; border-radius: 999px;
+  font-size: .8rem; font-weight: 700; line-height: 1.4;
+  background: var(--color-status-yes-bg); color: var(--color-status-yes-text);
+}
+.status--no { background: var(--color-status-no-bg); color: var(--color-status-no-text); }
+
+/* Compact team grid (home page) */
+.grid-team { @apply grid gap-x-6 gap-y-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-4; }
+.team-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: .3rem; text-decoration: none; }
+.team-card__photo {
+  display: block; width: 100%; aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--radius);
+  box-shadow: var(--shadow-card); margin-bottom: .7rem; transition: box-shadow .25s, transform .25s;
+}
+.team-card__photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.team-card:hover .team-card__photo { transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
+.team-card:hover .team-card__photo img { transform: scale(1.04); }
+.team-card__name { @apply font-display; font-size: 1.1rem; line-height: 1.3; color: var(--color-heading); }
+.team-card:hover .team-card__name { text-decoration: underline; }
+.team-card__creds { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--color-text-muted); }
+.team-card .status { align-self: center; margin-top: .3rem; font-size: .72rem; }
 .provider-card ul { list-style: disc; padding-left: 1.2rem; }
 .provider-card .btn { margin-top: auto; align-self: flex-start; }
 
 /* ---------- Clinician profile ---------- */
 .profile-head { @apply grid gap-10 md:grid-cols-[3fr_2fr] items-start; }
-.profile-photo { width: 100%; max-width: 320px; aspect-ratio: 1; border-radius: 999px; overflow: hidden; margin: 0 auto; }
+.profile-photo { width: 100%; max-width: 320px; aspect-ratio: 1; border-radius: 999px; overflow: hidden; margin: 0 auto; box-shadow: var(--shadow-card); }
 .profile-photo img { width: 100%; height: 100%; object-fit: cover; }
 .profile-areas { list-style: disc; padding-left: 1.3rem; }
 .insurance-logos { @apply flex flex-wrap items-center justify-center gap-6 mt-6; }
@@ -247,7 +304,7 @@ img { max-width: 100%; height: auto; }
 /* ---------- Gallery ---------- */
 .gallery .carousel__track { grid-auto-columns: 85%; }
 @media (min-width: 768px) { .gallery .carousel__track { grid-auto-columns: 60%; } }
-.gallery figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.gallery figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow-card); }
 .gallery figcaption { text-align: center; font-size: .9rem; margin-top: .4rem; }
 
 /* ---------- Form ---------- */
@@ -271,14 +328,56 @@ img { max-width: 100%; height: auto; }
 /* ---------- Footer ---------- */
 .site-footer { background: var(--color-light); padding: 4rem 0 2rem; }
 .site-footer__grid { @apply grid gap-10 md:grid-cols-2 items-center; }
-.site-footer__map img { width: 100%; }
+.site-footer__map img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-card); }
 .site-footer a { text-decoration: underline; }
 .site-footer__legal { margin-top: 3rem; text-align: center; font-size: .8rem; color: var(--color-text-muted); }
 
 /* ---------- Blog ---------- */
 .post-list { @apply grid gap-10 md:grid-cols-2; }
-.post-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin-bottom: 1rem; }
+.post-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin-bottom: 1rem; border-radius: var(--radius); }
 .post-meta { font-size: .85rem; color: var(--color-text-muted); }
 
 /* Page intros (first section, stacked) are centred, as on the old site. */
 .section--intro > .container-x > .prose-rtc > p { text-align: center; }
+
+/* ---------- Hero (layout: hero) ---------- */
+.hero { position: relative; overflow: hidden; display: flex; align-items: center; min-height: min(82vh, 720px); }
+.hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+.hero::before {
+  content: ''; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(90deg,
+    var(--color-bg) 0%,
+    color-mix(in srgb, var(--color-bg) 92%, transparent) 38%,
+    color-mix(in srgb, var(--color-bg) 35%, transparent) 62%,
+    transparent 80%);
+}
+.hero__inner { position: relative; z-index: 2; width: 100%; padding-block: 4rem; }
+.hero__content { max-width: 560px; animation: hero-in .9s ease-out both; }
+.hero__heading { font-size: clamp(2.2rem, 4.6vw, 3.4rem); line-height: 1.12; font-style: italic; margin-bottom: 1.4rem; }
+.hero__body > * + * { margin-top: .9em; }
+.hero__body p { color: var(--color-text-muted); }
+.hero__body p:first-child { font-size: 1.15rem; line-height: 1.55; color: var(--color-text); }
+.hero .btn-row { justify-content: flex-start; margin-top: 2rem; }
+@keyframes hero-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .hero__content { animation: none; } }
+/* Phones: photo on top, text below on the page colour. */
+@media (max-width: 767px) {
+  .hero { display: block; min-height: 0; }
+  .hero__bg { position: relative; height: 260px; }
+  .hero::before { inset: auto 0 0 0; top: 180px; height: 80px; background: linear-gradient(to bottom, transparent, var(--color-bg)); }
+  .hero__inner { padding-block: 1rem 3.5rem; background: var(--color-bg); }
+}
+
+/* Short facts shown as chips (`highlights`) */
+.highlights { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.75rem; }
+.highlights--center { justify-content: center; }
+.highlights li {
+  display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .85rem; border-radius: 999px;
+  font-size: .82rem; background: var(--color-chip-bg); border: 1px solid var(--color-border);
+}
+.highlights li::before { content: ''; width: .4rem; height: .4rem; border-radius: 999px; background: var(--color-olive); }
+
+/* "About Me" on clinician cards: outlined, so it shows on either card colour. */
+.provider-card .btn--secondary,
+.section--bright .provider-card .btn--secondary { background: transparent; border: 1.5px solid var(--color-button); color: var(--color-button); }
+.provider-card .btn--secondary:hover { background: var(--color-button); color: var(--color-button-text); filter: none; }

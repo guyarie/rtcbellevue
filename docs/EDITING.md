@@ -54,8 +54,11 @@ If the profile URL was public, also add a redirect in `deploy/nginx-redirects.co
 ## Pages
 
 A page is a list of `sections`, rendered top to bottom. Each section can have:
-`theme` (white | light | bright), `heading`, `image` + `image_alt`, `body` (Markdown),
+`theme` (white | light | bright | dark), `layout` (stack | image-left | image-right | background | hero),
+`heading`, `image` + `image_alt`, `body` (Markdown), `highlights` (short facts shown as chips),
 `accordion`, `cards`, `buttons`, `providers`, `gallery`, `video`, `embed`, `form`.
+`layout: hero` is the full-width photo banner at the top of the home page — use a wide, calm photo.
+`providers` grids take `card: full` (default), `summary` (role + blurb) or `compact` (photo + name + status).
 Example:
 ```yaml
 sections:

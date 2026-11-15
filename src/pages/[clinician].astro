@@ -40,7 +40,7 @@ const description = d.summary ?? d.intro.replace(/[*_#\[\]()]/g, '').slice(0, 15
         <div class="profile-photo">
           <Image src={d.profile_photo ?? d.photo} alt={(d.profile_photo ? d.profile_photo_alt : d.photo_alt) ?? ''} width={640} loading="eager" />
         </div>
-        <p class="mt-6 font-bold">{d.accepting_text}</p>
+        <p class:list={["mt-6 status", `status--${d.accepting}`]}>{d.accepting_text}</p>
         {d.hours && <Markdown text={d.hours} class="prose-rtc mt-4" />}
       </div>
     </div>

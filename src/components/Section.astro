@@ -15,6 +15,7 @@ import { getClinicians } from '../lib/site';
 export interface Props { section: any; first?: boolean; prevTheme?: string }
 const { section: s, first = false, prevTheme } = Astro.props;
 const providers = s.providers ? await getClinicians(s.providers) : [];
+const hero = s.image && s.layout === 'hero';
 const background = s.image && s.layout === 'background';
 const split = s.image && (s.layout === 'image-left' || s.layout === 'image-right');
 const HeadingTag = first ? 'h1' : 'h2';
@@ -22,6 +23,19 @@ const HeadingTag = first ? 'h1' : 'h2';
 const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {};
 ---
 
+{hero ? (
+<section id={s.id} class:list={['hero', `section--${s.theme}`]}>
+  <Image class="hero__bg" src={s.image} alt={s.image_alt ?? ''} width={2000} {...eager} />
+  <div class="container-x hero__inner">
+    <div class="hero__content">
+      {s.heading && <HeadingTag class="hero__heading">{s.heading}</HeadingTag>}
+      <Markdown text={s.body} class="hero__body" />
+      <Buttons buttons={s.buttons} />
+      {s.highlights && <ul class="highlights">{s.highlights.map((h: string) => <li>{h}</li>)}</ul>}
+    </div>
+  </div>
+</section>
+) : (
 <section id={s.id} class:list={['section', `section--${s.theme}`, first && 'section--intro', background && 'section--photo', prevTheme && prevTheme !== s.theme && s.theme !== 'white' && 'section--wave']}>
   {background && <Image class="section__bg" src={s.image} alt={s.image_alt ?? ''} width={1920} {...eager} />}
   <div class="container-x">
@@ -38,6 +52,8 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
         <Markdown text={s.body} />
       </>
     )}
+
+    {s.highlights && <ul class="highlights highlights--center">{s.highlights.map((h: string) => <li>{h}</li>)}</ul>}
 
     {s.accordion && (
       <div class="accordion">
@@ -64,7 +80,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     )}
 
     {providers.length > 0 && (
-      <div class="grid-cards mt-8">
+      <div class:list={['mt-8', s.providers.card === 'compact' ? 'grid-team' : 'grid-cards']}>
         {providers.map((c) => <ProviderCard clinician={c} variant={s.providers.card} />)}
       </div>
     )}
@@ -84,3 +100,4 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     {s.form && <div class="mt-8"><ContactForm /></div>}
   </div>
 </section>
+)}

@@ -48,11 +48,13 @@ const section = (image: any) =>
     id: z.string().optional(), // anchor (#id)
     theme,
     // `background` = the image fills the section behind the text (light text on a dark tint).
-    layout: z.enum(['stack', 'image-left', 'image-right', 'background']).default('stack'),
+    // `hero` = full-width photo banner; text sits on the left over a soft fade (home page top).
+    layout: z.enum(['stack', 'image-left', 'image-right', 'background', 'hero']).default('stack'),
     heading: z.string().optional(),
     image: image.optional(),
     image_alt: z.string().optional(),
     body: z.string().optional(), // Markdown
+    highlights: z.array(z.string()).optional(), // short facts shown as a row of chips
     accordion: z.array(z.object({ title: z.string(), body: z.string() })).optional(),
     cards: z
       .array(
@@ -72,8 +74,9 @@ const section = (image: any) =>
         service: z.enum(SERVICES).optional(),
         focus: z.enum(FOCUS).optional(),
         all: z.boolean().optional(),
-        // `full` = focus-area list card (team page); `summary` = role + blurb.
-        card: z.enum(['full', 'summary']).default('full'),
+        // `full` = focus-area list card (team page); `summary` = role + blurb;
+        // `compact` = photo, name and status only (home page).
+        card: z.enum(['full', 'summary', 'compact']).default('full'),
       })
       .optional(),
     gallery: z.array(z.object({ image, alt: z.string() })).optional(),

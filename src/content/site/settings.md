@@ -21,10 +21,10 @@ nav:
     children:
       - { label: Intro, url: /services }
       - { label: Individual Therapy, url: /individual-therapy }
+      - { label: Group Therapy/Life Skills, url: /group-therapy }
       - { label: Couples Therapy, url: /couples-therapy }
       - { label: Family Therapy, url: /family-therapy }
       - { label: Parent Coaching/Consultation, url: /parent-coaching-consultation }
-      - { label: Group Therapy/Life Skills, url: /group-therapy }
       - { label: Medication Management, url: /med-management }
       - { label: Collaborative Care, url: /collaborative-care }
   - label: Areas of Focus

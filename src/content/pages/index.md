@@ -3,28 +3,30 @@ title: "Relational Therapy Collective | Therapists in Bellevue, WA"
 description: "Relational Therapy Collective is a diverse group of licensed therapists in Bellevue, WA offering individual therapy, couples counseling, family therapy, EMDR, group therapy, and psychiatric medication management. Serving the Eastside including Redmond, Kirkland, Sammamish, and Mercer Island. Multilingual services available in English, Hebrew, Tagalog, Spanish, and more."
 sections:
   - theme: "light"
-    layout: "image-right"
+    layout: "hero"
     heading: "Welcome to Relational Therapy Collective"
-    image: "../../assets/images/waiting-room.png"
+    image: "../../assets/images/room-6-original.png"
+    image_alt: "A sunlit therapy room with an armchair and a floor lamp beside large windows looking out onto tall evergreen trees."
     body: |
-      **_At RTC, we believe that meaningful change happens in connection—connection with ourselves, our loved ones, with the people in our lives, and the people who support us._**
+      At RTC, we believe that meaningful change happens in connection—connection with ourselves, our loved ones, with the people in our lives, and the people who support us.
 
-      _Based in Bellevue, we serve clients across the Eastside and greater Seattle area. Our diverse team of therapists, psychologists, coaches, and a psychiatric nurse practitioner share a commitment to providing compassionate, evidence-based, relational care._
+      Based in Bellevue, we serve clients across the Eastside and greater Seattle area. Our diverse team of therapists, psychologists, coaches, and a psychiatric nurse practitioner share a commitment to providing compassionate, evidence-based, relational care.
 
-      _Whether you're seeking support for yourself, your relationship, or your family, you'll be met with warmth, authenticity, and expert guidance._
+      Whether you're seeking support for yourself, your relationship, or your family, you'll be met with warmth, authenticity, and expert guidance.
     buttons:
-      - label: "Learn More"
+      - label: "Let's get started"
+        url: "/contact-us"
+      - label: "Explore our services"
         url: "/services"
+        style: "secondary"
+    highlights:
+      - "In-person in Bellevue"
+      - "Telehealth across Washington"
+      - "Children, teens & adults"
+      - "Multilingual team"
   - theme: "bright"
     heading: "Our Services"
     cards:
-      - title: "Collaborative Care for Familes with Complex Needs"
-        image: "../../assets/images/unsplash-image-zt5v0pubjzi.jpg"
-        image_alt: "Group of five diverse people sitting around a conference table with laptops in a modern office, engaged in a meeting and smiling."
-        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs."
-        button:
-          label: "Learn More"
-          url: "/collaborative-care"
       - title: "Individual Therapy"
         image: "../../assets/images/individual-therapy.webp"
         image_alt: "A young woman with curly hair talking to a female therapist in a clinic, sitting on a light blue sofa near a potted plant."
@@ -32,6 +34,13 @@ sections:
         button:
           label: "Learn More"
           url: "/individual-therapy"
+      - title: "Group Therapy/Skills Training"
+        image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
+        image_alt: "Multiple people stacking their hands together, showing diversity in skin tones and wearing different colored sweaters and jewelry."
+        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with other and learn, practice and grow using the group itself as part of the learning/healing process."
+        button:
+          label: "Learn More"
+          url: "/group-therapy"
       - title: "Couples Therapy"
         image: "../../assets/images/unsplash-image-apa843frizi.webp"
         image_alt: "Two people holding hands on a white table, one wearing a black ring and the other a silver ring, with dark and light-colored sleeves."
@@ -57,13 +66,6 @@ sections:
         image: "../../assets/images/unsplash-image-r2njpbeyusq.jpg"
         image_alt: "Person with short hair wearing a light denim jacket, arms outstretched, enjoying sunset by rocky shoreline."
         body: "Life coaching supports clients in building clarity, confidence, and direction in their personal and professional lives. Sessions are goal-oriented, collaborative, and tailored to each individual’s strengths and values."
-      - title: "Group Therapy/Skills Training"
-        image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
-        image_alt: "Multiple people stacking their hands together, showing diversity in skin tones and wearing different colored sweaters and jewelry."
-        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with other and learn, practice and grow using the group itself as part of the learning/healing process."
-        button:
-          label: "Learn More"
-          url: "/group-therapy"
       - title: "Medication Management"
         image: "../../assets/images/unsplash-image-nr2c9avzfhy.jpg"
         image_alt: "A female doctor in a white coat talking to a woman with shoulder-length brown hair wearing a red, gray, and white striped sweater, in a medical office."
@@ -71,6 +73,13 @@ sections:
         button:
           label: "Learn More"
           url: "/med-management"
+      - title: "Collaborative Care for Familes with Complex Needs"
+        image: "../../assets/images/unsplash-image-zt5v0pubjzi.jpg"
+        image_alt: "Group of five diverse people sitting around a conference table with laptops in a modern office, engaged in a meeting and smiling."
+        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs."
+        button:
+          label: "Learn More"
+          url: "/collaborative-care"
     buttons:
       - label: "Let's get started"
         url: "/contact-us"
@@ -123,10 +132,14 @@ sections:
   - theme: "bright"
     heading: "Meet the Team"
     buttons:
+      - label: "Meet the whole team"
+        url: "/intro-1"
       - label: "Contact us"
         url: "/contact-us"
+        style: "secondary"
     providers:
       all: true
+      card: compact
   - theme: "light"
     heading: "Frequently Asked Questions"
     accordion:
@@ -161,8 +174,8 @@ sections:
       - { image: "../../assets/images/office-building-f.webp", alt: "Building F" }
   - theme: "light"
     heading: "Let’s Get Started."
-    image: "../../assets/images/room-6-original.png"
-    image_alt: "A cozy reading nook with large windows overlooking green trees, featuring a beige armchair, a tall white floor lamp, a round side table with a potted plant, and decorative objects."
+    image: "../../assets/images/room-5.jpg"
+    image_alt: "A therapy room with an armchair, an oval coffee table, a seascape painting and a large window looking onto evergreen trees."
     body: |
       Send us your contact email and a brief summary of what services you are seeking.
 
