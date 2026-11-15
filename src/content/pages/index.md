@@ -4,7 +4,7 @@ description: "Relational Therapy Collective is a diverse group of licensed thera
 sections:
   - theme: "light"
     layout: "hero"
-    heading: "Welcome to Relational Therapy Collective"
+    heading: "Welcome to the Relational Therapy Collective"
     image: "../../assets/images/illustration-hero-lakeside.webp"
     image_alt: "Illustration of two people sitting together on a bench by a lake, with evergreen trees and soft mountains beyond."
     body: |

@@ -25,7 +25,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
 
 {hero ? (
 <section id={s.id} class:list={['hero', `section--${s.theme}`]}>
-  <Image class="hero__bg" src={s.image} alt={s.image_alt ?? ''} width={2000} {...eager} />
+  <Image class="hero__bg" src={s.image} alt={s.image_alt ?? ''} widths={[640, 1024, 1600, 2000]} sizes="100vw" {...eager} />
   <div class="container-x hero__inner">
     <div class="hero__content">
       {s.heading && <HeadingTag class="hero__heading">{s.heading}</HeadingTag>}
@@ -37,7 +37,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
 </section>
 ) : (
 <section id={s.id} class:list={['section', `section--${s.theme}`, first && 'section--intro', background && 'section--photo', prevTheme && prevTheme !== s.theme && s.theme !== 'white' && 'section--wave']}>
-  {background && <Image class="section__bg" src={s.image} alt={s.image_alt ?? ''} width={1920} {...eager} />}
+  {background && <Image class="section__bg" src={s.image} alt={s.image_alt ?? ''} widths={[640, 1024, 1600, 1920]} sizes="100vw" {...eager} />}
   <div class="container-x">
     {s.heading && <HeadingTag class="section__heading">{s.heading}</HeadingTag>}
 
@@ -90,7 +90,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     {s.gallery && (
       <Carousel class="gallery mt-8" label={s.heading}>
         {s.gallery.map((g: any) => (
-          <figure><Image src={g.image} alt={g.alt} width={1200} />{g.caption && <figcaption>{g.caption}</figcaption>}</figure>
+          <figure><Image src={g.image} alt={g.alt} widths={[480, 800, 1200]} sizes="(min-width: 768px) min(60vw, 680px), 85vw" />{g.caption && <figcaption>{g.caption}</figcaption>}</figure>
         ))}
       </Carousel>
     )}
