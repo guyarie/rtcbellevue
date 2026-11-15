@@ -14,7 +14,7 @@ room_photo_alt: Michal Goldring Keidar's therapy office
 
 accepting: "yes"
 accepting_text: Accepting new clients
-clients: In-person & Telehealth services for clients (teens, adults, parents, couples)
+clients: Telehealth services for clients (teens, adults, parents, couples)
 languages:
   - Hebrew
 
@@ -68,8 +68,7 @@ buttons:
     url: mailto:Michalgkeidar@gmail.com?subject=RTC%20Inquiry
     style: primary
 hours: |
-  In-person: Not at this time  
-  Telehealth: Monday-Thursday
+  Telehealth only: Monday-Thursday
 
 fees: |
   Michal works as an out-of-network provider and accepts payment at the time of each session.

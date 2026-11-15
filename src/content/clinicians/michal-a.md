@@ -32,7 +32,7 @@ focus:
   - relational
   - trauma
 
-summary: "Michal Alpert is a Licensed Independent Clinical Social Worker who provides client-centered psychotherapy for clients diagnosed with, but not limited to Anxiety, Depression, Grief, Trauma, Prenatal and Postnatal Support, and Cultural iIsues."
+summary: "Michal Alpert is a Licensed Independent Clinical Social Worker who provides client-centered psychotherapy for clients diagnosed with, but not limited to Anxiety, Depression, Grief, Trauma, Prenatal and Postnatal Support, and Cultural Issues."
 card_areas:
   - Anxiety
   - Depression
@@ -61,6 +61,8 @@ buttons:
   - label: To Schedule
     url: mailto:michal@michellealpertcounseling.com
     style: primary
+new_clients: |
+  Michal prefers to be contacted by email.
 hours: |
   **In-person**: Tuesdays, Thursdays  
   **Telehealth**:

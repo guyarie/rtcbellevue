@@ -47,7 +47,7 @@ areas:
   - Parent Coaching & Family Work
   - Couples (Parenting Focus)
 intro: |
-  Lilach Geppert-Shapira holds a Master’s Degree in psychology and is a Certified Life Coach. Lilach works with parents, children, and teens to strengthen emotional well-being and relationships. She believes that mental health and meaningful change develop in relationships, and that understanding must come before intervention. Communication is a central pathway in her work, both as a tool for healing and for building clarity, safety, and connection within families. She has been working with parents and kids in groups and individually for the past 15 years as a parent coach, social skills and executive functioning group facilitator. She provides evidence-based skills such as CBT (Cognitive Behavioral Therapy), ACT (Acceptance and Commitment Therapy), DBT (Dialectical Behavioral Therapy) and EFT (Emotionally Focused Therapy).
+  Lilach Geppert-Shapira holds a Master’s Degree in psychology and is a Certified Life Coach. Lilach works with parents, children, and teens to strengthen emotional well-being and relationships. She believes that mental health and meaningful change develop in relationships, and that understanding must come before intervention. Communication is a central pathway in her work, both as a tool for healing and for building clarity, safety, and connection within families. She has been working with parents and kids in groups and individually for over 20 years as a parent coach, social skills and executive functioning group facilitator. She provides evidence-based skills such as CBT (Cognitive Behavioral Therapy), ACT (Acceptance and Commitment Therapy), DBT (Dialectical Behavioral Therapy) and EFT (Emotionally Focused Therapy).
 
 buttons:
   - label: To Schedule
@@ -97,13 +97,13 @@ insurance: []
 
 **_I see clients of all ages._**
 
-_I work with kids, teens and adult in addition to parent coaching and family coaching. When working with children, I use a combination of life coaching, CBT and ACT. We’re setting goals, and working toward achieving them, recognizing, and accepting feelings or thoughts, and learning how to deal with them._
+_I work with kids, teens and adults in addition to parent coaching and family coaching. When working with children, I use a combination of life coaching, CBT and ACT. We’re setting goals, and working toward achieving them, recognizing, and accepting feelings or thoughts, and learning how to deal with them._
 
 _I love working with parents on their goals as individuals, as a couple and as the family leaders, setting shared family values, boundaries and improving communication_
 
 **_My approach is relational and holistic._**
 
-_My approach is relational and holistic. Seeing the bigger picture is a necessary step in my approach toward developing an understanding of your needs. Out of that shared understanding we will be working together to find the tools that would work for your unique circumstances and needs. There is no "one fit all" solution._
+_My approach is relational and holistic. Seeing the bigger picture is a necessary step in my approach toward developing an understanding of your needs. Out of that shared understanding we will be working together to find the tools that would work for your unique circumstances and needs. There is no "one size fits all" solution._
 
 _My Coaching and guidance represents an integrative approach. It is informed by evidence-based methods:_
 
@@ -111,11 +111,11 @@ _My Coaching and guidance represents an integrative approach. It is informed by 
 
 It is _a psycho-social intervention that aims to improve mental health. CBT focuses on making change and changing thoughts and behaviors, improving emotional regulation, and the development of personal coping strategies that target solving current problems._
 
-### ACT-Acceptance Commitment Therapy
+### ACT-Acceptance and Commitment Therapy
 
 _It is a branch of clinical behavior analysis. It is an empirically based psychological intervention that uses acceptance and mindfulness strategies mixed in different ways with commitment and behavior-change strategies, to increase flexibility and find gentle solutions to stress and anxiety._
 
-### EFT-Emotional Focused Therapy
+### EFT-Emotionally Focused Therapy
 
 _It is applied when working with individuals, couples, and families. It includes elements of experiential therapy, systemic therapy, and attachment theory. EFT is based on the premise that emotions are key to identity. According to EFT, emotions are also a guide for individual choice and decision making. This type of therapy assumes that lacking emotional awareness or avoiding unpleasant emotions can cause harm. EFT is usually a short-term intervention._
 

@@ -2,7 +2,7 @@
 name: Limor Raviv
 credentials: LMHCA
 order: 7
-role: "Individual, child and family therapist"
+role: "Individual and child therapist"
 license: MC61474513
 
 photo: ../../assets/images/limor-3.jpg
@@ -14,7 +14,7 @@ room_photo_alt: An office room with a black leather sofa, a white armchair, and 
 
 accepting: "yes"
 accepting_text: Accepting new clients
-clients: In-person & Telehealth services for clients (children, teens, adults, parents, families, groups)
+clients: In-person & Telehealth services for clients (children, teens, adults, parents, groups)
 languages:
   - Hebrew
 
@@ -34,7 +34,7 @@ focus:
   - relational
 
 summary: |
-  Limor is a Licensed Mental Health Counselor Associate who provides psychotherapy for clients diagnosed, but not limited to Anxiety, Behavioral and Self-Regulation challenges, Social Difficulties, and ADHD.
+  Limor is a Licensed Mental Health Counselor Associate who provides psychotherapy for clients diagnosed with, but not limited to Anxiety, Behavioral and Self-Regulation challenges, Social Difficulties, and ADHD.
 card_areas:
   - Anxiety and stress management
   - Self-regulation and emotional control

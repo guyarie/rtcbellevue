@@ -13,8 +13,8 @@ room_photo: ../../assets/images/pxl-20260302-161550216.jpg
 room_photo_alt: A cozy living room with large windows overlooking trees, furnished with a gray armchair with decorative pillows, a black round side table, a beige chair, a bookcase filled with books and decorative items, and a colorful hot air balloon decoration hanging from the ceiling.
 
 accepting: limited
-accepting_text: Accepting adult clients at this time
-clients: In-person & telehealth services for clients (children-0+, adults, families, groups)
+accepting_text: Accepting new adult clients for individual and group therapy
+clients: In-person & telehealth services for new clients (adults, adult groups)
 languages:
   - Hebrew
 
@@ -34,7 +34,7 @@ focus:
   - selective-mutism
   - trauma
 
-summary: "Dr. Miri Arie is a licensed clinical psychologist specializes in working with adults presenting with anxiety, relational difficulties, and life transitions, offering both individual and adult group psychotherapy. She also works with children, adolescents, and parents, with a focus on anxiety, emotional regulation, attachment, and early childhood trauma. Her work is relational, evidence-based, and trauma-informed."
+summary: "Dr. Miri Arie is a licensed clinical psychologist who specializes in working with adults presenting with anxiety, relational difficulties, and life transitions, offering both individual and adult group psychotherapy. She also works with children, adolescents, and parents, with a focus on anxiety, emotional regulation, attachment, and early childhood trauma. Her work is relational, evidence-based, and trauma-informed."
 card_areas:
   - Group Therapy
   - Anxiety
@@ -77,7 +77,7 @@ hours: |
 fees: |
   Dr. Arie works as an out-of-network provider and accepts payment at the time of each session.
 
-  If you plan to use your out-of-network benefits, She will be happy to provide a superbill (an insurance receipt) that you can submit to your insurance company for possible reimbursement.  
+  If you plan to use your out-of-network benefits, she will be happy to provide a superbill (an insurance receipt) that you can submit to your insurance company for possible reimbursement.  
   Please check with your insurance provider in advance to confirm your mental health coverage and reimbursement options.
 
   Reduced fees are available for those in disadvantaged circumstances. Please contact Dr. Arie for details.

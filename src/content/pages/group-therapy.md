@@ -1,6 +1,6 @@
 ---
 title: "Group Therapy | Join a Supportive Group Today"
-description: "Explore group therapy services at Relational Therapy Collective, including skills groups, relational groups for therapists, and support for adults and children seeking personal growth."
+description: "Explore group therapy services at Relational Therapy Collective, including skills groups, a process group for therapists, and support for adults and children seeking personal growth."
 sections:
   - theme: "light"
     heading: "Group Therapy/Life Skills Training"
@@ -26,7 +26,7 @@ sections:
   - theme: "bright"
     heading: "Groups Offered"
     cards:
-      - title: "Group Therapy for Adults"
+      - title: "Confidence in Relationships Group"
         image: "../../assets/images/group-therapy-2.jpg"
         image_alt: "Group of six diverse people sitting in a circle during a support or therapy session in a bright room."
         button:
@@ -38,7 +38,7 @@ sections:
         button:
           label: "Learn More"
           url: "/groups-for-kids"
-      - title: "Relational Groups for Therapists"
+      - title: "Process Group for Therapists"
         image: "../../assets/images/unsplash-image-1gesaeuv5du.jpg"
         image_alt: "Four people sitting in a circle talking in a bright, modern room with large windows."
         button:

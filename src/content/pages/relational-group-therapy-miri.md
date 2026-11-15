@@ -19,14 +19,14 @@ sections:
   - theme: bright
     heading: "Groups Offered"
     cards:
-      - title: "Relational Groups for Adults"
+      - title: "Confidence in Relationships Group"
         image: ../../assets/images/pic-group.png
         image_alt: "Five diverse young adults sitting in a circle, engaging in a discussion in a bright, plant-filled room with wooden floors and large windows."
         button: { label: "Learn More", url: /relational-group-for-adults }
-      - title: "Relational Groups for Therapists"
+      - title: "Process Group for Therapists"
         image: ../../assets/images/unsplash-image-1gesaeuv5du.jpg
         image_alt: "Five people sitting in a circle having a discussion in a bright room with large windows."
-        button: { label: "Learn More", url: /relational-therapy-group-for-therapists }
+        button: { label: "Learn More", url: /tpg-general }
   - theme: white
     video: "https://www.youtube.com/embed/BtzDlh3k19Y?feature=oembed"
   - theme: white

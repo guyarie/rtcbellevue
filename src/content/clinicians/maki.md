@@ -32,7 +32,7 @@ focus:
   - trauma
 
 summary: |
-  Maki Park is a Licensed Mental Health Counselor Associate who provides psychotherapy with clients struggling with, but not limited to teens and adults who are navigating identity issues, cultural pressures, life transitions, and relational challenges.
+  Maki Park is a Licensed Mental Health Counselor who provides psychotherapy with clients struggling with, but not limited to teens and adults who are navigating identity issues, cultural pressures, life transitions, and relational challenges.
 card_areas:
   - Anxiety
   - Life Transitions

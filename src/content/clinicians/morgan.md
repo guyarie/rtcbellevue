@@ -19,7 +19,6 @@ email: info@havenfamilyconsulting.com
 phone: "4256108257"
 
 services:
-  - individual-therapy
   - parent-coaching
   - collaborative-care
 focus:
@@ -42,7 +41,7 @@ areas:
   - Early childhood program & educators looking to understand children’s behavior and foster connection in classrooms and care settings.
   - Parents and programs seeking guidance and practical strategies grounded in compassion and evidence.
 intro: |
-  Morgan has 10+ years of experience supporting infants, toddlers, and families through challenges related to behavior, emotional regulations, attachment stress, and family communication. She specializes in behind helping parents interpret the meaning behind children’s behavior and strengthen connection in the home through practical, evidence-infromed guidance.
+  Morgan has 10+ years of experience supporting infants, toddlers, and families through challenges related to behavior, emotional regulation, attachment stress, and family communication. She specializes in helping parents interpret the meaning behind children’s behavior and strengthen connection in the home through practical, evidence-informed guidance.
 
 buttons:
   - label: My Website
@@ -73,7 +72,7 @@ _My approach is grounded in compassion, understanding, and evidence-based princi
 
 _I’m Morgan Coburn, M.Ed, an early childhood and family development specialist with over a decade supporting young children and their families in homes, classrooms, and now as a consultant. I help parents make sense of behavior, build calmer routines, and feel confident in their approach to parenting. My work is trauma-informed, grounded in developmental science and attachment theory, but at its core, it’s personal and relationship-driven._
 
-_When I'm not working, you can usually find me at home on my homestead surrounded by my animals: two dogs, two goats, and several chickens. I spend my free time reading, playing piano, or being outside in nature. I love mushroom hunting, sun bathing, and watching the bees work hard on on the flowers on my property. I believe life is meant to be enjoyed and it is possible for everyone to have a life they enjoy. That's why I started Haven Family Consulting -- to bring joy back to parenting and caregiving._
+_When I'm not working, you can usually find me at home on my homestead surrounded by my animals: two dogs, two goats, and several chickens. I spend my free time reading, playing piano, or being outside in nature. I love mushroom hunting, sunbathing, and watching the bees work hard on the flowers on my property. I believe life is meant to be enjoyed and it is possible for everyone to have a life they enjoy. That's why I started Haven Family Consulting -- to bring joy back to parenting and caregiving._
 
 **Education and Professional Development**
 

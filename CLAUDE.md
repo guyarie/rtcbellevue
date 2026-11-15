@@ -12,7 +12,8 @@ Goal #1 is to **get off Squarespace** with a faithful rebuild. A redesign comes 
 - Repo: `guyarie/rtcbellevue` (private — self-hosted runner). Plausible: `data-domain="rtcbellevue.com"` on analytics.16jets.com.
 - Contact form emails therapy@ via FormSubmit — needs the one-time activation click in that inbox after the first live submission.
 - DNS is on Cloudflare (RTC's account, records unchanged — site still served by Squarespace). eli is set up (nginx, runner, tunnel); preview at https://preview.rtcbellevue.com. Details + go-live steps: `docs/DEPLOY.md`.
-- Not done yet: owner review/sign-off, go-live switch in Cloudflare (needs explicit OK).
+- Owner Q&A doc ("RTC Website — Questions for the Owners", Google Drive) answered and applied 2026-11-14; dropped pages are redirected in `deploy/nginx-redirects.conf`. Still open: Galit/Jeffrey accepting status and Brave Voice fees/dates (left blank by owners).
+- Not done yet: owner sign-off, go-live switch in Cloudflare (needs explicit OK).
 
 ## Where things are
 - Content: `src/content/` — `clinicians/` (one file per person, single source of truth), `pages/` (generic section-based pages, filename = old URL slug), `posts/`, `insurers/`, `site/` (settings, contact form, UI labels). Schemas + allowed tags: `src/content.config.ts`.

@@ -1,6 +1,6 @@
 ---
 name: Jessica Lazaro
-credentials: PsyD
+credentials: PsyD, LMHC
 order: 5
 license: LH.60889640
 
@@ -70,7 +70,7 @@ fees: |
   Jessica works as an out-of-network provider and accepts payment at the time of each session.
 
   If you plan to use your out-of-network benefits, Jessica will be happy to provide a superbill (an insurance receipt) that you can submit to your insurance company for possible reimbursement.  
-  Please check with your insurance provider in advance to confirm your mental health coverage and reimbursement options
+  Please check with your insurance provider in advance to confirm your mental health coverage and reimbursement options.
 insurance: []
 ---
 
@@ -82,7 +82,7 @@ Jessica provides online and in-person appointments. She draws from multiple theo
 
 ## About Jessica
 
-Jessica received her Bachelor of Art’s degree in Human Services from Western Washington University. She earned her Master of Art’s degree from Antioch University Seattle in 2014. Additionally, she has a Doctorate in Clinical Psychology (PsyD) from the same institution, where she completed a dissertation on mindfulness and parenting stress. Dr. Lazaro’s training has a strong social justice focus, and she welcomes clients from all backgrounds and identities in her practice. She enjoys being part of a holistic treatment team and is open to working collaboratively with other providers.
+Jessica received her Bachelor of Arts degree in Human Services from Western Washington University. She earned her Master of Arts degree from Antioch University Seattle in 2014. Additionally, she has a Doctorate in Clinical Psychology (PsyD) from the same institution, where she completed a dissertation on mindfulness and parenting stress. Dr. Lazaro’s training has a strong social justice focus, and she welcomes clients from all backgrounds and identities in her practice. She enjoys being part of a holistic treatment team and is open to working collaboratively with other providers.
 
 Jessica is a Pacific Northwest native who began her work in the mental health field at a community-counseling center in 2012, working with young adults and couples. Prior to clinical work, Jessica did volunteer work with veterans suffering from PTSD and TBI. She also coordinated a mentorship program for Big Brothers Big Sisters of Snohomish County. In 2013, her training broadened to include working clinically with children of varying abilities at a therapeutic day school in Mercer Island. From 2014-2018 Jessica gained additional experience working with adults, adolescents, and children in both inpatient psychiatric hospital and outpatient therapy settings. Her training at Fairfax hospital gave her experience dealing with acute crisis situations and more intense psychiatric concerns, while her practicum experience at a local group practice prepared her for dealing with the breadth of concerns she sees more regularly in private practice. Jessica’s APPIC-approved doctoral internship was completed at Ryther Child Center in Seattle, WA.
 

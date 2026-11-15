@@ -12,7 +12,7 @@ room_photo_alt: Living room with large windows overlooking trees, a gray armchai
 
 accepting: "yes"
 accepting_text: Accepting new patients
-clients: Telehealth services for patients (teens, adults)
+clients: In-person & Telehealth services for patients (teens, adults)
 languages: []
 
 email: seattlepsychiatricclinic@gmail.com
@@ -37,7 +37,7 @@ areas:
   - ADHD
   - Bipolar Disorders
 intro: |
-  Yogi is a board certified Psychiatric Nurse Practitioner, who has has obtained his doctorate in Nursing Practice and enjoys working with adolescents to adults by providing medication management. Yogi see individuals ages 13-55 currently.
+  Yogi is a board certified Psychiatric Nurse Practitioner, who has obtained his doctorate in Nursing Practice and enjoys working with adolescents to adults by providing medication management. Yogi sees individuals ages 13-55 currently.
 
 buttons:
   - label: To Schedule
@@ -61,6 +61,7 @@ insurance:
   - aetna
   - regence
   - premera
+  - cigna
 ---
 
 ### _A bit about my approach to therapy:_
@@ -69,10 +70,10 @@ _I provide a holistic approach and come together with a treatment option with my
 
 ### _What you can expect in our first session:_
 
-_Clients should expect to be a part of the treatment plan decision. I believe in empowering all patients to make sound and informative decisions when deciding what is best for their mental health. Clients will have a better understanding of their diagnosis, medication regimen, and side effects to look out for while starting/continuing medications to help with mental health symptoms._
+_Clients should expect to be a part of the treatment plan decision. I believe in empowering all patients to make sound and informed decisions when deciding what is best for their mental health. Clients will have a better understanding of their diagnosis, medication regimen, and side effects to look out for while starting/continuing medications to help with mental health symptoms._
 
 ## About Yogi
 
 _Diagnosed with ADHD himself, Dr. Patel is deeply passionate about helping both children and adults with ADHD as well as many other mental health illnesses. Dr. Patel received his doctorate of nursing practice in 2023 from Palm Beach Atlantic University in West Palm Beach, Florida._
 
-_He has also received his Masters in Nursing from the same university in 2021. His interest in psychiatry peaked while doing rotations as a nursing student in St. Louis, Missouri when he found out the struggles many individuals go through to get access to care and how difficult it was to get a psychiatric consult all across the United States._
+_He has also received his Master’s in Nursing from the same university in 2021. His interest in psychiatry was piqued while doing rotations as a nursing student in St. Louis, Missouri when he found out the struggles many individuals go through to get access to care and how difficult it was to get a psychiatric consult all across the United States._

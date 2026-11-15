@@ -1,6 +1,6 @@
 ---
 name: Elina Kogan
-credentials: LICSW, MFT, MSW
+credentials: LICSW, MFT
 order: 2
 license: LW61246567
 

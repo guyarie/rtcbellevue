@@ -1,6 +1,6 @@
 ---
-title: "EMDR Therapy in Bellevue, WA | Trauma Treatment | RTC"
-description: "EMDR (Eye Movement Desensitization and Reprocessing) therapy in Bellevue, WA. Evidence-based trauma treatment offered by certified EMDR specialists at Relational Therapy Collective. Serving Redmond, Kirkland, and the Eastside. In-person and telehealth."
+title: "Trauma Therapy in Bellevue, WA | Relational Therapy Collective"
+description: "Trauma-informed therapy in Bellevue, WA for single painful events and long-term complex trauma, including EMDR. Compassionate, evidence-based care at Relational Therapy Collective. Serving Redmond, Kirkland, and the Eastside. In-person and telehealth."
 sections:
   - theme: light
     heading: "Trauma"

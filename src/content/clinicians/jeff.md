@@ -31,7 +31,7 @@ focus:
 
 areas:
   - Adolescent growth and development, including social, school, family, emotional challenges.
-  - "Life transitions (i.e,: completion of high school or college, developing adult identity and independence, job changes / loss, preparation for retirement, relationship loss, etc.);"
+  - "Life transitions (i.e., completion of high school or college, developing adult identity and independence, job changes / loss, preparation for retirement, relationship loss, etc.);"
   - Adjustment to and coping with acute or chronic health issues;
   - Stress management;
   - Anxiety;
@@ -40,7 +40,7 @@ areas:
   - Grief and loss;
   - Recovery from trauma
 intro: |
-  Jeffrey Gillman is a Licensed Clinical Psychologist (PY00002232) with more than three decades of professional experience, who provides psychotherapy, consultation, and mental health services to teens and their parents, adults and families. Dr. Gillman serves a diverse range of clients, including teens and adults coping with conditions such as cancer, diabetes, asthma, recurrent headaches, inflammatory bowel disease/recurrent abdominal pain (IBD/RAP), trauma, and PTSD. His expertise also includes working with first responders and individuals following military deployment..
+  Jeffrey Gillman is a Licensed Clinical Psychologist (PY00002232) with more than three decades of professional experience, who provides psychotherapy, consultation, and mental health services to teens and their parents, adults and families. Dr. Gillman serves a diverse range of clients, including teens and adults coping with conditions such as cancer, diabetes, asthma, recurrent headaches, inflammatory bowel disease/recurrent abdominal pain (IBD/RAP), trauma, and PTSD. His expertise also includes working with first responders and individuals following military deployment.
 
 buttons:
   - label: To Schedule

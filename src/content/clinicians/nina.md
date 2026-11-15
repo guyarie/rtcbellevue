@@ -14,10 +14,10 @@ room_photo_alt: Cozy living room with gray armchairs, a wooden bookshelf with bo
 
 accepting: "yes"
 accepting_text: Accepting new clients
-clients: In-person & Telehealth services for clinets (teens-13+, adults, families)
+clients: In-person & Telehealth services for clients (teens-13+, adults, families)
 languages: []
 
-email: nina@sisucg.org
+email: sisucounseling@icloud.com
 phone: "5094432281"
 
 services:
@@ -33,7 +33,7 @@ focus:
   - relational
   - trauma
 
-summary: Nina is a Licensed Mental Health Counselor who provides psychotherapy for clients struggling with, but not limited to Attachment, Trauma (physical, sexual, emotional & domestic violence), Grief, Depression/Mood Disorders, Anxiety Disorders, and Relational Conflict including traditional and post-modern relationships and partnerships. She a certified trauma professional and provides EMDR.
+summary: Nina is a Licensed Mental Health Counselor who provides psychotherapy for clients struggling with, but not limited to Attachment, Trauma (physical, sexual, emotional & domestic violence), Grief, Depression/Mood Disorders, Anxiety Disorders, and Relational Conflict including traditional and post-modern relationships and partnerships. She is a certified trauma professional and provides EMDR.
 areas:
   - Attachment
   - Trauma (physical, sexual, emotional & domestic violence)
@@ -42,11 +42,11 @@ areas:
   - Anxiety disorders
   - Relational conflict
 intro: |
-  Nina Helms is a Licensed Mental Health Counselor (LH60925587) who works with individual adults in the areas of attachment, trauma (physical, sexual, emotional & domestic violence), grief, depression/mood disorders, anxiety disorders, and relational conflict, including traditional and post-modern relationships and partnerships. She a certified trauma professional and provides EMDR. Nina is currently seeing clients in-person and via telehealth.
+  Nina Helms is a Licensed Mental Health Counselor (LH60925587) who works with individual adults in the areas of attachment, trauma (physical, sexual, emotional & domestic violence), grief, depression/mood disorders, anxiety disorders, and relational conflict, including traditional and post-modern relationships and partnerships. She is a certified trauma professional and provides EMDR. Nina is currently seeing clients in-person and via telehealth.
 
 buttons:
   - label: To Schedule
-    url: mailto:nina@sisucg.org?subject=RTC%20Inquiry
+    url: mailto:sisucounseling@icloud.com?subject=RTC%20Inquiry
     style: primary
 new_clients: |
   **Accepting new clients**

@@ -25,7 +25,6 @@ sections:
           - Across all ages, therapy offers a safe, collaborative space to build insight, strengthen coping, improve relationships, and support meaningful change.
       - title: "Age Groups"
         body: |
-          - **For Younger Children**For younger children, therapy often uses play, art, stories, and other creative activities to help them express feelings, build coping skills, and strengthen emotional regulation. Parents are often included as part of the process so support can continue at home.
           - **For Younger Children,** therapy often uses play, art, stories, and other creative activities to help them express feelings, build coping skills, and strengthen emotional regulation. Parents are often included as part of the process so support can continue at home.
           - **For Older Children and Teens,** therapy is often more conversational while still being engaging and developmentally appropriate. Sessions may focus on emotions, friendships, school stress, family dynamics, identity, and practical coping skills. Therapy also supports skill development, including emotional regulation, communication, problem-solving, and building healthier ways of coping with stress.
           - We value privacy and work to create a space where teens feel safe to open up, while also involving parents thoughtfully when it is helpful and appropriate.

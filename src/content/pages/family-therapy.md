@@ -7,7 +7,7 @@ sections:
     image: "../../assets/images/unsplash-image-5nlcaz2wjxe.jpg"
     image_alt: "Family walking in a grassy field, holding hands, with trees and string lights in the background."
     body: |
-      Our family therapists support families as an interconnected system, where one issue affects every and change in one part can help the whole. Being able to create a safe space where providing structure, exploring dynamics and needs, and providing psychoeducation and practicing ways of interacting are ways our therapists help promote positive family relations.
+      Our family therapists help families understand how each person’s experiences can affect the whole family and how small changes in the way they interact can strengthen their relationships. In a safe, structured space, families explore patterns and individual needs, learn what shapes their interactions, and practice new ways to communicate and support one another.
 
       **We Help Any Family Unit:**
 

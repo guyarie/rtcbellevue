@@ -9,8 +9,8 @@ photo_alt: A smiling woman with shoulder-length brown hair, wearing a black top 
 profile_photo: ../../assets/images/rebeca.png
 profile_photo_alt: Headshot of a smiling woman with shoulder-length dark brown hair, wearing a black cardigan, purple and black patterned scarf, and jewelry including a necklace with a pendant and dangling earrings.
 
-accepting: limited
-accepting_text: Accepting new couple clients
+accepting: "no"
+accepting_text: Not accepting new clients at this time
 clients: Telehealth services for clients (adults, couples)
 languages:
   - Spanish
@@ -19,14 +19,8 @@ email: borikenmhservices@gmail.com
 phone: "4259543093"
 
 services:
-  - individual-therapy
   - couples-therapy
-  - collaborative-care
-focus:
-  - anxiety
-  - depression
-  - relational
-  - trauma
+focus: []
 
 areas:
   - Trauma
@@ -41,8 +35,6 @@ buttons:
   - label: To Schedule
     url: mailto:borikenmhservices@gmail.com?subject=RTC%20Inquiry
     style: primary
-new_clients: |
-  **Accepting new couple clients**
 hours: |
   **Schedule Hours:**  
   **In-person**: Not at this time  
@@ -64,6 +56,6 @@ insurance:
 
 ## About Rebeca
 
-Rebeca Marín Cordero, Ph.D. is a licensed clinical psychologist (PY. 60608622) who enjoys working with couples, adults, and veterans. Dr. Marín has been a researcher working on research clinical trials for approximately 20 years. For the past 12 years, her research through the Indigenous Wellness Research Institute at the University of Washington has focused on collaborating with various Native American tribes on HIV Prevention, substance abuse, post-traumatic stress disorder, s well as obesity, substance use, and health leadership development.
+Rebeca Marín Cordero, Ph.D. is a licensed clinical psychologist (PY. 60608622) who enjoys working with couples, adults, and veterans. Dr. Marín has been a researcher working on research clinical trials for approximately 20 years. For the past 12 years, her research through the Indigenous Wellness Research Institute at the University of Washington has focused on collaborating with various Native American tribes on HIV Prevention, substance abuse, post-traumatic stress disorder, as well as obesity, substance use, and health leadership development.
 
 Dr. Marín Cordero completed her Bachelor’s of Science in Psychology at Montana State University. She completed her master’s and doctoral degrees at Fuller Theological Seminary in California. During her training, Dr. Marín worked with adults, couples, and families at the California Family Counseling Center’s Latino Family Program, the VA Sepulveda Ambulatory Care Center, and VA Caribbean Healthcare System. Additionally, she completed a year at the Disabled Student Program and Services Center of the Pasadena City College conducting psychological and learning disabilities assessments. Furthermore, past graduation, Dr. Marín completed a two-year fellowship at the Center for the Study of Health and Risk Behaviors at the University of Washington.

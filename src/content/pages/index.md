@@ -19,6 +19,9 @@ sections:
       - label: "Explore our services"
         url: "/services"
         style: "secondary"
+      - label: "Learn about relational therapy"
+        url: "/about-rtc-1"
+        style: "secondary"
     highlights:
       - "In-person in Bellevue"
       - "Telehealth across Washington"
@@ -37,7 +40,7 @@ sections:
       - title: "Group Therapy/Skills Training"
         image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
         image_alt: "Multiple people stacking their hands together, showing diversity in skin tones and wearing different colored sweaters and jewelry."
-        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with other and learn, practice and grow using the group itself as part of the learning/healing process."
+        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with others and learn, practice and grow using the group itself as part of the learning/healing process."
         button:
           label: "Learn More"
           url: "/group-therapy"
@@ -51,7 +54,7 @@ sections:
       - title: "Family Therapy"
         image: "../../assets/images/unsplash-image-ypys85-j3ly.jpg"
         image_alt: "Family sitting on a sofa in a cozy living room, talking and smiling, with plants and a coffee table in the foreground."
-        body: "Family therapy focuses on understand ing each other’s perspectives and emotional needs by improving communication, address and reduce conflicts, heal from transition or trauma and build healthier boundaries and roles."
+        body: "Family therapy focuses on understanding each other’s perspectives and emotional needs by improving communication, address and reduce conflicts, heal from transition or trauma and build healthier boundaries and roles."
         button:
           label: "Learn More"
           url: "/family-therapy"
@@ -65,17 +68,10 @@ sections:
       - title: "Medication Management"
         image: "../../assets/images/unsplash-image-nr2c9avzfhy.jpg"
         image_alt: "A female doctor in a white coat talking to a woman with shoulder-length brown hair wearing a red, gray, and white striped sweater, in a medical office."
-        body: "For some clients, medication management can be helpful while in collaboration with our providers, focusing on assessing, prescribing and adjusting medication to support emotional and psychological wel-being."
+        body: "For some clients, medication management can be helpful while in collaboration with our providers, focusing on assessing, prescribing and adjusting medication to support emotional and psychological well-being."
         button:
           label: "Learn More"
           url: "/med-management"
-      - title: "Collaborative Care for Familes with Complex Needs"
-        image: "../../assets/images/unsplash-image-zt5v0pubjzi.jpg"
-        image_alt: "Group of five diverse people sitting around a conference table with laptops in a modern office, engaged in a meeting and smiling."
-        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs."
-        button:
-          label: "Learn More"
-          url: "/collaborative-care"
     buttons:
       - label: "Let's get started"
         url: "/contact-us"
@@ -147,6 +143,8 @@ sections:
           4. When you meet during consultation, this is the time for a (Q&A), or share a brief summary of your needs, or ask them to share their treatment or what to expect.
       - title: "Do you accept insurance?"
         body: "Our clinicians are primarily private pay. Some may be credentialed with select insurance plans. We encourage you to check with your specific therapist about their accepted insurers. We can provide a superbill (receipt) for you to submit to your insurance for potential out-of-network reimbursement."
+      - title: "What is collaborative care for families with complex needs?"
+        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs. [Learn more about collaborative care](/collaborative-care)."
       - title: "Do you offer telehealth (online therapy)?"
         body: "Yes! All of our clinicians offer telehealth video sessions, and many also offer in-person sessions at our Bellevue office (14655 NE Bel-Red Road, Building F, Suite 203). We serve clients throughout Washington State via telehealth."
       - title: "Do you see children, teens, and adults?"

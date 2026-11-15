@@ -14,7 +14,7 @@ room_photo_alt: Melanie Liperi's therapy office
 
 accepting: "yes"
 accepting_text: Accepting new clients
-clients: In-person & Telehealth services for clients (teens 16+, adults, couples)
+clients: In-person & Telehealth services for clients (individuals 16+, couples)
 languages: []
 
 email: melanie@melanielipericounseling.com
@@ -31,13 +31,6 @@ focus:
   - trauma
 
 summary: "Melanie is a Licensed Marriage and Family Therapist who provides psychotherapy for clients struggling with, but not limited to marital issues, trauma, anxiety, depression, and interpersonal relationships."
-card_areas:
-  - Interpersonal relationships
-  - Communication skills
-  - Depression and loneliness
-  - Anxiety and fear
-  - Trauma and distressing life events
-  - Couples counseling
 areas:
   - Individual Therapy (16yo and over)
   - Interpersonal relationships
@@ -46,7 +39,7 @@ areas:
   - Trauma and distressing life events
   - Couples Counseling
 intro: |
-  Melanie is a Licensed Marriage and Family Therapist in the State of Washington (Lic#: LF 61154489) and received her Master of Science in Marriage and Family Therapy from Seattle Pacific University. She is an EMDRIA Certified EMDR Therapist and also Gottman level three certified. She also have certificates in Treating Affairs and Trauma and Couples and Addiction Recovery through The Gottman Institute. She also received advanced training in Emotionally Focused Therapy.
+  Melanie is a Licensed Marriage and Family Therapist in the State of Washington (Lic#: LF 61154489) and received her Master of Science in Marriage and Family Therapy from Seattle Pacific University. She is an EMDRIA Certified EMDR Therapist and also Gottman level three certified. She also has certificates in Treating Affairs and Trauma and Couples and Addiction Recovery through The Gottman Institute. She also received advanced training in Emotionally Focused Therapy.
 
 buttons:
   - label: My Website

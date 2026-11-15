@@ -1,13 +1,13 @@
 ---
-title: "Relational Group for Adults | Enhance Connections Today — Join Now"
-description: "Join group therapy sessions at Relational Group for Adults in Bellevue, WA, to improve relationships, communication, and emotional understanding. Confidential support for authentic connections."
+title: "Confidence in Relationships Group | Enhance Connections Today — Join Now"
+description: "Join group therapy sessions in our Confidence in Relationships group in Bellevue, WA, to improve relationships, communication, and emotional understanding. Confidential support for authentic connections."
 sections:
   - theme: light
     heading: "Confidence in Relationships: Building Healthy Connections"
     image: ../../assets/images/pic-group.png
     image_alt: "A diverse group of five people participating in a support or therapy group session in a bright, cozy room with plants and bookshelves."
     body: |
-      ### Relational Group for Adults
+      ### Confidence in Relationships Group for Adults
 
       group sessions are in person - Bellevue, WA
 

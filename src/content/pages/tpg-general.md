@@ -1,5 +1,5 @@
 ---
-title: "Group for Therapists | Enhance Your Therapy Skills – Join Us Now"
+title: "Process Group for Therapists | Enhance Your Therapy Skills – Join Us Now"
 description: "Join the Relational Therapy Collective to enhance your therapeutic skills, explore relationships, and grow professionally with experienced therapists. Contact us today."
 sections:
   - theme: light

@@ -21,15 +21,9 @@ sections:
     heading: "What We Help With"
     image: ../../assets/images/unsplash-image-i14h2xypr18.jpg
     body: |
-      - Executive functioning difficulties (planning, prioritizing, time management)
-      - Emotional regulation and sensory overwhelm
-      - Social communication differences and masking fatigue
-      - Difficulty with transitions or changes in routine
-      - Co-occurring anxiety, depression, or burnout
-      - Rejection sensitivity and self-esteem concerns
-      - Sensory sensitivities (light, sound, touch, textures)
-      - Challenges with sustained attention or task initiation
-      - Navigating relationships and workplace/school accommodations
+      - Helping parents understand selective mutism
+      - Finding strategies to support their child
+      - Planning small, manageable steps for practicing speaking
   - theme: bright
     heading: "Our Approach"
     body: |
