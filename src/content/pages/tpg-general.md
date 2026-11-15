@@ -13,39 +13,19 @@ sections:
 
       This group is designed for therapists. We invite therapists who are curious to understand their intersubjective impact on others and learn to identify what triggers them and what soothes them in relationships. We wish to create a supportive community of therapists that learn & grow together. This will allow each of you to grow your skill and confidence in supporting clients with complex emotions and relationships.
 
-      **The Small Print:**
+      ### The Small Print
 
-      **When:**
+      Co-facilitated by Dafna Chen and Miri Arie.
 
-      **Group 1 - Online (Co-facilitated by Dafna Chen and Miri Arie):**
+      - **When:** Tuesdays, 11:00 a.m.–12:30 p.m. Pacific, or Wednesdays, 11:15 a.m.–12:45 p.m. Pacific. Both groups meet on Zoom.
+      - **Who and how many:** Up to eight therapists per group.
+      - **Fees:** $100 per 90-minute session and $200 for the intake interview. Contact us for details about reduced fees.
+      - **Structure:** These are ongoing weekly groups with an initial six-month commitment and the option to continue.
 
-      Tuesdays 11:00-12:30 PT via Zoom.
+      ### Next steps
 
-      **Group 2 - Online (Co-facilitated by Dafna Chen and Miri Arie):**
+      - [Schedule a free 15-minute introductory meeting](https://socialendeavors.sessionshealth.com/) or [email us](mailto:Miri@socialendeavors.net).
 
-      Wednesday 11:15-:12-45 PT via Zoom.
-
-      **Who and how many**
-
-      Group is limited to 8 participants who are therapists.
-
-      **Fees**
-
-      $100 for 90 min sessions
-
-      $230 for an initial personal interview.
-
-      Reduced fees are available for those in disadvantaged countries and circumstances. Please contact us for details.
-
-      **Structure**
-
-      1.5-hour weekly sessions; Slow to open ongoing group. Commitment to 6 months with an invitation to continue and attend longer.
-
-      **The next steps - Interested to learn more?**
-
-      Fill details below and we will call you to have an initial conversation.
-
-      Following this conversation, we will schedule an interview for candidates to evaluate for suitability before entering the group.
     buttons:
       - { label: "Back to Services", url: /services }
       - { label: "Schedule - 15 min with Miri", url: "https://socialendeavors.sessionshealth.com/" }
@@ -69,7 +49,7 @@ sections:
         image: ../../assets/images/miri-headshot.jpg
         image_alt: "Headshot of Miri Arie."
         body: |
-          [Miri Arie](https://www.craftpnw.com/miri-arie-phd), Ph.D. is a clinical psychologist since 2008 (PY.60967834). She works with children and adults. Her expertise includes supporting individuals in improving their relations with others, coping with anxiety, improving emotional regulation skills, and reducing rigid thinking patterns and behaviors. Dr. Arie has extensive training in supporting clients with Trauma histories and she has a special passion to support adults in their parenting journey. Dr. Arie integrates Cognitive Behavioral Therapy (CBT) techniques with Attachment-based intervention and uses Internal Family System (IFS) intervention approach in her work.
+          [Miri Arie](https://www.craftpnw.com/miri-arie-phd), Ph.D. is a clinical psychologist since 2008 (PY.60967834). She works with children and adults. Her expertise includes supporting individuals in improving their relations with others, coping with anxiety, improving emotional regulation skills, and reducing rigid thinking patterns and behaviors. Dr. Arie is especially passionate about helping adults build more meaningful connections with their loved ones as parents, romantic partners, and friends. Dr. Arie integrates Cognitive Behavioral Therapy (CBT) techniques with Attachment-based intervention and uses Internal Family System (IFS) intervention approach in her work.
 
           For more information contact: [Miri@socialendeavors.net](mailto:Miri@socialendeavors.net) / 585-857-9394
 ---
