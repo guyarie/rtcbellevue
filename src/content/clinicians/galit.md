@@ -24,7 +24,6 @@ services:
   - couples-therapy
   - family-therapy
   - parent-coaching
-  - group-therapy
   - collaborative-care
 focus:
   - anxiety
