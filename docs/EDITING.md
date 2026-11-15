@@ -50,6 +50,8 @@ If the profile URL was public, also add a redirect in `deploy/nginx-redirects.co
 **Card vs profile**: `card_areas` is the short list on cards (falls back to `areas`);
 `areas`, `intro`, `buttons`, `hours`, `fees`, `insurance` and the Markdown body below the
 `---` are the profile page. `phone` is 10 digits, no punctuation.
+`buttons` show under the profile photo; `fees_buttons` (same format) show in the Fees and
+insurance section, e.g. a link to the clinician's own pricing page.
 
 ## Pages
 
@@ -60,7 +62,9 @@ A page is a list of `sections`, rendered top to bottom. Each section can have:
 `layout: hero` is the full-width photo banner at the top of the home page — use a wide, calm photo.
 It is never cropped; the text sits over its left side, so keep the main subjects on the right.
 `cards` images are 4:3 and cropped to fill by default; add `card_images: wide` to the section to show
-wide pictures (about 2:1, e.g. 440×229) whole. Use the same shape for every card in a section.
+wide pictures (about 2:1, e.g. 440×229) whole, or `card_images: portrait` to show headshots whole,
+uncropped (facilitator cards). Use the same shape for every card in a section.
+A section with exactly two cards centres them side by side on desktop.
 On phones, cards scroll sideways; add `cards_stack: true` to stack them instead (contact page).
 A card takes one `button`, or a `buttons` list when it needs more than one.
 `gallery` items are `image`, `alt` (for screen readers) and an optional `caption` shown under the photo.
