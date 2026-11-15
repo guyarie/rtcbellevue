@@ -79,6 +79,11 @@ sections:
   - theme: "light"
     heading: "Areas Of Focus"
     cards:
+      - title: "Personal Growth & Connection"
+        image: "../../assets/images/rtc-personal-growth-and-connection.jpg"
+        image_alt: "Two adults talk at a picnic table beside a lake."
+        body: "Want to feel more connected to others or more fulfilled in your relationships? Therapy can help you understand what gets in the way, express what matters to you, and build closer connections."
+        button: { label: "Learn More", url: /personal-growth-and-connection }
       - title: "ADHD"
         image: "../../assets/images/rtc-focus-adhd.jpg"
         image_alt: "A child steps over a cushion to pack a notebook while his dad holds the backpack open."
