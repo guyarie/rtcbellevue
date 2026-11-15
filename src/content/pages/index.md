@@ -5,8 +5,8 @@ sections:
   - theme: "light"
     layout: "hero"
     heading: "Welcome to Relational Therapy Collective"
-    image: "../../assets/images/room-6-original.png"
-    image_alt: "A sunlit therapy room with an armchair and a floor lamp beside large windows looking out onto tall evergreen trees."
+    image: "../../assets/images/illustration-hero-lakeside.webp"
+    image_alt: "Illustration of two people sitting together on a bench by a lake, with evergreen trees and soft mountains beyond."
     body: |
       At RTC, we believe that meaningful change happens in connection—connection with ourselves, our loved ones, with the people in our lives, and the people who support us.
 
