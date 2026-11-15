@@ -4,8 +4,8 @@ description: "Specialized selective mutism therapy for children and teens in Bel
 sections:
   - theme: light
     heading: "Selective Mutism"
-    image: ../../assets/images/selective-mutism.webp
-    image_alt: "A young girl with long blonde hair, wearing a denim jacket and jeans, sitting on the grass near a tree, looking distressed or upset."
+    image: "../../assets/images/rtc-focus-selective-mutism.jpg"
+    image_alt: "A child points to an illustrated card while two adults watch attentively."
     body: |
       _Selective mutism (SM) is a childhood anxiety disorder where a person is unable to speak in certain social situations, such as schools or in public, despite being able to speak comfortably in other settings like at home. When anxious, children, teens or adults may appear frozen, stiff or expressionless. they may be avoiding eye contact and rely on nodding, pointing, or whispering._
 

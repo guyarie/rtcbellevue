@@ -3,7 +3,8 @@ title: "Relationship & Communication"
 sections:
   - theme: light
     heading: "Relationship & Communication"
-    image: ../../assets/images/unsplash-image-vte4sn2i9s0.jpg
+    image: "../../assets/images/rtc-focus-relationships.jpg"
+    image_alt: "Two partners face each other on a couch during a serious conversation."
     body: |
       At Relational Therapy Collective, we understand how much our relationships — with partners, family, friends, and coworkers — shape our daily wellbeing. Difficulties in these connections are among the most common concerns people bring to therapy, whether that looks like chronic conflict, communication breakdowns, trust ruptures, or the strain of navigating change (separation, blended families, shifting caregiving roles).
 

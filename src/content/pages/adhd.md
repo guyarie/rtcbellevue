@@ -3,7 +3,8 @@ title: "ADHD"
 sections:
   - theme: light
     heading: "ADHD"
-    image: ../../assets/images/unsplash-image-tvc5imo5pxk.jpg
+    image: "../../assets/images/rtc-focus-adhd.jpg"
+    image_alt: "A child steps over a cushion to pack a notebook while his dad holds the backpack open."
     body: |
       _ADHD, or Attention-Deficit/Hyperactivity Disorder, is a neurodevelopmental condition affecting a child's ability to focus, manage impulses, and regulate activity levels. Children with ADHD may struggle with attention, organisation, following instructions, or controlling fidgeting and restlessness._
 

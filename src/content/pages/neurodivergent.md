@@ -3,7 +3,8 @@ title: "Neurodivergence"
 sections:
   - theme: light
     heading: "Neurodivergence"
-    image: ../../assets/images/unsplash-image-ya84k2xrz7c.jpg
+    image: "../../assets/images/rtc-focus-neurodivergence.jpg"
+    image_alt: "A young adult wearing headphones draws a digital landscape with a stylus and tablet."
     body: |
       _At Relational Therapy Collective, we understand that neurodivergent clients — including those with ADHD, autism spectrum conditions, and other forms of neurocognitive difference — often benefit from a therapeutic approach that is affirming rather than pathologizing._
 

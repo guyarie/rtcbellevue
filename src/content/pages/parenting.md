@@ -3,7 +3,8 @@ title: "Parenting"
 sections:
   - theme: light
     heading: "Parenting"
-    image: ../../assets/images/unsplash-image-eo11ms0fsnk.jpg
+    image: "../../assets/images/rtc-focus-parenting.jpg"
+    image_alt: "A father crouches at eye level as his daughter speaks."
     body: |
       Parenting can strain even strong relationships. Navigating daily pressures like disagreements over discipline and routines, managing exhaustion and stress, finding time for connection, balancing individual needs with family demands can significantly impact our mental and emotional health.
 
