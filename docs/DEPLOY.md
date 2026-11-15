@@ -19,6 +19,7 @@ No open ports, no origin certificates, no deploy secrets.
 - **Tunnel**: `rtcbellevue`, a dashboard-managed tunnel in RTC's Cloudflare account (Zero Trust → Networks → Tunnels).
   On eli it runs as its own unit `cloudflared-rtcbellevue.service` (token in `/etc/cloudflared/rtcbellevue.env`),
   separate from eli's other tunnels. Public hostnames are configured in the dashboard → `http://localhost:8081`.
+- **Live since 2026-11-14**: `www` + apex are tunnel public hostnames; `phone` is a tunnel hostname too (chat widget).
 - **Preview**: https://preview.rtcbellevue.com (served from eli; nginx sends `X-Robots-Tag: noindex` for any host other than (www.)rtcbellevue.com).
 
 ## Go-live (after owner sign-off + explicit OK)

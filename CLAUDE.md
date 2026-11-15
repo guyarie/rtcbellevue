@@ -1,6 +1,6 @@
 # Relational Therapy Collective (rtcbellevue.com) — Claude Code Project Guide
 
-## Status: MIGRATION IN PROGRESS
+## Status: LIVE (migration wrap-up)
 This folder is the new home of **www.rtcbellevue.com**, currently a Squarespace site.
 Goal #1 is to **get off Squarespace** with a faithful rebuild. A redesign comes later — don't spend effort on it now.
 

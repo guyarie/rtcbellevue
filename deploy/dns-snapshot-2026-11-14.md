@@ -15,3 +15,9 @@ Nameservers: ns-cloud-b1..b4.googledomains.com (Google Domains → now Squarespa
 
 Public lookups only see names we know to ask for. Before switching nameservers, compare against the full
 record list in the Squarespace Domains DNS panel (it may hold records not listed here).
+
+## After go-live (2026-11-14)
+- `@` and `www`: tunnel public hostnames (`rtcbellevue` tunnel → eli nginx :8081). Squarespace A/CNAME records removed.
+- `phone`: now also a **tunnel** public hostname (chat widget), no longer a DNS-only CNAME to holdens-box.duckdns.org.
+  Shows as Cloudflare IPs, not a CNAME — that's expected.
+- MX / SPF / DKIM / DMARC unchanged.
