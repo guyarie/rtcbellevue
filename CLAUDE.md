@@ -1,7 +1,7 @@
 # Relational Therapy Collective (rtcbellevue.com) — Claude Code Project Guide
 
 ## Status: LIVE
-This folder is **www.rtcbellevue.com**. It was migrated off Squarespace as a faithful rebuild and has been served from eli (via Cloudflare Tunnel) since 2026-11-14; nothing on Squarespace is used any more.
+This folder is **www.rtcbellevue.com**. It was migrated off Squarespace as a faithful rebuild and has been served from eli (via Cloudflare Tunnel) since 2026-11-14; nothing on Squarespace is used any more except the domain registration (Squarespace Domains). The Squarespace website plan is still active — cancel it ~2 weeks after go-live (`docs/DEPLOY.md`).
 A redesign comes later — don't spend effort on it unless asked.
 
 `docs/MIGRATION_PLAN.md` — the original survey of the Squarespace site and the migration plan (historical).
