@@ -177,8 +177,8 @@ sections:
       - { image: "../../assets/images/office-building-f.webp", alt: "Building F", caption: "Building and parking" }
   - theme: "light"
     heading: "Let’s Get Started."
-    image: "../../assets/images/room-5.jpg"
-    image_alt: "A therapy room with an armchair, an oval coffee table, a seascape painting and a large window looking onto evergreen trees."
+    image: "../../assets/images/rtc-lets-get-started-logo.jpg"
+    image_alt: "A woman views the Relational Therapy Collective homepage on a laptop at her kitchen table."
     body: |
       Send us your contact email and a brief summary of what services you are seeking.
 

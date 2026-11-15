@@ -4,8 +4,8 @@ description: "Collaborative care for complex families in Bellevue, WA. Our team 
 sections:
   - theme: "light"
     heading: "Collaborative Care"
-    image: "../../assets/images/unsplash-image-hcb3lib8l8e.jpg"
-    image_alt: "A group of six young adults working together at a wooden table in a cozy, rustic room with large windows, some wearing headphones, using laptops, with a potted plant in the center of the table."
+    image: "../../assets/images/rtc-collaborative-care.jpg"
+    image_alt: "A teenager points to a care plan while her parent and three providers listen."
     body: |
       _At Relational Therapy Collective (RTC), collaborative team therapy brings together therapists, medical providers, family consultant, and coaches to support clients with coordinated, holistic care. When helpful, we collaborate with outside providers to ensure alignment and continuity of treatment._
 
