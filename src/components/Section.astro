@@ -67,13 +67,16 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     )}
 
     {s.cards && (
-      <Carousel label={s.heading}>
+      <Carousel label={s.heading} class={s.cards_stack ? 'carousel--stack' : ''}>
         {s.cards.map((c: any) => (
           <div class="card">
             {c.image && <div class:list={['card__image', `card__image--${s.card_images}`]}><Image src={c.image} alt={c.image_alt ?? ''} width={440} /></div>}
             <h3>{c.title}</h3>
             {c.body && <Markdown text={c.body} class="card__body" />}
             {c.button && <a class="btn btn--small" href={c.button.url}>{c.button.label}</a>}
+            {c.buttons && <div class="card__buttons">{c.buttons.map((b: any) => (
+              <a class:list={['btn', 'btn--small', b.style === 'secondary' && 'btn--secondary']} href={b.url}>{b.label}</a>
+            ))}</div>}
           </div>
         ))}
       </Carousel>
@@ -96,8 +99,23 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     )}
 
     {s.video && <div class="video"><iframe src={s.video} title={s.heading ?? 'Video'} loading="lazy" allowfullscreen></iframe></div>}
-    {s.embed && <div class="embed mt-8"><iframe src={s.embed} title={s.heading ?? 'Embedded content'} loading="lazy"></iframe></div>}
+    {s.embed && <div class="embed mt-8"><iframe data-src={s.embed} title={s.heading ?? 'Embedded content'}></iframe></div>}
     {s.form && <div class="mt-8"><ContactForm /></div>}
   </div>
 </section>
 )}
+
+<script>
+  // Embeds (e.g. the chat widget) load only once they are mostly on screen.
+  // The chat puts the cursor in its message box as it loads, which would
+  // otherwise scroll the page down to it as soon as the page opens.
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      const f = e.target as HTMLIFrameElement;
+      f.src = f.dataset.src!;
+      io.unobserve(f);
+    }
+  }, { threshold: 0.6 });
+  document.querySelectorAll<HTMLIFrameElement>('.embed iframe[data-src]').forEach((f) => io.observe(f));
+</script>

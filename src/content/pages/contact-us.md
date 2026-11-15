@@ -4,17 +4,26 @@ description: "Contact Relational Therapy Collective for professional therapy ser
 sections:
   - theme: "white"
     heading: "Let’s Get Started."
-    image: "../../assets/images/room-6-original.png"
-    image_alt: "Living room with large windows showcasing green trees outside, a beige armchair, a floor lamp, a side table with a potted plant, a tissue box, and decorative items including a basket and flowers."
+    image: "../../assets/images/rtc-lets-get-started-logo.jpg"
+    image_alt: "A woman views the Relational Therapy Collective homepage on a laptop at her kitchen table."
     body: |
-      Send us your contact email and a brief summary of what services you are seeking.
-
-      Note that email is not confidential. Clinical information is best communicated via phone; however, due to a surge in referrals, our response time on email is much faster.  
-
-      #### (425) 675-0881
-
-      **Therapy@RTCBellevue.com**
+      There are three ways to reach us — chat, email or phone. Tell us briefly what services you are looking for, and we’ll help you find the right fit.
+    cards_stack: true
+    cards:
+      - title: "Chat"
+        body: "Ask general questions about our services and get an answer right away, here on this page."
+        button: { label: "Start a chat", url: "#chat" }
+      - title: "Email"
+        body: "Our fastest response. Write to **therapy@rtcbellevue.com** or use the form below. Email is not confidential, so please leave out clinical details."
+        button: { label: "Email us", url: "mailto:therapy@rtcbellevue.com" }
+      - title: "Phone"
+        body: "**(425) 675-0881** — for general inquiries or to request a callback. To book a session, contact your chosen therapist directly — you’ll find them on our Team page."
+        buttons:
+          - { label: "Call us", url: "tel:+14256750881" }
+          - { label: "Our Team", url: "/intro-1" }
     form: true
-  - theme: "white"
+  - theme: "light"
+    id: "chat"
+    heading: "Chat with us"
     embed: "https://phone.rtcbellevue.com/embed-chat.html"
 ---

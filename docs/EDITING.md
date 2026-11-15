@@ -61,6 +61,8 @@ A page is a list of `sections`, rendered top to bottom. Each section can have:
 It is never cropped; the text sits over its left side, so keep the main subjects on the right.
 `cards` images are 4:3 and cropped to fill by default; add `card_images: wide` to the section to show
 wide pictures (about 2:1, e.g. 440×229) whole. Use the same shape for every card in a section.
+On phones, cards scroll sideways; add `cards_stack: true` to stack them instead (contact page).
+A card takes one `button`, or a `buttons` list when it needs more than one.
 `gallery` items are `image`, `alt` (for screen readers) and an optional `caption` shown under the photo.
 `providers` grids take `card: full` (default), `summary` (role + blurb) or `compact` (photo + name + status).
 Example:
