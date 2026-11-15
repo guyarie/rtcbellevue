@@ -11,7 +11,7 @@ sections:
     cards_stack: true
     cards:
       - title: "Chat"
-        body: "Ask general questions about our services and get an answer right away, here on this page."
+        body: "Ask general questions about our services and get an answer right away. The chat button is in the corner of every page."
         button: { label: "Start a chat", url: "#chat" }
       - title: "Email"
         body: "Our fastest response. Write to **therapy@rtcbellevue.com** or use the form below. Email is not confidential, so please leave out clinical details."
@@ -22,8 +22,4 @@ sections:
           - { label: "Call us", url: "tel:+14256750881" }
           - { label: "Our Team", url: "/intro-1" }
     form: true
-  - theme: "light"
-    id: "chat"
-    heading: "Chat with us"
-    embed: "https://phone.rtcbellevue.com/embed-chat.html"
 ---

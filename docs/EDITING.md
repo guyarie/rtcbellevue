@@ -15,6 +15,7 @@ All text lives in `src/content/`. You should almost never need to edit `.astro` 
 | Blog posts | `src/content/posts/<slug>.md` — URL is `/blog/<slug>` |
 | Insurance companies (name + logo) | `src/content/insurers/<id>.md` |
 | Phone, email, address, header menu | `src/content/site/settings.md` |
+| Chat bubble (corner of every page; links to `#chat` open it) | `chat_url` in `src/content/site/settings.md` |
 | Contact form fields + where it sends | `src/content/site/contact.md` |
 | Small UI text (button labels, "Email:", footer text) | `src/content/site/labels.md` |
 | Images | `src/assets/images/` (referenced with a relative path, e.g. `../../assets/images/claire-3.jpg`) |
