@@ -4,8 +4,8 @@ description: "Join group therapy sessions in our Confidence in Relationships gro
 sections:
   - theme: light
     heading: "Confidence in Relationships: Building Healthy Connections"
-    image: ../../assets/images/pic-group.png
-    image_alt: "A diverse group of five people participating in a support or therapy group session in a bright, cozy room with plants and bookshelves."
+    image: ../../assets/images/rtc-confidence-group.jpg
+    image_alt: "Five adults sit in a circle and listen as one person speaks."
     body: |
       ### Confidence in Relationships Group for Adults
 
@@ -37,7 +37,7 @@ sections:
 
       $75 for 90 min sessions
 
-      $200 for an initial personal interview.
+      $230 for an initial personal interview.
 
       Reduced fees are available for those in disadvantaged countries and circumstances. Please contact us for details.
 
@@ -48,7 +48,7 @@ sections:
       **Registration process:**
 
       1. [15-minute initial meeting](https://socialendeavors.sessionshealth.com/) - free
-      2. An hour-long Intake meeting – costs: $200, and will conclude with a determination of fit to the group.
+      2. An hour-long Intake meeting – costs: $230, and will conclude with a determination of fit to the group.
       3. Sign participation agreement.
     buttons:
       - { label: "Schedule - 15 min Inquiry", url: "https://socialendeavors.sessionshealth.com/" }

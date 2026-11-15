@@ -70,7 +70,7 @@ const section = (image: any) =>
       .optional(),
     // Card image shape: `photo` = 4:3, cropped to fill; `wide` = about 2:1, shows
     // wide pictures (440×229) whole. All cards in a section share the shape.
-    card_images: z.enum(['photo', 'wide']).default('photo'),
+    card_images: z.enum(['photo', 'wide', 'portrait']).default('photo'),
     // On phones cards scroll sideways; `cards_stack: true` stacks them instead
     // (use when every card matters, e.g. the contact options).
     cards_stack: z.boolean().default(false),
@@ -144,6 +144,7 @@ const clinicians = defineCollection({
       new_clients: z.string().optional(), // how to get started (Markdown)
       hours: z.string().optional(), // schedule hours (Markdown)
 
+      fees_buttons: z.array(button).default([]),
       fees: z.string().optional(), // Fees & insurance text (Markdown)
       insurance: z.array(reference('insurers')).default([]),
     }),

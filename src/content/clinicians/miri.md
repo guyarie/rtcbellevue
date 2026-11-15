@@ -72,9 +72,11 @@ new_clients: |
   **For existing clients** - please log in to your [Sessionshealth](https://socialendeavors.sessionshealth.com/) portal
 hours: |
   **In-person**: Mondays-Thursdays  
-  **Telehealth**: Mondays-Thursdays
+  **Telehealth**: Mondays through Fridays
 
 fees: |
+  Individual therapy costs $230 per 52-minute session.
+
   Dr. Arie works as an out-of-network provider and accepts payment at the time of each session.
 
   If you plan to use your out-of-network benefits, she will be happy to provide a superbill (an insurance receipt) that you can submit to your insurance company for possible reimbursement.  

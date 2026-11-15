@@ -7,8 +7,8 @@ photo: ../../assets/images/yogi.png
 photo_alt: Portrait of a young South Asian man in a pinstripe suit smiling.
 profile_photo: ../../assets/images/yogi.png
 profile_photo_alt: Close-up of a young man smiling, wearing a navy pinstripe suit, white shirt, and a patterned gray tie.
-room_photo: ../../assets/images/room-6.png
-room_photo_alt: Living room with large windows overlooking trees, a gray armchair, beige sofa, black round coffee table, white bookshelf, and a carpet with a geometric pattern.
+room_photo: ../../assets/images/pxl-20260302-161550216.jpg
+room_photo_alt: A cozy living room with large windows overlooking trees, furnished with a gray armchair with decorative pillows, a black round side table, a beige chair, a bookcase filled with books and decorative items, and a colorful hot air balloon decoration hanging from the ceiling.
 
 accepting: "yes"
 accepting_text: Accepting new patients
