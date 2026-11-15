@@ -4,8 +4,8 @@ description: "Explore relational group therapy services in Miri, focusing on int
 sections:
   - theme: light
     heading: "Relational Group Therapy"
-    image: ../../assets/images/unsplash-image-zjm4bl3z2u8.jpg
-    image_alt: "Group of six diverse young people smiling and taking a selfie in a wooded outdoor area."
+    image: ../../assets/images/rtc-relational-group-overview.jpg
+    image_alt: "Five adults sit in a circle while one person speaks and the others listen."
     body: |
       **_What is a Relational Group?_**
 
