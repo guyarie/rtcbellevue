@@ -3,7 +3,8 @@ title: "Depression"
 sections:
   - theme: light
     heading: "Depression"
-    image: ../../assets/images/unsplash-image-ulpavuxitew.jpg
+    image: "../../assets/images/rtc-focus-depression.jpg"
+    image_alt: "A man sits alone at a kitchen table looking down at his untouched breakfast."
     body: |
       _Depression can affect how we feel, how much energy we have, and how connected we feel to the people around us — and it often shows up in our relationships too. We welcome clients experiencing depression at any point in their journey, whether you're just starting to notice symptoms or have been navigating this for a while._
 

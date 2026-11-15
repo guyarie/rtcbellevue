@@ -4,7 +4,8 @@ description: "Trauma-informed therapy in Bellevue, WA for single painful events 
 sections:
   - theme: light
     heading: "Trauma"
-    image: ../../assets/images/unsplash-image-k6pnyynxxrg.jpg
+    image: "../../assets/images/rtc-focus-trauma.jpg"
+    image_alt: "A client practices grounding with both feet on the floor while a therapist sits across from her."
     body: |
       _At Relational Therapy Collective, we understand that trauma affects every aspect of life. Whether you're dealing with a single painful event or long-term complex trauma. Our therapists provide a compassionate space to process difficult experiences and begin healing._
 

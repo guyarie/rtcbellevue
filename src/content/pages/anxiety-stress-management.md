@@ -3,7 +3,8 @@ title: "Anxiety & Stress Management"
 sections:
   - theme: light
     heading: "Anxiety & Stress Management"
-    image: ../../assets/images/unsplash-image-s24ssp6qyfi.jpg
+    image: "../../assets/images/rtc-focus-anxiety.jpg"
+    image_alt: "A woman holds her temple while reading paperwork beside her laptop."
     body: |
       _Anxiety and stress are among the most common reasons people seek therapy. At Relational Therapy Collective, our therapists help individuals of all ages understand and manage overwhelming feelings of worry, fear, or pressure that interfere with daily life._
 
