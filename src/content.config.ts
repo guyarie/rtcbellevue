@@ -79,7 +79,7 @@ const section = (image: any) =>
         card: z.enum(['full', 'summary', 'compact']).default('full'),
       })
       .optional(),
-    gallery: z.array(z.object({ image, alt: z.string() })).optional(),
+    gallery: z.array(z.object({ image, alt: z.string(), caption: z.string().optional() })).optional(), // caption shown under the photo
     video: z.string().url().optional(), // YouTube embed URL
     form: z.boolean().optional(), // the contact form (settings in site/contact.md)
     embed: z.string().url().optional(), // iframe src

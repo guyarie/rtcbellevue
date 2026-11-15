@@ -58,6 +58,7 @@ A page is a list of `sections`, rendered top to bottom. Each section can have:
 `heading`, `image` + `image_alt`, `body` (Markdown), `highlights` (short facts shown as chips),
 `accordion`, `cards`, `buttons`, `providers`, `gallery`, `video`, `embed`, `form`.
 `layout: hero` is the full-width photo banner at the top of the home page — use a wide, calm photo.
+`gallery` items are `image`, `alt` (for screen readers) and an optional `caption` shown under the photo.
 `providers` grids take `card: full` (default), `summary` (role + blurb) or `compact` (photo + name + status).
 Example:
 ```yaml

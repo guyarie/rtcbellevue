@@ -90,7 +90,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     {s.gallery && (
       <Carousel class="gallery mt-8" label={s.heading}>
         {s.gallery.map((g: any) => (
-          <figure><Image src={g.image} alt={g.alt} width={1200} /></figure>
+          <figure><Image src={g.image} alt={g.alt} width={1200} />{g.caption && <figcaption>{g.caption}</figcaption>}</figure>
         ))}
       </Carousel>
     )}

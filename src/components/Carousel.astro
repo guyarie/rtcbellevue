@@ -16,18 +16,20 @@ const t = await getLabels();
   document.querySelectorAll<HTMLElement>('[data-carousel]').forEach((c) => {
     const track = c.querySelector<HTMLElement>('.carousel__track')!;
     const [prev, next] = c.querySelectorAll<HTMLButtonElement>('[data-dir]');
-    // Hide an arrow when the first / last card is already fully in view.
-    const first = track.firstElementChild, last = track.lastElementChild;
-    if (first && last && 'IntersectionObserver' in window) {
-      const io = new IntersectionObserver(
-        (entries) => entries.forEach((e) => {
-          (e.target === first ? prev : next).disabled = e.intersectionRatio > 0.9;
-        }),
-        { root: track, threshold: [0, 0.9, 1] },
-      );
-      io.observe(first);
-      io.observe(last);
-    }
+    // Hide an arrow when the first / last item is already fully in view.
+    const update = () => {
+      const box = track.getBoundingClientRect();
+      const first = track.firstElementChild?.getBoundingClientRect();
+      const last = track.lastElementChild?.getBoundingClientRect();
+      prev.disabled = !first || first.left >= box.left - 2;
+      next.disabled = !last || last.right <= box.right + 2;
+    };
+    let frame = 0;
+    const schedule = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(update); };
+    track.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    window.addEventListener('load', update);
+    update();
     c.querySelectorAll<HTMLButtonElement>('[data-dir]').forEach((b) =>
       b.addEventListener('click', () => {
         const item = track.firstElementChild as HTMLElement | null;

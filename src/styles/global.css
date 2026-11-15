@@ -322,7 +322,7 @@ img { max-width: 100%; height: auto; }
 .gallery .carousel__track { grid-auto-columns: 85%; }
 @media (min-width: 768px) { .gallery .carousel__track { grid-auto-columns: 60%; } }
 .gallery figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow-card); }
-.gallery figcaption { text-align: center; font-size: .9rem; margin-top: .4rem; }
+.gallery figcaption { text-align: center; font-size: 1rem; font-style: italic; margin-top: .8rem; @apply font-display; }
 
 /* ---------- Form ---------- */
 .form { max-width: 640px; margin: 0 auto; display: grid; gap: 1rem; }

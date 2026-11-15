@@ -159,15 +159,15 @@ sections:
         body: "Our office is located at 14655 NE Bel-Red Road, Building F, Suite 203, Bellevue, WA 98007. We serve clients in-person from Bellevue, Redmond, Kirkland, Sammamish, Mercer Island, and surrounding areas. We also offer telehealth to clients anywhere in Washington State."
   - theme: "bright"
     gallery:
-      - { image: "../../assets/images/office-waiting-room.webp", alt: "Waiting room" }
-      - { image: "../../assets/images/office-waiting-room-kids.webp", alt: "Waiting Room - Kids Section" }
-      - { image: "../../assets/images/office-room-1.webp", alt: "Room 1" }
-      - { image: "../../assets/images/office-room-2.webp", alt: "Room 2" }
-      - { image: "../../assets/images/office-room-3.webp", alt: "Room 3" }
-      - { image: "../../assets/images/office-room-4.webp", alt: "Room 4" }
-      - { image: "../../assets/images/office-room-5.webp", alt: "Room 5" }
-      - { image: "../../assets/images/office-room-6.webp", alt: "Room 6" }
-      - { image: "../../assets/images/office-building-f.webp", alt: "Building F" }
+      - { image: "../../assets/images/office-waiting-room.webp", alt: "Waiting room", caption: "Waiting room" }
+      - { image: "../../assets/images/office-waiting-room-kids.webp", alt: "Waiting Room - Kids Section", caption: "Kids area - Waiting room" }
+      - { image: "../../assets/images/office-room-1.webp", alt: "Room 1", caption: "Room #1" }
+      - { image: "../../assets/images/office-room-2.webp", alt: "Room 2", caption: "Room #2" }
+      - { image: "../../assets/images/office-room-3.webp", alt: "Room 3", caption: "Room #3" }
+      - { image: "../../assets/images/office-room-4.webp", alt: "Room 4", caption: "Room #4" }
+      - { image: "../../assets/images/office-room-5.webp", alt: "Room 5", caption: "Room #5" }
+      - { image: "../../assets/images/office-room-6.webp", alt: "Room 6", caption: "Room #6" }
+      - { image: "../../assets/images/office-building-f.webp", alt: "Building F", caption: "Building and parking" }
   - theme: "light"
     heading: "Let’s Get Started."
     image: "../../assets/images/room-5.jpg"
