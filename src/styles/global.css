@@ -231,13 +231,30 @@ img { max-width: 100%; height: auto; }
 @media (min-width: 768px) { .carousel__track { grid-auto-columns: calc((100% - 3rem) / 3); } }
 .carousel__track::-webkit-scrollbar { display: none; }
 .carousel__track > * { scroll-snap-align: start; }
-.carousel__nav { @apply flex justify-center gap-4 mt-4; }
+/* Prev/next arrows sit on the left and right edges, vertically centred on the cards. */
+.carousel { position: relative; }
+.carousel__nav { position: absolute; inset: 0 0 1.75rem; pointer-events: none; }
 .carousel__nav button {
-  width: 44px; height: 44px; border-radius: 999px; cursor: pointer; font-size: 1.15rem;
-  background: transparent; color: var(--color-button); border: 1.5px solid var(--color-button);
-  transition: background .2s, color .2s;
+  position: absolute; top: 50%; transform: translateY(-50%); pointer-events: auto;
+  width: 46px; height: 46px; border-radius: 999px; cursor: pointer; font-size: 1.15rem;
+  background: var(--color-bg); color: var(--color-button); border: 1.5px solid var(--color-button);
+  box-shadow: var(--shadow-card); transition: background .2s, color .2s, opacity .2s;
 }
+.carousel__nav button[data-dir='-1'] { left: -14px; }
+.carousel__nav button[data-dir='1'] { right: -14px; }
+/* Arrows sit in the page gutter so they don't cover card text. */
+@media (min-width: 768px) {
+  .carousel__nav button[data-dir='-1'] { left: -38px; }
+  .carousel__nav button[data-dir='1'] { right: -38px; }
+}
+@media (min-width: 1280px) {
+  .carousel__nav button[data-dir='-1'] { left: -60px; }
+  .carousel__nav button[data-dir='1'] { right: -60px; }
+}
+/* Phones: swipe instead — the gutter is too narrow for arrows. */
+@media (max-width: 767px) and (hover: none) { .carousel__nav { display: none; } }
 .carousel__nav button:hover { background: var(--color-button); color: var(--color-button-text); }
+.carousel__nav button:disabled { opacity: 0; pointer-events: none; }
 .grid-cards { @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3; }
 
 .card {

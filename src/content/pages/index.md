@@ -62,10 +62,6 @@ sections:
         button:
           label: "Learn More"
           url: "/parent-coaching-consultation"
-      - title: "Life Coaching"
-        image: "../../assets/images/unsplash-image-r2njpbeyusq.jpg"
-        image_alt: "Person with short hair wearing a light denim jacket, arms outstretched, enjoying sunset by rocky shoreline."
-        body: "Life coaching supports clients in building clarity, confidence, and direction in their personal and professional lives. Sessions are goal-oriented, collaborative, and tailored to each individual’s strengths and values."
       - title: "Medication Management"
         image: "../../assets/images/unsplash-image-nr2c9avzfhy.jpg"
         image_alt: "A female doctor in a white coat talking to a woman with shoulder-length brown hair wearing a red, gray, and white striped sweater, in a medical office."

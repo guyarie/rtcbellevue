@@ -15,6 +15,19 @@ const t = await getLabels();
 <script>
   document.querySelectorAll<HTMLElement>('[data-carousel]').forEach((c) => {
     const track = c.querySelector<HTMLElement>('.carousel__track')!;
+    const [prev, next] = c.querySelectorAll<HTMLButtonElement>('[data-dir]');
+    // Hide an arrow when the first / last card is already fully in view.
+    const first = track.firstElementChild, last = track.lastElementChild;
+    if (first && last && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver(
+        (entries) => entries.forEach((e) => {
+          (e.target === first ? prev : next).disabled = e.intersectionRatio > 0.9;
+        }),
+        { root: track, threshold: [0, 0.9, 1] },
+      );
+      io.observe(first);
+      io.observe(last);
+    }
     c.querySelectorAll<HTMLButtonElement>('[data-dir]').forEach((b) =>
       b.addEventListener('click', () => {
         const item = track.firstElementChild as HTMLElement | null;
