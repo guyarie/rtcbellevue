@@ -4,7 +4,8 @@ description: "Parent coaching and family consultation in Bellevue, WA. Support f
 sections:
   - theme: "light"
     heading: "Family Consultation & Parent Coaching/Support"
-    image: "../../assets/images/unsplash-image-eo11ms0fsnk-2.jpg"
+    image: "../../assets/images/rtc-parent-coaching-440x229.png"
+    image_alt: "A parent and three children plan a daily routine with picture cards and a coach."
     body: |
       _Our family consultant Morgan Coburn, is an early childhood and family development specialist, supports young children and their families in homes, classrooms, gathering information, provide guidance, and collaborate on strategies related to your child’s needs._
 

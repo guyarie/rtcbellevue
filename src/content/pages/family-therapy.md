@@ -4,8 +4,8 @@ description: "Relational family therapy in Bellevue, WA for families navigating 
 sections:
   - theme: "light"
     heading: "Family Therapy"
-    image: "../../assets/images/unsplash-image-5nlcaz2wjxe.jpg"
-    image_alt: "Family walking in a grassy field, holding hands, with trees and string lights in the background."
+    image: "../../assets/images/rtc-family-therapy-revised-440x229.png"
+    image_alt: "Two parents, a teenager, and a young adult talk with a family therapist."
     body: |
       Our family therapists help families understand how each person’s experiences can affect the whole family and how small changes in the way they interact can strengthen their relationships. In a safe, structured space, families explore patterns and individual needs, learn what shapes their interactions, and practice new ways to communicate and support one another.
 
