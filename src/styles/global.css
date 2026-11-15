@@ -132,6 +132,8 @@ img { max-width: 100%; height: auto; }
   background: var(--color-header-bg); box-shadow: var(--shadow-header); z-index: 60;
 }
 .nav-folder__menu a { display: block; padding: .3rem 0; }
+.nav-folder__menu a[href="/lilach"], .mobile-nav a[href="/lilach"] { white-space: nowrap; }
+@media (max-width: 359px) { .mobile-nav a[href="/lilach"] { font-size: .85rem; } }
 .nav-folder:hover .nav-folder__menu,
 .nav-folder:focus-within .nav-folder__menu,
 .nav-folder[data-open] .nav-folder__menu { display: block; }
@@ -233,6 +235,9 @@ img { max-width: 100%; height: auto; }
   .carousel--stack .carousel__track { grid-auto-flow: row; overflow: visible; }
   .carousel--stack .carousel__nav { display: none; }
 }
+@media (min-width: 768px) {
+  .carousel--pair .carousel__track { justify-content: center; grid-template-columns: repeat(2, minmax(0, 24rem)); }
+}
 .carousel__track::-webkit-scrollbar { display: none; }
 .carousel__track > * { scroll-snap-align: start; }
 /* Prev/next arrows sit on the left and right edges, vertically centred on the cards. */
@@ -273,6 +278,8 @@ img { max-width: 100%; height: auto; }
 .card__image--wide { aspect-ratio: 440 / 229; }
 .card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
 .card:hover .card__image img { transform: scale(1.04); }
+.card__image--portrait { padding: 1rem; }
+.card__image--portrait img, .card:hover .card__image--portrait img { object-fit: contain; transform: none; }
 .card h3 { font-size: 1.3rem; }
 .card__body { font-size: .95rem; text-align: left; }
 .card .btn { margin-top: auto; }
@@ -319,7 +326,8 @@ img { max-width: 100%; height: auto; }
 /* ---------- Clinician profile ---------- */
 .profile-head { @apply grid gap-10 md:grid-cols-[3fr_2fr] items-start; }
 .profile-photo { width: 100%; max-width: 320px; aspect-ratio: 1; border-radius: 999px; overflow: hidden; margin: 0 auto; box-shadow: var(--shadow-card); }
-.profile-photo img { width: 100%; height: 100%; object-fit: cover; }
+.profile-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.profile-subtitle, .profile-bio :is(h2, h3, h4, h5, h6) { font-size: 1.25rem; }
 .profile-areas { list-style: disc; padding-left: 1.3rem; }
 .insurance-logos { @apply flex flex-wrap items-center justify-center gap-6 mt-6; }
 .insurance-logos img { height: 64px; width: auto; object-fit: contain; }

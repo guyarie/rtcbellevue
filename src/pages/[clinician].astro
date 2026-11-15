@@ -27,30 +27,31 @@ const description = d.summary ?? d.intro.replace(/[*_#\[\]()]/g, '').slice(0, 15
         <h1>{displayName(c)}</h1>
         <Markdown text={d.intro} class="prose-rtc mt-4 !mx-0" />
 
-        <h2 class="mt-8 !text-lg !font-body font-bold uppercase">{t('profile_areas_heading')}</h2>
+        <h2 class="mt-8 profile-subtitle !font-body font-bold uppercase">{t('profile_areas_heading')}</h2>
         <ul class="profile-areas mt-2">{d.areas.map((a) => <li set:html={a} />)}</ul>
 
-        <h2 class="mt-8 !text-lg !font-body font-bold uppercase">{t('contact_heading')}</h2>
+        <h2 class="mt-8 profile-subtitle !font-body font-bold uppercase">{t('contact_heading')}</h2>
         {d.email && <p><strong>{t('email')}</strong> <a href={`mailto:${d.email}`}>{d.email}</a></p>}
         {d.phone && <p><strong>{t('phone')}</strong> <a href={`tel:${d.phone}`}>{formatPhone(d.phone)}</a></p>}
-        <div class="[&_.btn-row]:justify-start"><Buttons buttons={d.buttons} /></div>
         {d.new_clients && <Markdown text={d.new_clients} class="prose-rtc mt-6 !mx-0" />}
       </div>
       <div class="text-center">
         <div class="profile-photo">
           <Image src={d.profile_photo ?? d.photo} alt={(d.profile_photo ? d.profile_photo_alt : d.photo_alt) ?? ''} width={640} loading="eager" />
         </div>
+        <Buttons buttons={d.buttons} />
         <p class:list={["mt-6 status", `status--${d.accepting}`]}>{d.accepting_text}</p>
         {d.hours && <Markdown text={d.hours} class="prose-rtc mt-4" />}
       </div>
     </div>
   </section>
 
-  {(d.fees || insurers.length > 0) && (
+  {(d.fees || d.fees_buttons.length > 0 || insurers.length > 0) && (
     <section class="section section--light section--wave">
       <div class="container-x">
-        <h2 class="section__heading">{t('fees_heading')}</h2>
+        <h2 class="section__heading profile-subtitle">{t('fees_heading')}</h2>
         <Markdown text={d.fees} />
+        <Buttons buttons={d.fees_buttons} />
         {insurers.length > 0 && (
           <div class="insurance-logos">
             {insurers.map((i) => <Image src={i.data.logo} alt={i.data.name} height={128} />)}
@@ -65,7 +66,7 @@ const description = d.summary ?? d.intro.replace(/[*_#\[\]()]/g, '').slice(0, 15
       {d.room_photo && (
         <div class="section__image"><Image src={d.room_photo} alt={d.room_photo_alt ?? ''} width={1000} /></div>
       )}
-      <div class="prose-rtc"><Content /></div>
+      <div class="prose-rtc profile-bio"><Content /></div>
     </div>
   </section>
 </Base>

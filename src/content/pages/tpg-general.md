@@ -4,8 +4,8 @@ description: "Join the Relational Therapy Collective to enhance your therapeutic
 sections:
   - theme: light
     heading: "Process Group for Therapists"
-    image: ../../assets/images/unsplash-image-1gesaeuv5du.jpg
-    image_alt: "Four people sitting in a circle having a conversation in a bright room with large windows."
+    image: ../../assets/images/rtc-therapist-process-group.jpg
+    image_alt: "A therapist joins a video call with six group participants visible on the laptop screen."
     body: |
       A process group helps therapists learn with and from others about relationships. Learn about the gaps between how you see yourself and the way you are being seen and understood by others. The group invites you to develop awareness, curiosity, and insight about how these gaps form. Most importantly, we provide you with the structure to talk about these patterns while staying emotionally connected to each other. Members will work towards becoming emotionally open therapists and strengthen their ability to communicate with their clients and become more reflective, connected, and mindful of their emotional impact.
 
@@ -33,7 +33,7 @@ sections:
 
       $100 for 90 min sessions
 
-      $200 for an initial personal interview.
+      $230 for an initial personal interview.
 
       Reduced fees are available for those in disadvantaged countries and circumstances. Please contact us for details.
 
@@ -51,6 +51,8 @@ sections:
       - { label: "Schedule - 15 min with Miri", url: "https://socialendeavors.sessionshealth.com/" }
   - theme: bright
     heading: "About the facilitators:"
+    cards_stack: true
+    card_images: portrait
     cards:
       - title: "Dafna Chen"
         image: ../../assets/images/dafna.jpg
@@ -64,8 +66,8 @@ sections:
 
           [For more information contact: DafnaC@PivotalCenter.com / (425) 443 7900](https://pivotalcenter.com/)
       - title: "Miri Arie"
-        image: ../../assets/images/miri-2.jpg
-        image_alt: "A woman with shoulder-length hair smiling outdoors, wearing glasses on her head, gold hoop earrings, and a gold chain necklace."
+        image: ../../assets/images/miri-headshot.jpg
+        image_alt: "Headshot of Miri Arie."
         body: |
           [Miri Arie](https://www.craftpnw.com/miri-arie-phd), Ph.D. is a clinical psychologist since 2008 (PY.60967834). She works with children and adults. Her expertise includes supporting individuals in improving their relations with others, coping with anxiety, improving emotional regulation skills, and reducing rigid thinking patterns and behaviors. Dr. Arie has extensive training in supporting clients with Trauma histories and she has a special passion to support adults in their parenting journey. Dr. Arie integrates Cognitive Behavioral Therapy (CBT) techniques with Attachment-based intervention and uses Internal Family System (IFS) intervention approach in her work.
 

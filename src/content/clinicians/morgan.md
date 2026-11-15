@@ -50,15 +50,16 @@ buttons:
   - label: To Schedule
     url: https://www.havenfamilyconsulting.com/book-online
     style: primary
-  - label: Pricing
-    url: https://www.havenfamilyconsulting.com/pricing
-    style: primary
 new_clients: |
   **Accepting new clients**
 hours: |
   **In-person**:  
   **Video Sessions**
 
+fees_buttons:
+  - label: Pricing
+    url: https://www.havenfamilyconsulting.com/pricing
+    style: primary
 fees: |
   **_I provide non-clinical child and family consultation services._** _All my services are educational and consultative in nature and are_ **_not billable to insurance._** _My work is designed to help families and organizations understand behavior, strengthen relationships, and create sustainable change, not to diagnose or provide therapy._
 insurance: []

@@ -67,7 +67,7 @@ const eager = first ? ({ loading: 'eager', fetchpriority: 'high' } as const) : {
     )}
 
     {s.cards && (
-      <Carousel label={s.heading} class={s.cards_stack ? 'carousel--stack' : ''}>
+      <Carousel label={s.heading} class={[s.cards_stack && 'carousel--stack', s.cards.length === 2 && 'carousel--pair'].filter(Boolean).join(' ')}>
         {s.cards.map((c: any) => (
           <div class="card">
             {c.image && <div class:list={['card__image', `card__image--${s.card_images}`]}><Image src={c.image} alt={c.image_alt ?? ''} width={440} /></div>}

@@ -39,8 +39,8 @@ sections:
           label: "Learn More"
           url: "/groups-for-kids"
       - title: "Process Group for Therapists"
-        image: "../../assets/images/unsplash-image-1gesaeuv5du.jpg"
-        image_alt: "Four people sitting in a circle talking in a bright, modern room with large windows."
+        image: "../../assets/images/rtc-therapist-process-group.jpg"
+        image_alt: "A therapist joins a video call with six group participants visible on the laptop screen."
         button:
           label: "Learn More"
           url: "/tpg-general"
