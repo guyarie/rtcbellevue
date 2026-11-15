@@ -5,8 +5,8 @@ sections:
   - theme: "light"
     layout: "hero"
     heading: "Welcome to the Relational Therapy Collective"
-    image: "../../assets/images/rtc-lakeside-hero-varied-wardrobe.png"
-    image_alt: "A family talks on a lakeside bench while two friends walk nearby."
+    image: "../../assets/images/rtc-hero-lakeside-right.jpg"
+    image_alt: "A family talks on a lakeside bench while two adults walk along the path behind them."
     body: |
       At RTC, we believe that meaningful change happens in connection—connection with ourselves, our loved ones, with the people in our lives, and the people who support us.
 
