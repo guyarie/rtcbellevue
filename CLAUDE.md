@@ -1,19 +1,18 @@
 # Relational Therapy Collective (rtcbellevue.com) — Claude Code Project Guide
 
-## Status: LIVE (migration wrap-up)
-This folder is the new home of **www.rtcbellevue.com**, currently a Squarespace site.
-Goal #1 is to **get off Squarespace** with a faithful rebuild. A redesign comes later — don't spend effort on it now.
+## Status: LIVE
+This folder is **www.rtcbellevue.com**. It was migrated off Squarespace as a faithful rebuild and has been served from eli (via Cloudflare Tunnel) since 2026-11-14; nothing on Squarespace is used any more.
+A redesign comes later — don't spend effort on it unless asked.
 
-**Start here:** `docs/MIGRATION_PLAN.md` — the full survey of the current site and the step-by-step plan.
+`docs/MIGRATION_PLAN.md` — the original survey of the Squarespace site and the migration plan (historical).
 `docs/SQUARESPACE_PLAYBOOK.md` is the generic, reusable version of this process (we'll repeat it for other sites) — update it with anything learned along the way.
 
 ## Progress (2026-11-14)
 - Phase 0 (scaffold) + Phase 1 (scrape) done; Phase 2 (content model) and Phase 3 (pages) built — see `docs/DEV.md`.
 - Repo: `guyarie/rtcbellevue` (public, made so 2026-11-14 so `main` can be protected on the free plan). Owners' agent pushes as `ariemiri-pnw` (write access); `main` needs a PR + 1 approval, same as Connected. The deploy workflow only triggers on push to `main` — keep it that way (self-hosted runner on eli; never add `pull_request` triggers). Plausible: `data-domain="rtcbellevue.com"` on analytics.16jets.com.
 - Contact form emails therapy@ via FormSubmit — needs the one-time activation click in that inbox after the first live submission.
-- DNS is on Cloudflare (RTC's account, records unchanged — site still served by Squarespace). eli is set up (nginx, runner, tunnel); preview at https://preview.rtcbellevue.com. Details + go-live steps: `docs/DEPLOY.md`.
+- **Live since 2026-11-14**: DNS is on Cloudflare (RTC's account); `rtcbellevue.com`, `www` and `phone` are tunnel public hostnames into eli (nginx, runner, tunnel); preview at https://preview.rtcbellevue.com. Details: `docs/DEPLOY.md`.
 - Owner Q&A doc ("RTC Website — Questions for the Owners", Google Drive) answered and applied 2026-11-14; dropped pages are redirected in `deploy/nginx-redirects.conf`. Still open: Galit/Jeffrey accepting status and Brave Voice fees/dates (left blank by owners).
-- Not done yet: owner sign-off, go-live switch in Cloudflare (needs explicit OK).
 
 ## Where things are
 - Content: `src/content/` — `clinicians/` (one file per person, single source of truth), `pages/` (generic section-based pages, filename = old URL slug), `posts/`, `insurers/`, `site/` (settings, contact form, UI labels). Schemas + allowed tags: `src/content.config.ts`.
@@ -38,5 +37,5 @@ The sibling project **Connected PNW** (`/home/guyarie/cnctpnw/site`, repo `guyar
 Site owners edit via **their own coding agent, submitting PRs**. So: keep the content structure obvious and documented (`docs/EDITING.md`), keep the clinician schema strict (Zod) so bad PRs fail the build, and keep this CLAUDE.md accurate — it's what their agent reads.
 
 ## Key constraints
-- Do not touch DNS / the live Squarespace site without explicit OK from the user — **email (Google Workspace MX) must survive the DNS move**.
+- Do not touch DNS, the Cloudflare tunnel or eli's nginx/runner without explicit OK from the user — **email (Google Workspace MX/SPF/DKIM/DMARC records in Cloudflare) must keep working**.
 - Don't publish anything confidential; contact form collects contact info only (therapy practice — no clinical details).

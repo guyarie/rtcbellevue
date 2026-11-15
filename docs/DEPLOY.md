@@ -22,7 +22,7 @@ No open ports, no origin certificates, no deploy secrets.
 - **Live since 2026-11-14**: `www` + apex are tunnel public hostnames; `phone` is a tunnel hostname too (chat widget).
 - **Preview**: https://preview.rtcbellevue.com (served from eli; nginx sends `X-Robots-Tag: noindex` for any host other than (www.)rtcbellevue.com).
 
-## Go-live (after owner sign-off + explicit OK)
+## Go-live (done 2026-11-14 — kept for reference/rollback)
 Email is unaffected: MX/SPF/DKIM/DMARC already live in Cloudflare unchanged.
 1. Cloudflare → DNS: delete the 4 Squarespace `A` records on `rtcbellevue.com` and the `www` CNAME → `ext-sq.squarespace.com`.
 2. Tunnel → Public Hostnames: add `www.rtcbellevue.com` and `rtcbellevue.com` → HTTP `localhost:8081` (this creates the proxied CNAMEs).
