@@ -5,13 +5,6 @@ sections:
   - theme: "light"
     heading: "Our Services"
     cards:
-      - title: "Collaborative Care for Familes with Complex Needs"
-        image: "../../assets/images/unsplash-image-zt5v0pubjzi.jpg"
-        image_alt: "Group of five diverse people sitting around a conference table with laptops in a modern office, engaged in a meeting and smiling."
-        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs."
-        button:
-          label: "Learn More"
-          url: "/collaborative-care"
       - title: "Individual Therapy"
         image: "../../assets/images/unsplash-image-pybwntxcpjm.jpg"
         image_alt: "A young woman with curly hair talking to a female therapist in a clinic, sitting on a light blue sofa near a potted plant."
@@ -19,6 +12,13 @@ sections:
         button:
           label: "Learn More"
           url: "/individual-therapy"
+      - title: "Group Therapy/Skills Training"
+        image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
+        image_alt: "Multiple people stacking their hands together, showing diversity in skin tones and wearing different colored sweaters and jewelry."
+        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with other and learn, practice and grow using the group itself as part of the learning/healing process."
+        button:
+          label: "Learn More"
+          url: "/group-therapy"
       - title: "Couples Therapy"
         image: "../../assets/images/unsplash-image-apa843frizi.webp"
         image_alt: "Two people holding hands on a white table, one wearing a black ring and the other a silver ring, with dark and light-colored sleeves."
@@ -40,17 +40,6 @@ sections:
         button:
           label: "Learn More"
           url: "/parent-coaching-consultation"
-      - title: "Life Coaching"
-        image: "../../assets/images/unsplash-image-r2njpbeyusq.jpg"
-        image_alt: "Person with short hair wearing a light denim jacket, arms outstretched, enjoying sunset by rocky shoreline."
-        body: "Life coaching supports clients in building clarity, confidence, and direction in their personal and professional lives. Sessions are goal-oriented, collaborative, and tailored to each individual’s strengths and values."
-      - title: "Group Therapy/Skills Training"
-        image: "../../assets/images/unsplash-image-zyx1bk9mqma.jpg"
-        image_alt: "Multiple people stacking their hands together, showing diversity in skin tones and wearing different colored sweaters and jewelry."
-        body: "Group therapy offers a supportive, welcoming space where several people meet regularly where they can connect with other and learn, practice and grow using the group itself as part of the learning/healing process."
-        button:
-          label: "Learn More"
-          url: "/group-therapy"
       - title: "Medication Management"
         image: "../../assets/images/unsplash-image-nr2c9avzfhy.jpg"
         image_alt: "A female doctor in a white coat talking to a woman with shoulder-length brown hair wearing a red, gray, and white striped sweater, in a medical office."
@@ -58,6 +47,13 @@ sections:
         button:
           label: "Learn More"
           url: "/med-management"
+      - title: "Collaborative Care for Familes with Complex Needs"
+        image: "../../assets/images/unsplash-image-zt5v0pubjzi.jpg"
+        image_alt: "Group of five diverse people sitting around a conference table with laptops in a modern office, engaged in a meeting and smiling."
+        body: "Collaborative care is a team-based, coordinated approach in which multiple professionals (individual and child therapists, parent support, couples therapist and med provider) work together to support clients and their families' complex needs."
+        button:
+          label: "Learn More"
+          url: "/collaborative-care"
     buttons:
       - label: "Let's get started"
         url: "/contact-us"
