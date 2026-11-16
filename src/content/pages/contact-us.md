@@ -10,9 +10,9 @@ sections:
       There are three ways to reach us — chat, email or phone. Tell us briefly what services you are looking for, and we’ll help you find the right fit.
     cards_stack: true
     cards:
-      - title: "Chat"
-        body: "Ask general questions about our services and get an answer right away, here on this page."
-        button: { label: "Start a chat", url: "#chat" }
+      - title: "AI Chat"
+        body: "Ask our AI assistant general questions about our services and get an instant answer. The AI Chat button is in the corner of every page."
+        button: { label: "Start AI chat", url: "#chat" }
       - title: "Email"
         body: "Our fastest response. Write to **therapy@rtcbellevue.com** or use the form below. Email is not confidential, so please leave out clinical details."
         button: { label: "Email us", url: "mailto:therapy@rtcbellevue.com" }
@@ -22,8 +22,4 @@ sections:
           - { label: "Call us", url: "tel:+14256750881" }
           - { label: "Our Team", url: "/intro-1" }
     form: true
-  - theme: "light"
-    id: "chat"
-    heading: "Chat with us"
-    embed: "https://phone.rtcbellevue.com/embed-chat.html"
 ---

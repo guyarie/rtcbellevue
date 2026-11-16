@@ -199,6 +199,7 @@ const site = defineCollection({
         )
         .optional(),
       cta: button.optional(), // header button
+      chat_url: z.string().url().optional(), // floating chat bubble (iframe src)
       footer_note: z.string().optional(),
       // contact.md (form) — submissions are emailed to form_email via FormSubmit
       form_email: z.string().email().optional(),
