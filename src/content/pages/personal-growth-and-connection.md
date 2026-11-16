@@ -7,6 +7,8 @@ sections:
     image: "../../assets/images/rtc-personal-growth-and-connection.jpg"
     image_alt: "Two adults talk at a picnic table beside a lake."
     body: |
+      Want to feel more connected to others or more fulfilled in your relationships? Therapy can help you understand what gets in the way, express what matters to you, and build closer connections.
+
       You might have people in your life and still feel lonely. Maybe you want closer friendships, find yourself holding back even with people you trust, or keep falling into the same patterns in relationships. Therapy gives you space to explore what you want from your relationships and practice ways to feel more connected.
 
       **Individual therapy** offers one-on-one space to explore relationship patterns, clarify what matters to you, and work through barriers to connection.

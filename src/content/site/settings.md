@@ -30,6 +30,7 @@ nav:
     url: /intro-2
     children:
       - { label: Intro, url: /intro-2 }
+      - { label: Personal Growth & Connection, url: /personal-growth-and-connection }
       - { label: ADHD, url: /adhd }
       - { label: Anxiety & Stress Management, url: /anxiety-stress-management }
       - { label: Depression, url: /depression }
