@@ -356,6 +356,38 @@ img { max-width: 100%; height: auto; }
 .embed { max-width: 860px; margin: 0 auto; min-height: 520px; }
 .embed iframe { min-height: 520px; }
 
+/* ---------- Chat bubble (every page) ---------- */
+/* Above the sticky header (50), below the open mobile menu (60). */
+.chat-bubble { position: fixed; right: 1rem; bottom: 1rem; z-index: 55; display: flex; flex-direction: column; align-items: flex-end; gap: .75rem; }
+.chat-bubble__toggle {
+  display: inline-flex; align-items: center; gap: .5rem; min-height: 3.5rem; padding: 0 1.25rem 0 1rem;
+  border: 0; border-radius: 999px; cursor: pointer; font: inherit; font-weight: 700;
+  background: var(--color-button); color: var(--color-button-text); box-shadow: var(--shadow-card-hover);
+}
+.chat-bubble__toggle:hover { background: var(--color-button-hover); }
+.chat-bubble__toggle:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+.chat-bubble__icon-close, .chat-bubble.is-open .chat-bubble__icon-open { display: none; }
+.chat-bubble.is-open .chat-bubble__icon-close { display: block; }
+.chat-bubble__panel {
+  position: relative; width: 380px; height: min(600px, calc(100dvh - 7rem));
+  border-radius: var(--radius); overflow: hidden; background: var(--color-bg); box-shadow: var(--shadow-card-hover);
+}
+.chat-bubble__panel[hidden] { display: none; }
+.chat-bubble__panel iframe { width: 100%; height: 100%; border: 0; display: block; }
+/* Sits on the chat app's own (purple) header, hence white. */
+.chat-bubble__close {
+  position: absolute; top: .5rem; right: .5rem; width: 2rem; height: 2rem; display: grid; place-items: center;
+  border: 0; border-radius: 999px; cursor: pointer; background: hsl(0 0% 100% / .2); color: #fff;
+}
+.chat-bubble__close:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+@media (max-width: 639px) {
+  .chat-bubble { right: .75rem; bottom: .75rem; }
+  .chat-bubble__toggle { width: 3.5rem; padding: 0; justify-content: center; }
+  .chat-bubble__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .chat-bubble__panel { position: fixed; inset: auto .75rem 5rem; width: auto; height: calc(100dvh - 6.5rem); }
+}
+@media print { .chat-bubble { display: none; } }
+
 /* ---------- Footer ---------- */
 .site-footer { background: var(--color-light); padding: 4rem 0 2rem; }
 .site-footer__grid { @apply grid gap-10 md:grid-cols-2 items-center; }

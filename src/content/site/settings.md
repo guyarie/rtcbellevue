@@ -50,4 +50,8 @@ nav:
 cta:
   label: Contact Us
   url: /contact-us
+
+# Chat bubble shown in the corner of every page. Any link to `#chat` opens it.
+# Remove this line to turn the chat off.
+chat_url: "https://phone.rtcbellevue.com/embed-chat.html"
 ---
