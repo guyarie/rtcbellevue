@@ -1,16 +1,18 @@
 ---
 title: "Intro"
 sections:
-  - theme: white
-    heading: "What we help you work through"
-    image: ../../assets/images/imgg-demo-zr0xvdxx.jpg
+  - theme: bright
+    heading: "Areas of Focus"
     body: |
       _Therapy here is grounded in relationship-because so much of what brings people in struggles and so much of what helps people heal, happens in connection within themselves and with others._
 
       _We work with adults, children and teens, couples, and families navigating anxiety, depression, trauma, relationship stress, and major life transitions. Whatever brought you here, you deserve care that meets you where you are. and you don't have to carry it alone. Healing happens in the presence of someone who truly sees you — and that's the kind of space we aim to create together._
-  - theme: bright
-    heading: "Areas Of Focus"
     cards:
+      - title: "Personal Growth & Connection"
+        image: "../../assets/images/rtc-personal-growth-and-connection.jpg"
+        image_alt: "Two adults talk at a picnic table beside a lake."
+        body: "Want to feel more connected to others or more fulfilled in your relationships? Therapy can help you understand what gets in the way, express what matters to you, and build closer connections."
+        button: { label: "Learn More", url: /personal-growth-and-connection }
       - title: "ADHD"
         image: ../../assets/images/rtc-focus-adhd.jpg
         image_alt: "A child steps over a cushion to pack a notebook while his dad holds the backpack open."

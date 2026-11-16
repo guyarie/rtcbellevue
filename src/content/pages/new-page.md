@@ -5,8 +5,8 @@ sections:
     heading: "Groups Offered"
     cards:
       - title: "Confidence in Relationships Group"
-        image: ../../assets/images/group-therapy-2.jpg
-        image_alt: "Group of six diverse people sitting in a circle during a support or therapy session in a bright room."
+        image: ../../assets/images/rtc-confidence-group.jpg
+        image_alt: "Five adults sit in a circle and listen as one person speaks."
         button: { label: "Learn More", url: /relational-group-for-adults }
       - title: "Skills Group for Kids"
         image: ../../assets/images/unsplash-image-qiixg-q2vh0.jpg
