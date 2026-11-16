@@ -32,7 +32,7 @@ labels:
   blog_categories: "Posted in:"
   blog_tags: "Tags:"
   # Chat bubble
-  chat_open: Chat with us
+  chat_open: AI Chat
   chat_close: Close chat
   # Form
   form_sending: Sending…
