@@ -5,9 +5,9 @@ order: 10
 role: "Individual therapist"
 license: LW 61276826
 
-photo: ../../assets/images/michal-a-3.jpg
-photo_alt: A woman with dark brown hair and glasses smiling while sitting in a white chair in an indoor setting with a window and plants in the background.
-profile_photo: ../../assets/images/michal-a-2.jpg
+photo: ../../assets/images/michal-alpert.jpg
+photo_alt: Headshot of Michal (Michelle) Alpert
+profile_photo: ../../assets/images/michal-alpert.jpg
 profile_photo_alt: Headshot of Michal (Michelle) Alpert
 room_photo: ../../assets/images/room-2.png
 room_photo_alt: A living room with a large brown sofa adorned with blue and gray pillows, a black leather armchair, a wooden side table, a white bookshelf with decorative items, a table lamp, a framed painting of a pier over water hanging on the wall, and three windows with white blinds, some open showing a parking lot outside.
